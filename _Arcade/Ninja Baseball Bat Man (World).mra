@@ -27,6 +27,40 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time">000000 10 000E254F 00000000 00000063</cheat>
+        <cheat name="Infinite Bonus Round Time">000000 10 000E313A 00000000 0000000A</cheat>
+        <cheat name="Hit Anywhere">
+            000000 40 0006547C 00000000 0367A1E9
+            000000 40 0006BC20 00000000 FF265E03
+            000000 40 0006BC24 00000000 81EC8BF5
+            000000 40 0006BC28 00000000 57C50E7E
+            000000 40 0006BC2C 00000000 F902755D
+            000000 40 0006BC30 00000000 984BE9CB
+        </cheat>
+        <cheat name="One Hit Kills">
+            000000 20 00065586 00000000 0000ABE9
+            000000 20 00065588 00000000 00002B66
+            000000 40 0006BC34 00000000 81244E8B
+            000000 40 0006BC38 00000000 7246C0FD
+            000000 40 0006BC3C 00000000 994DE903
+            000000 40 0006BC40 00000000 909949E9
+        </cheat>
+        <cheat name="P1 Infinite Lives">000000 10 000E4222 00000000 00000064</cheat>
+        <cheat name="P1 Infinite Energy">000000 10 000E44A4 00000000 00000064</cheat>
+        <cheat name="P1 Invincibility (Buggy)">000000 10 000E44EB 00000000 00000002</cheat>
+        <cheat name="P2 Infinite Lives">000000 10 000E42E2 00000000 00000064</cheat>
+        <cheat name="P2 Infinite Energy">000000 10 000E4564 00000000 00000064</cheat>
+        <cheat name="P2 Invincibility (Buggy)">000000 10 000E45AB 00000000 00000002</cheat>
+        <cheat name="P3 Infinite Lives">000000 10 000E43A2 00000000 00000064</cheat>
+        <cheat name="P3 Infinite Energy">000000 10 000E4624 00000000 00000064</cheat>
+        <cheat name="P3 Invincibility (Buggy)">000000 10 000E466B 00000000 00000002</cheat>
+        <cheat name="P4 Infinite Lives">000000 10 000E4462 00000000 00000064</cheat>
+        <cheat name="P4 Infinite Energy">000000 10 000E46E4 00000000 00000064</cheat>
+        <cheat name="P4 Invincibility (Buggy)">000000 10 000E472B 00000000 00000002</cheat>
+    </cheats>
+
+
     <rom index="0" zip="nbbatman.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>06</part>

@@ -27,6 +27,31 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time">000000 10 000E0096 00000000 0000009A</cheat>
+        <cheat name="Starting Mission 2">000000 11 000E0093 00000001 0000002</cheat>
+        <cheat name="Starting Mission 3">000000 11 000E0093 00000001 0000003</cheat>
+        <cheat name="Starting Mission 4">000000 11 000E0093 00000001 0000004</cheat>
+        <cheat name="Hit Anywhere">
+            000000 10 00094CC1 00000000 00000000
+            000000 10 00095E41 00000000 00000000
+        </cheat>
+        <cheat name="P1 Infinite Lives">000000 10 000E3E3B 00000000 0000000A</cheat>
+        <cheat name="P1 Infinite Energy">000000 10 000E017E 00000000 00000064</cheat>
+        <cheat name="P1 Invincibility">
+            000000 10 000E0161 00000000 00000064
+            000000 10 000E0171 00000000 0000000C
+            000000 10 000E3698 00000000 0000000C
+        </cheat>
+        <cheat name="P2 Infinite Lives">000000 10 000E3E5D 00000000 0000000A</cheat>
+        <cheat name="P2 Infinite Energy">000000 10 000E023E 00000000 00000064</cheat>
+        <cheat name="P2 Invincibility">
+            000000 10 000E0221 00000000 00000064
+            000000 10 000E0231 00000000 0000000C
+            000000 10 000E3718 00000000 0000000C
+        </cheat>
+    </cheats>
+
     <rom index="0" zip="uccops.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

@@ -24,6 +24,51 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="P1 Infinite Lives"      >000000 10 000E229A 00000000 00000006</cheat>
+        <cheat name="P1 Maximum Power Charge">000000 10 000E2855 00000000 00000038</cheat>
+        <cheat name="P1 Maximum Speed">
+            000000 10 000E282A 00000000 0000000A
+            000000 10 000E282C 00000000 0000005A
+        </cheat>
+        <cheat name="P1 Invincibility">
+            000000 10 000E286A 00000000 00000060
+            000001 10 000E27FD 00000000 00000080
+        </cheat>
+        <cheat name="P1 No Extra Fire"   >000000 10 000E2842 00000000 00000000</cheat>
+        <cheat name="P1 Red Extra Fire"  >000000 10 000E2842 00000000 00000001</cheat>
+        <cheat name="P1 Green Extra Fire">000000 10 000E2842 00000000 00000002</cheat>
+        <cheat name="P1 Blue Extra Fire" >000000 10 000E2842 00000000 00000003</cheat>
+        <cheat name="P1 Rapid Fire">
+            000002 10 000E000A 00000000 0000007F
+            000000 10 000E2840 00000000 00000000
+            000000 10 000E2936 00000000 00000000
+            000000 10 000E29B6 00000000 00000000
+        </cheat>
+
+        <cheat name="P2 Infinite Lives"      >000000 10 000E229B 00000000 00000006</cheat>
+        <cheat name="P2 Maximum Power Charge">000000 10 000E28D5 00000000 00000038</cheat>
+        <cheat name="P2 Maximum Speed">
+            000000 10 000E28AA 00000000 0000000A
+            000000 10 000E28AC 00000000 0000005A
+        </cheat>
+        <cheat name="P2 Invincibility">
+            000000 10 000E28EA 00000000 00000060
+            000001 10 000E287D 00000000 00000080
+        </cheat>
+        <cheat name="P2 No Extra Fire"   >000000 10 000E28C2 00000000 00000000</cheat>
+        <cheat name="P2 Red Extra Fire"  >000000 10 000E28C2 00000000 00000001</cheat>
+        <cheat name="P2 Green Extra Fire">000000 10 000E28C2 00000000 00000002</cheat>
+        <cheat name="P2 Blue Extra Fire" >000000 10 000E28C2 00000000 00000003</cheat>
+        <cheat name="P2 Rapid Fire">
+            000002 10 000E000B 00000000 0000007F
+            000000 10 000E28C0 00000000 00000000
+            000000 10 000E2A36 00000000 00000000
+            000000 10 000E2AB6 00000000 00000000
+        </cheat>
+    </cheats>
+
+
     <rom index="0" zip="rtypeleo.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

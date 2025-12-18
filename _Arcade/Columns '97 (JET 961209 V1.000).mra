@@ -1,0 +1,37 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>colmns97</setname>
+	<mameversion>277</mameversion>
+	<description>Columns '97 (JET 961209 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>00 01</part>
+	</rom>
+	<rom index="1" md5="" zip="colmns97.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f7722da3" name="epr-17954a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="colmns97.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="d4fb6a5e" name="fpr19553.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="5a3ebcac" name="mpr19554.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="74f6e6b8" name="mpr19555.3" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

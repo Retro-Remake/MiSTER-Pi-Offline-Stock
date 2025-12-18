@@ -1,0 +1,105 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2025. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>vertical (cw)</rotation>
+    <name>Hammer Away (Japan, prototype)</name>
+    <setname>hamaway</setname>
+    <mameversion>0261</mameversion>
+    <year>1991</year>
+    <manufacturer>Sega / Santos</manufacturer>
+    <players>2</players>
+    <rbf>jts18</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="hamaway.zip" md5="None" address="0x30000000" asm_md5="78169596e29f5efdfdd1ee35ab61ddae">
+        <!--  -->
+        <part>
+            00 00 00 01 00 03 00 05
+            80 06 80 06 00 00 00 00
+            00 00 00 00 00 00 00 00
+            08 00 00 00 00 00 00 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x100000 (20 bits) -->
+        <interleave output="16">
+            <part name="6.bin" crc="e8599ee6" map="01"/>
+            <part name="4.bin" crc="cc0981e1" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="7.bin" crc="63711470" map="01"/>
+            <part name="5.bin" crc="fdb247fd" map="10"/>
+        </interleave>
+        <!-- soundcpu - starts at 0x100000 - length 0x200000 (21 bits) -->
+        <part name="c16.bin" crc="913cc18c"/>
+        <part repeat="0x40000"> FF</part>
+        <part name="c15.bin" crc="b53694fc"/>
+        <part repeat="0x140000"> FF</part>
+        <!-- tiles - starts at 0x300000 - length 0x200000 (21 bits) -->
+        <interleave output="32">
+            <part name="c10.bin" crc="c55cb5cf" map="0001"/>
+            <part name="c11.bin" crc="37787915" map="0010"/>
+            <part name="c12.bin" crc="f12f1cf3" map="0100"/>
+            <part name="c12.bin" crc="f12f1cf3" map="1000"/>
+        </interleave>
+        <interleave output="32">
+            <part name="1.bin" crc="33be003f" map="0001"/>
+            <part name="2.bin" crc="60ca5c9f" map="0010"/>
+            <part name="3.bin" crc="520aa7ae" map="0100"/>
+            <part name="3.bin" crc="520aa7ae" map="1000"/>
+        </interleave>
+        <!-- sprites - starts at 0x500000 - length 0x180000 (21 bits) -->
+        <interleave output="16">
+            <part name="c17.bin" crc="aa28d7aa" map="01"/>
+            <part name="10.bin" crc="c4c95161" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="c18.bin" crc="0f8fe8bb" map="01"/>
+            <part name="11.bin" crc="2b5eacbc" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="c19.bin" crc="3c616caa" map="01"/>
+            <part name="12.bin" crc="c7bbd579" map="10"/>
+        </interleave>
+        <!-- maincpu:key - starts at 0x680000 -->
+        <!-- mcu - starts at 0x680000 -->
+        <!-- Total 0x680000 bytes - 6656 kBytes -->
+    </rom>
+    <rom index="17" zip="jtbeta.zip" md5="None" asm_md5="64bf6f32556d237ec04d22062b462fde">
+        <part name="beta.bin" crc="84dbdb6d"/>
+    </rom>
+    <nvram index="2" size="16384"/>
+    <!-- Vertical screen. -->
+    <rom index="1">
+        <part>01 51</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="ff,bf">
+        <COINAGE/>
+        <dip name="Coin A" bits="0,3" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <dip name="Coin B" bits="4,7" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <DSW/>
+        <dip name="Difficulty" bits="8,9" ids="Hardest,Hard,Easy,Normal"/>
+        <dip name="Lives" bits="10,11" ids="5,2,1,3"/>
+        <dip name="Demo Sounds" bits="14" ids="On,Off"/>
+        <dip name="2 Credits to Start" bits="15" ids="On,Off"/>
+    </switches>
+    <buttons names="Land Shot,Air Shot with Missile,Bomb,-,Start,Coin,Core credits" default="A,B,X,Start,Select,-" count="3"/>
+</misterromdescription>

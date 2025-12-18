@@ -1,0 +1,52 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>danchiq</setname>
+	<mameversion>277</mameversion>
+	<description>Danchi de Quiz Okusan Yontaku Desuyo! (J 001128 V1.200)</description>
+	<rotation>horizontal</rotation>
+	<year>2000</year>
+	<manufacturer>Altron</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="danchiq.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="danchiq.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="e216bfc8" name="ic22" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b95aa5ac" name="ic24" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="df6ebd48" name="ic26" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cf6a2b76" name="ic28" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0b6a9901" name="ic30" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0b4604f5" name="ic32" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="616e20fa" name="ic34" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="43474e08" name="ic36" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d080eb71" name="ic23" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="9a4109e5" name="ic25" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

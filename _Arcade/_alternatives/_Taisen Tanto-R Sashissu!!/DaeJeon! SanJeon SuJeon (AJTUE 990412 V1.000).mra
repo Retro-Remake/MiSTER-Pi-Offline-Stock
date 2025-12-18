@@ -1,0 +1,63 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>sanjeon</setname>
+	<mameversion>277</mameversion>
+	<description>DaeJeon! SanJeon SuJeon (AJTUE 990412 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1999</year>
+	<manufacturer>Sega / Deniam</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>04 01</part>
+	</rom>
+	<rom index="1" md5="" zip="sanjeon.zip|sasissu.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="sanjeon.zip|sasissu.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="9abae8d4" name="ic11" map="01030507" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f72c1d13" name="ic13" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="bcd72105" name="ic14" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8c9c8352" name="ic15" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="07e11512" name="ic16" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="46b7b344" name="ic17" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d48404e1" name="ic18" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="33d23bb9" name="ic19" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f8cc1038" name="ic20" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="74ceb649" name="ic21" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="85f31277" name="ic22" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d5ebc84e" name="ic12" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

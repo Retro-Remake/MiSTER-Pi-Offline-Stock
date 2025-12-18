@@ -1,9 +1,9 @@
 # [Gameboy](https://en.wikipedia.org/wiki/Game_Boy)  / [Gameboy Color](https://en.wikipedia.org/wiki/Game_Boy_Color) port to [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
 
-This is port of [Gameboy for MiST](https://github.com/mist-devel/gameboy)
+_This is a port of [Gameboy for MiST](https://github.com/mist-devel/gameboy)_
 
 * Place RBF file into root of SD card.
-* Place *.gb|*.gbc files into Gameboy folder.
+* Place \*.gb|*.gbc files into Gameboy folder.
 
 ## Features
 * Original Gameboy & Gameboy Color Support
@@ -40,14 +40,16 @@ To autoload your favorite game at startup rename it to `boot2.rom`.
 ## Video output
 The Gameboy can disable video output at any time which causes problems with vsync_adjust=2 or analog video during screen transitions. Enabling the Stabilize video option may fix this at the cost of some increased latency.
 
-# Savestates
-This core provides 4 slots to save and restore the memory state which means you can save at any point in the game. These can be saved to your SDCard or they can reside only in memory for temporary use (OSD Option). Save states can be performed with the Keyboard, a mapped button to a gamepad, or through the OSD.
+## Savestates
+This core provides 4 slots to save and restore the memory state which means you can save at any point in the game. These can be saved to your SD Card or they can reside only in memory for temporary use (OSD Option). Save states can be performed with the Keyboard, a mapped button to a gamepad, or through the OSD.
 
 Keyboard Hotkeys for save states:
-- Alt+F1 thru Alt+F4 - save state
-- F1 thru F4 - restore state
+- <kbd>ALT</kbd>+<kbd>F1</kbd>/<kbd>F2</kbd>/<kbd>F3</kbd>/<kbd>F4</kbd> – save state  
+- <kbd>F1</kbd>/<kbd>F2</kbd>/<kbd>F3</kbd>/<kbd>F4</kbd> – restore state
+
 
 Gamepad:
-- Savestatebutton+Left or Right switches the savestate slot
-- Savestatebutton+Start+Down saves to the selected slot
-- Savestatebutton+Start+Up loads from the selected slot
+
+- <kbd>SAVESTATEBUTTON</kbd>+<kbd>LEFT</kbd>/<kbd>RIGHT</kbd> prev/next savestate slot
+- <kbd>SAVESTATEBUTTON</kbd>+<kbd>START</kbd>+<kbd>DOWN</kbd> saves to the selected slot
+- <kbd>SAVESTATEBUTTON</kbd>+<kbd>START</kbd>+<kbd>UP</kbd> loads from the selected slot

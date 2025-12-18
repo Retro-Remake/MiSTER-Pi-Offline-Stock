@@ -153,6 +153,10 @@ d4e0b1929db4fa1e5e711bf57241e23e ntsc|cic6102 # Mirror House Cornflakes
 c9eb0cc708d102f0fa39a4c2526221ff ntsc|cic6102|rpak|tpak # Nintendo 64DD IPL (Japan) (v1.1) (Beta)
 5c6f7f27f5c6e833c03d3d587f3f4c12 ntsc|cic6102|cpak|rpak|tpak # Nushi Tsuri 64
 f1a1452cbfa7bce98c9e72c6e1f70fc8 pal|cic6102|cpak|rpak # Off Road Challenge
+1ed9253297ba537b0c3f86824c59405b ntsc|cic6102|sram32k|rpak|cpak # The Patchmaker's Workshop v1.0
+01d211cec041905a4acd75822cee5cf1 ntsc|cic6102|sram32k|rpak|cpak # The Patchmaker's Workshop v1.0.1
+5e333c7e24f119ff8f733d698e508407 ntsc|cic6102|sram32k|rpak|cpak # The Patchmaker's Workshop v1.0.2
+e541597c8e3eeeec81ae02e31eae77a8 ntsc|cic6102|sram32k|rpak|cpak # The Patchmaker's Workshop v1.1
 3f726c4cc227d70116719d2843bd6bf5 ntsc|cic6102|eeprom512 # Pilotwings 64
 afe8911262b7c208105355067869c55e ntsc|cic6102 # Pong by Oman
 1d7f5fce38bb5d1fa67acb0483b52394 ntsc|cic6102 # Pong by Oman
@@ -1069,6 +1073,7 @@ ID:NJA___ cpak|rpak # NBA Jam 2000
 ID:NJE___ cpak # J.League Eleven Beat 1997
 ID:NJF___ flash128k|rpak # Jet Force Gemini [Star Twins]
 ID:NJG___ sram32k|rpak # Jinsei Game 64
+ID:NJK___ eeprom512|rpak # Viewpoint 2064
 ID:NJL___ cpak # J.League Live 64
 ID:NJM___ eeprom512 # Earthworm Jim 3D
 ID:NJO___ # Jeopardy!

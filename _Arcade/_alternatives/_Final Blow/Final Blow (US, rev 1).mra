@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>Final Blow (US, rev 1)</name>
+	<setname>finalbu</setname>
+	<year>1988</year>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>finalb</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,X,Start,Select,L,R" names="Punch A,Punch B,Duck,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Alternate Controls" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coinage" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Continue Price" bits="6,7" values="0,1,2,3" ids="3C/1C,2C/1C,1C/1C,Same"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Unused" bits="10" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="11" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="12" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="13" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="14" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="finalbu.zip|finalb.zip">
+		<part>00 00</part>
+		<!--Region: maincpu, Size: 262144 bytes-->
+		<part>00040000</part>
+		<interleave output="16">
+			<part crc="66729cb9" name="b82-09-1.ic23" map="10"/>
+			<part crc="879387fa" name="b82-16-1.ic11" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 262144 bytes-->
+		<part>01040000</part>
+		<interleave output="16">
+			<part crc="ec3df577" name="b82-07.ic34" map="10"/>
+			<part crc="fc450a25" name="b82-06.ic33" map="01"/>
+		</interleave>
+		<!--Region: sprites + sprites_hi (32-bit interleave), Size: 2097152 bytes-->
+		<part>02200000</part>
+		<interleave output="32">
+			<part crc="daa11561" name="b82-03.ic9" map="0010"/>
+			<part crc="6346f98e" name="b82-04.ic8" map="0001"/>
+			<part crc="aa90b93a" name="b82-05.ic7" map="1000"/>
+			<part crc="aa90b93a" name="b82-05.ic7" map="0100"/>
+		</interleave>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="a38aaaed" name="b82_10.ic5"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="5dd06bdd" name="b82-02.ic1"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="f0eb6846" name="b82-01.ic2"/>
+		<!--Unknown regions:-->
+		<!--Region 'plds': tibpal16l8.ic41 (size=260, crc=11a0a19a), tibpal16l8.ic42 (size=260, crc=cc53deb8), tibpal16l8.ic51 (size=260, crc=f2878537), gal16v8.ic13 (size=279, crc=a4f75fd0), gal16v8.ic35 (size=279, crc=ca4eb3e1)-->
+	</rom>
+</misterromdescription>

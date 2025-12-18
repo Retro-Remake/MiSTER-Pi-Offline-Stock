@@ -1,0 +1,45 @@
+<misterromdescription>
+	<name>Cameltry (World, YM2610)</name>
+	<setname>cameltry</setname>
+	<year>1989</year>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,Start,Select,L,R" names="Shake,-,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="7ffe">
+		<dip name="Cabinet" bits="0" values="0,1" ids="Upright,Cocktail"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coinage" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Continue Price" bits="6,7" values="0,1,2,3" ids="3C/1C,2C/1C,1C/1C,Same"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Start remain time" bits="10,11" values="0,1,3,2" ids="35,40,50,60"/>
+		<dip name="Continue play time" bits="12,13" values="0,1,3,2" ids="+20,+25,+30,+40"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="1,0" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="cameltry.zip">
+		<part>04 00</part>
+		<!--Region: maincpu, Size: 262144 bytes-->
+		<part>00040000</part>
+		<interleave output="16">
+			<part crc="be172da0" name="c38-11.ic10" map="10"/>
+			<part crc="2c6a6ef7" name="c38-13.ic11" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 524288 bytes-->
+		<part>02080000</part>
+		<part crc="c170ff36" name="c38-01.ic1"/>
+		<!--Region: tc0280grd, Size: 262144 bytes-->
+		<part>06040000</part>
+		<part crc="1a11714b" name="c38-02.ic27"/>
+		<part crc="1a11714b" name="c38-02.ic29"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="7ff78873" name="c38-08.ic25"/>
+		<!--Region: ymsnd:adpcma, Size: 131072 bytes-->
+		<part>04020000</part>
+		<part crc="59fa59a7" name="c38-03.ic2"/>
+	</rom>
+</misterromdescription>

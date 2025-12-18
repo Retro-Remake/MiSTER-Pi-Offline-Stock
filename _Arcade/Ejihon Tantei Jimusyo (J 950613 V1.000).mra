@@ -1,0 +1,43 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>ejihon</setname>
+	<mameversion>277</mameversion>
+	<description>Ejihon Tantei Jimusyo (J 950613 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="ejihon.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="ejihon.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="151aa9bc" name="epr18137.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="151aa9bc" name="epr18137.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="f5567049" name="mpr18138.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f36b4878" name="mpr18139.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="228850a0" name="mpr18140.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b51eef36" name="mpr18141.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cf259541" name="mpr18142.6" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

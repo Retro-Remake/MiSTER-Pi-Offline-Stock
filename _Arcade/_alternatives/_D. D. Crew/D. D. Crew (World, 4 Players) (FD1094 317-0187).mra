@@ -1,0 +1,108 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2025. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>horizontal</rotation>
+    <name>D. D. Crew (World, 4 Players) (FD1094 317-0187)</name>
+    <setname>ddcrew1</setname>
+    <mameversion>0261</mameversion>
+    <year>1991</year>
+    <manufacturer>Sega</manufacturer>
+    <players>4</players>
+    <rbf>jts18</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="ddcrew1.zip|ddcrew.zip" md5="None" address="0x30000000" asm_md5="be760b24fc14145608a37fb61dacf30f">
+        <!--  -->
+        <part>
+            00 00 00 01 00 03 00 04
+            00 0B 02 0B 00 00 00 00
+            00 01 00 00 00 00 00 00
+            04 00 00 00 00 00 00 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x100000 (20 bits) -->
+        <interleave output="16">
+            <part name="epr-14155.a6" crc="e74362f4" map="01"/>
+            <part name="epr-14154.a4" crc="9a0dadf0" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mpr-14141.a7" crc="080a494b" map="01"/>
+            <part name="mpr-14139.a5" crc="06c31531" map="10"/>
+        </interleave>
+        <!-- soundcpu - starts at 0x100000 - length 0x200000 (21 bits) -->
+        <part name="epr-14133.c7" crc="cff96665"/>
+        <part repeat="0x60000"> FF</part>
+        <part name="mpr-14132.c6" crc="1fae0220"/>
+        <part name="mpr-14131.c5" crc="be5a7d0b"/>
+        <part name="epr-14130.c4" crc="948f34a1"/>
+        <!-- tiles - starts at 0x300000 - length 0x100000 (20 bits) -->
+        <interleave output="32">
+            <part name="epr-14127.c1" crc="2228cd88" map="0001"/>
+            <part name="epr-14128.c2" crc="edba8e10" map="0010"/>
+            <part name="epr-14129.c3" crc="e8ecc305" map="0100"/>
+            <part name="epr-14129.c3" crc="e8ecc305" map="1000"/>
+        </interleave>
+        <!-- sprites - starts at 0x400000 - length 0x700000 (23 bits) -->
+        <interleave output="16">
+            <part name="mpr-14134.c10" crc="4fda6a4b" map="01"/>
+            <part name="mpr-14142.a10" crc="3cbf1f2a" map="10"/>
+        </interleave>
+        <part repeat="0x100000"> FF</part>
+        <interleave output="16">
+            <part name="mpr-14135.c11" crc="e9c74876" map="01"/>
+            <part name="mpr-14143.a11" crc="59022c31" map="10"/>
+        </interleave>
+        <part repeat="0x100000"> FF</part>
+        <interleave output="16">
+            <part name="mpr-14136.c12" crc="720d9858" map="01"/>
+            <part name="mpr-14144.a12" crc="7775fdd4" map="10"/>
+        </interleave>
+        <part repeat="0x100000"> FF</part>
+        <interleave output="16">
+            <part name="epr-14137.c13" crc="846c4265" map="01"/>
+            <part name="epr-14145.a13" crc="0e76c797" map="10"/>
+        </interleave>
+        <!-- maincpu:key - starts at 0xB00000 - length 0x2000 (13 bits) -->
+        <part name="317-0187.key" crc="1dfb60be"/>
+        <!-- mcu - starts at 0xB02000 -->
+        <!-- Total 0xB02000 bytes - 11272 kBytes -->
+    </rom>
+    <rom index="17" zip="jtbeta.zip" md5="None" asm_md5="64bf6f32556d237ec04d22062b462fde">
+        <part name="beta.bin" crc="84dbdb6d"/>
+    </rom>
+    <nvram index="2" size="16384"/>
+    <rom index="1">
+        <part>00 7F</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="ff,f7">
+        <COINAGE/>
+        <dip name="Coin A" bits="0,3" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <dip name="Coin B" bits="4,7" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <DSW/>
+        <dip name="Switch to Start" bits="9" ids="Attack,Start"/>
+        <dip name="Coin Chute" bits="10" ids="Individual,Common"/>
+        <dip name="Demo Sounds" bits="11" ids="On,Off"/>
+        <dip name="Player Start/Continue" bits="12,13" ids="3/4,2/2,2/3,3/3"/>
+        <dip name="Difficulty" bits="14,15" ids="Hardest,Hard,Easy,Normal"/>
+    </switches>
+    <buttons names="Attack,Jump,-,-,Start,Coin,Core credits" default="A,B,Start,Select,-" count="2"/>
+</misterromdescription>

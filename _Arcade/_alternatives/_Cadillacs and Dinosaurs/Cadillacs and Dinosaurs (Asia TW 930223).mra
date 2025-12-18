@@ -1,0 +1,95 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2025. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>horizontal</rotation>
+    <name>Cadillacs and Dinosaurs (Asia TW 930223)</name>
+    <setname>dinoa</setname>
+    <mameversion>0261</mameversion>
+    <year>1993</year>
+    <manufacturer>Capcom</manufacturer>
+    <players>3</players>
+    <rbf>jtcps15</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="dinoa.zip|dino.zip|qsound.zip" md5="None" address="0x30000000" asm_md5="beab07c1ce2192cac113f1e0ab6151b7">
+        <!--  -->
+        <part>
+            00 06 80 06 80 0E 80 1E
+            FF FF FF FF FF FF FF FF
+            FF FF FF FF FF FF 0A 0C
+            0E 00 02 00 00 04 16 16
+            16 00 05 40 88 73 FF 20
+            FF FF FF FF FF FF FF FF
+            76 54 32 10 24 60 13 57
+            43 43 43 FF FF FF FF FF
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x180000 (21 bits) -->
+        <part name="cdt_23.8f" crc="f477f7a0"/>
+        <part name="cdt_22.7f" crc="1e534ca5"/>
+        <part name="cdt_21.6f" crc="74b04329"/>
+        <!-- audiocpu - starts at 0x180000 - length 0x20000 (17 bits) -->
+        <part name="cd_q.5k" crc="605fdb0b"/>
+        <!-- qsound - starts at 0x1A0000 - length 0x200000 (21 bits) -->
+        <part name="cd-q1.1k" crc="60927775"/>
+        <part name="cd-q2.2k" crc="770f4c47"/>
+        <part name="cd-q3.3k" crc="2f273ffc"/>
+        <part name="cd-q4.4k" crc="2c67821d"/>
+        <!-- gfx - starts at 0x3A0000 - length 0x400000 (22 bits) -->
+        <interleave output="64">
+            <part name="cd-1m.3a" crc="8da4f917" map="00000021"/>
+            <part name="cd-3m.5a" crc="6c40f603" map="00002100"/>
+            <part name="cd-2m.4a" crc="09c8fc2d" map="00210000"/>
+            <part name="cd-4m.6a" crc="637ff38f" map="21000000"/>
+        </interleave>
+        <interleave output="64">
+            <part name="cd-5m.7a" crc="470befee" map="00000021"/>
+            <part name="cd-7m.9a" crc="22bfb7a3" map="00002100"/>
+            <part name="cd-6m.8a" crc="e7599ac4" map="00210000"/>
+            <part name="cd-8m.10a" crc="211b4b15" map="21000000"/>
+        </interleave>
+        <!-- firmware - starts at 0x7A0000 - length 0x2000 (13 bits) -->
+        <part name="dl-1425.bin" crc="d6cf5ef5" length="0x2000"/>
+        <!-- Total 0x7A2000 bytes - 7816 kBytes -->
+    </rom>
+    <rom index="2">
+        <part>
+92 10 31 00 54 4B 32 51 00 01 01 00 00 00 03 01
+03 06 4E 75 92 10 31 00 54 4B 32 51 00 01 00 00
+00 00 03 01 02 75 30 2D FA 8C B0 68 00 60 6C 0C
+4E 75 30 2D FA 8C B0 68 00 60 6E F4 70 00 31 40
+00 20 10 2D FF 88 D0 40 32 3B 00 06 4E FB 10 02
+00 1C 00 6C 07 46 00 C0 07 52 01 AE 07 86 03 D4
+03 E8 07 C6 04 F8 05 98 06 66 07 CE 10 28 00 28
+32 3B 00 06 4E FB 10 02 00 06 00 1E 00 3C 54 28
+</part>
+    </rom>
+    <nvram index="2" size="128"/>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="ff">
+        <DSWC/>
+        <dip name="Freeze" bits="3" ids="On,Off"/>
+    </switches>
+    <buttons names="Attack,Jump,-,-,-,-,Start,Coin,Core credits" default="A,B,Start,Select,-" count="2"/>
+</misterromdescription>

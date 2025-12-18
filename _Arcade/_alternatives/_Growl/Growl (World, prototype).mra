@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>Growl (World, prototype)</name>
+	<setname>growlp</setname>
+	<year>1990</year>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>growl</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Attack,Jump,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Coin B" bits="6,7" values="3,2,1,0" ids="1 Coin/2 Credits,1 Coin/3 Credits,1 Coin/4 Credits,1 Coin/6 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Unused" bits="10" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="11" values="1,0" ids="Off,On"/>
+		<dip name="Cabinet Type" bits="12,13" values="3,2,1,0" ids="2 Players,4P/4 Coins,4P/2 cabs,4P/2 Coins"/>
+		<dip name="Final Boss Continue" bits="14" values="0,1" ids="No,Yes"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="growlp.zip|growl.zip">
+		<part>0a 00</part>
+		<!--Region: maincpu, Size: 1048576 bytes-->
+		<part>00100000</part>
+		<interleave output="16">
+			<part crc="3a9141dc" name="growl_ic15_japan_0h_fb09.bin" map="10"/>
+			<part crc="a8547fd6" name="growl_ic13_japan_0l_a80a.bin" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="64aa6f4b" name="growl_ic16_japan_1h_41bb.bin" map="10"/>
+			<part crc="c38bbb05" name="growl_ic14_europe_1l_726b.bin" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 1048576 bytes-->
+		<part>01100000</part>
+		<interleave output="16">
+			<part crc="4e220e34" name="growl_ic13_scro-0-0-h_2e7a.bin" map="10"/>
+			<part crc="769ddaab" name="growl_ic11_scro-0-l_a971.bin" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="42c2a2d0" name="growl_ic14_scro-0-1-h_f0fa.bin" map="10"/>
+			<part crc="486925b4" name="growl_ic12_scro-1-l_026e.bin" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 2097152 bytes-->
+		<part>02200000</part>
+		<interleave output="16">
+			<part crc="cd94025a" name="growl_ic17_obj0-0-l_90b9.bin" map="01"/>
+			<part crc="6838c1b0" name="growl_ic19_obj0-0-h_b652.bin" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="0ddf592e" name="growl_ic18_obj0-1-l_a299.bin" map="01"/>
+			<part crc="0f0407f1" name="growl_ic20_obj0-1-h_9f1a.bin" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="bed51bd6" name="growl_ic4_obj1-l_7d96.bin" map="01"/>
+			<part crc="5b696d20" name="growl_ic6_obj1-0-h_3a22.bin" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="f34d83ec" name="growl_ic5_obj1-1-l_d34f.bin" map="01"/>
+			<part crc="e9fda1fa" name="growl_ic7_obj1-1-h_b5af.bin" map="10"/>
+		</interleave>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="f75929e0" name="growl_ic3_snd.bin"/>
+		<!--Region: ymsnd:adpcma, Size: 1048576 bytes-->
+		<part>04100000</part>
+		<part crc="cc9ffbf8" name="growl_ic23_ch-a-0_b5d9.bin"/>
+		<part crc="7177b4ad" name="growl_ic24_ch-a-1_3c70.bin"/>
+		<part crc="7c9b1423" name="growl_ic25_ch-a-2_9614.bin"/>
+		<part crc="db1ecefe" name="growl_ic26_ch-a-3_fca6.bin"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="7a7eab62" name="growl_ic21_ch-b-0_d743.bin"/>
+		<part crc="567df833" name="growl_ic22_ch-b-1_a5f1.bin"/>
+	</rom>
+</misterromdescription>

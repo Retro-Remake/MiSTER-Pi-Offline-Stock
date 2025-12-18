@@ -1,0 +1,48 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>myfairld</setname>
+	<mameversion>277</mameversion>
+	<description>Virtual Mahjong 2 - My Fair Lady (J 980608 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1998</year>
+	<manufacturer>Micronet</manufacturer>
+	<buttons names="Button 1,Button 2,-,-,-,-,Start,Coin,Service,Test" default="A,B,Start,Select,R,L" />
+	<rom index="1" md5="" zip="myfairld.zip" address="0x32000000">
+		<interleave output="64">
+			<part crc="c7cf3a5a" name="myfairld.nv" map="12345678" />
+		</interleave>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="myfairld.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="2581c560" name="mpr21000.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="1bb73f24" name="mpr20995.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="993c3859" name="mpr20996.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f0bf64a4" name="mpr20997.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d3b19786" name="mpr20998.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="82e31f25" name="mpr20999.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="a69243a0" name="mpr20994.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="95fbe549" name="mpr21001.8" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

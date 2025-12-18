@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Dino Rex (World)</name>
+	<setname>dinorex</setname>
+	<year>1992</year>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Bite/Punch,Kick,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Coin B" bits="6,7" values="3,2,1,0" ids="1 Coin/2 Credits,1 Coin/3 Credits,1 Coin/4 Credits,1 Coin/6 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Damage" bits="10,11" values="2,3,1,0" ids="Small,Normal,Big,Biggest"/>
+		<dip name="Timer Speed" bits="12" values="1,0" ids="Normal,Fast"/>
+		<dip name="Match Type" bits="13" values="1,0" ids="Best of 3,Single"/>
+		<dip name="Unused" bits="14" values="1,0" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="0,1" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="dinorex.zip">
+		<part>17 00</part>
+		<!--Region: maincpu, Size: 3145728 bytes-->
+		<part>00300000</part>
+		<interleave output="16">
+			<part crc="e6aafdac" name="d39-14.9" map="10"/>
+			<part crc="cedc8537" name="d39-16.8" map="01"/>
+		</interleave>
+		<part crc="3800506d" name="d39-04.6"/>
+		<part crc="e2ec3b5d" name="d39-05.7"/>
+		<!--Region: tc0100scn_1, Size: 1048576 bytes-->
+		<part>01100000</part>
+		<part crc="52f62835" name="d39-06.2"/>
+		<!--Region: sprites, Size: 6291456 bytes-->
+		<part>02600000</part>
+		<part crc="d10e9c7d" name="d39-01.29"/>
+		<part crc="6c304403" name="d39-02.28"/>
+		<part crc="fc9cdab4" name="d39-03.27"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="8292c7c1" name="d39-12.5"/>
+		<!--Region: ymsnd:adpcma, Size: 1048576 bytes-->
+		<part>04100000</part>
+		<part crc="28262816" name="d39-07.10"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="377b8b7b" name="d39-08.4"/>
+	</rom>
+</misterromdescription>

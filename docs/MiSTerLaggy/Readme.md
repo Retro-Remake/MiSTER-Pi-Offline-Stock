@@ -39,3 +39,6 @@ When you switch modes in the Video Config menu, the core will start using the en
 The MiSTer Laggy hardware is very simple. It consists of a small PCB with a photo transistor alongside a few components to allow it to interface with the user port, and a 3D printed case. The case is designed to prevent any external light from reaching the sensor. It snaps together tightly and is secured with a M2x8 flat head screw. The PCB is all surface mounted components and uses a compact USB-C connector.
 
 The `hardware/` directory contains KiCAD project files for the PCB along with STEP and STL files for the case.
+
+## Additional Assets
+32x32 MiSTer Kun logo - https://github.com/baxysquare/mister_kun

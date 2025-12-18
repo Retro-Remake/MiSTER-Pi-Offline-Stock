@@ -1,84 +1,13 @@
+DEBUG| Config: {"curl_ssl":"--cacert /etc/ssl/certs/cacert.pem","http_logging":false,"databases":{"distribution_mister":{"db_url":"https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip","section":"distribution_mister"}},"config_path":"/media/fat/downloader.ini","base_path":"/media/fat","base_system_path":"/media/fat","storage_priority":"prefer_sd","allow_delete":1,"allow_reboot":1,"update_linux":true,"downloader_threads_limit":6,"downloader_timeout":300,"downloader_retries":3,"zip_file_count_threshold":60,"zip_accumulated_mb_threshold":100,"filter":"","verbose":false,"bench":false,"debug":false,"default_db_id":"distribution_mister","start_time":80.10350166,"logfile":null,"is_pc_launcher":false,"user_defined_options":[],"commit":"e82c366","fail_on_file_error":false,"file_checking":1,"minimum_system_free_space_mb":512,"minimum_external_free_space_mb":128,"http_proxy":"","http_config":null,"rotate_logs":true,"environment":{"DOWNLOADER_LAUNCHER_PATH":"/media/fat/Scripts/update.sh","DOWNLOADER_INI_PATH":null,"LOGFILE":null,"LOGLEVEL":"","CURL_SSL":"--cacert /etc/ssl/certs/cacert.pem","COMMIT":"e82c366","ALLOW_REBOOT":null,"UPDATE_LINUX":"undefined","DEFAULT_DB_URL":"https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip","DEFAULT_DB_ID":"distribution_mister","DEFAULT_BASE_PATH":null,"FORCED_BASE_PATH":null,"PC_LAUNCHER":null,"DEBUG":"false","FAIL_ON_FILE_ERROR":"false","HTTP_PROXY":null,"HTTPS_PROXY":null,"ROTATE_LOGS":"true"}}
 START!
 
-Reading file: /media/fat/downloader.ini
-Reading default db
-env: {
-    "DOWNLOADER_LAUNCHER_PATH": "/media/fat/Scripts/update.sh",
-    "DOWNLOADER_INI_PATH": null,
-    "LOGFILE": null,
-    "CURL_SSL": "--cacert /etc/ssl/certs/cacert.pem",
-    "COMMIT": "c08b81c",
-    "ALLOW_REBOOT": null,
-    "UPDATE_LINUX": "undefined",
-    "DEFAULT_DB_URL": "https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip",
-    "DEFAULT_DB_ID": "distribution_mister",
-    "DEFAULT_BASE_PATH": null,
-    "FORCED_BASE_PATH": null,
-    "PC_LAUNCHER": null,
-    "DEBUG": "false",
-    "FAIL_ON_FILE_ERROR": "false"
-}
-config: {
-    "databases": {
-        "distribution_mister": {
-            "db_url": "https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip",
-            "section": "distribution_mister"
-        }
-    },
-    "config_path": "/media/fat/downloader.ini",
-    "base_path": "/media/fat",
-    "base_system_path": "/media/fat",
-    "storage_priority": "prefer_sd",
-    "allow_delete": 1,
-    "allow_reboot": 1,
-    "update_linux": true,
-    "downloader_threads_limit": 20,
-    "downloader_timeout": 300,
-    "downloader_retries": 3,
-    "zip_file_count_threshold": 60,
-    "zip_accumulated_mb_threshold": 100,
-    "filter": null,
-    "verbose": false,
-    "debug": false,
-    "default_db_id": "distribution_mister",
-    "start_time": 1729071645.7643573,
-    "logfile": null,
-    "is_pc_launcher": false,
-    "user_defined_options": [],
-    "commit": "c08b81c",
-    "fail_on_file_error": false,
-    "minimum_system_free_space_mb": 512,
-    "minimum_external_free_space_mb": 128,
-    "curl_ssl": "--cacert /etc/ssl/certs/cacert.pem"
-}
-Reading file contents "/MiSTer.version"
-Linux Version: 241008
-cacert file at "/etc/ssl/certs/cacert.pem" seems to be fine.
-Loading dict from file "/media/fat/Scripts/.config/downloader/downloader.json"
-Reading file contents "/proc/mounts"
-Loading db from url: https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip
-/tmp/13upjm8z
-.+
-Loading dict from file "/tmp/13upjm8z"
-Removing "/tmp/13upjm8z"
-distribution_mister still uses base_path: /media/fat
-Preparing databases ...
-Preparing db 'distribution_mister'...
-No filter for db distribution_mister.
-Free space: {}
-Building config map...
-Processing config 'base_path:/media/fat;downloader_threads_limit:20;downloader_timeout:300;downloader_retries:3;'...
-
+*
 ################################################################################
 SECTION: distribution_mister
 
-Nothing new to download from given sources.
-IS_FILE quick hits: 0 slow hits: 0
-Skipping local_store saving...
 
 ===========================
-Downloader 1.8 (c08) by theypsilon. Run time: 0:00:10.41s at 2024-10-16 09:40:56
-Commit: c08b81c
+Downloader 2.3 (e82) by theypsilon. Run time: 00:03.98s at 2025-12-18 10:10:20
 Log: /media/fat/Scripts/.config/downloader/downloader.log
 
 Installed:
@@ -87,11 +16,3 @@ none.
 Errors:
 none.
 
-linux: {
-    "hash": "e17220d0c76e3d4f4c54b9383548987a",
-    "size": 93653973,
-    "url": "https://raw.githubusercontent.com/MiSTer-devel/SD-Installer-Win64_MiSTer/1027682c72ff09eb68718b94796f5d944ab9b799/release_20241008.7z",
-    "version": "241008"
-}
-Reading file contents "/MiSTer.version"
-current_linux_version "241008" matches db linux: 241008

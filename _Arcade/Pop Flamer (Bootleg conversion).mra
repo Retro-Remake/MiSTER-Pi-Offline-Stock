@@ -1,0 +1,60 @@
+<misterromdescription>
+  <name>Pop Flamer (Bootleg conversion)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Jaleco</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1982</year>
+	<manufacturer>Jaleco</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>popflamn</setname>
+	<parent>popflamn</parent>
+	<mameversion></mameversion>
+	<rbf>naughtyboy</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="" zip="popflamn.zip">
+		<part crc="88cd3faa" name="pfb2-1.bin"></part>
+		<part crc="a09892e8" name="pfb2-2.bin"></part>
+		<part crc="99fca5ed" name="pfb2-3.bin"></part>
+		<part crc="c8d254e0" name="pfb2-4.bin"></part>
+		<part crc="d89710d5" name="pfb2-5.bin"></part>
+		<part crc="b6cec1aa" name="pfb2-6.bin"></part>
+		<part crc="1cf8b5c4" name="pfb2-7.bin"></part>
+		<part crc="a63feeff" name="pfb2-8.bin"></part>
+		<part crc="3d8b8f6f" name="pfb2-15.bin"></part>
+		<part crc="75f0308b" name="pfb2-16.bin"></part>
+		<part crc="42fc5bac" name="pfb2-13.bin"></part>
+		<part crc="fefada6e" name="pfb2-14.bin"></part>
+		<part crc="8ccdcc01" name="pfb2-11.bin"></part>
+		<part crc="49e04ddb" name="pfb2-12.bin"></part>
+		<part crc="32debf48" name="pfb2-9.bin"></part>
+		<part crc="7fe61ed3" name="pfb2-10.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="27"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20250316000000</mratimestamp>
+</misterromdescription>

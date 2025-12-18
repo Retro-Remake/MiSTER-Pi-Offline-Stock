@@ -1,0 +1,60 @@
+<misterromdescription>
+	<name>Thunder Fox (World, rev 1)</name>
+	<setname>thundfox</setname>
+	<year>1990</year>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,X,Start,Select,L,R" names="Attack,Jump,Item,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Coin B" bits="6,7" values="3,2,1,0" ids="1 Coin/2 Credits,1 Coin/3 Credits,1 Coin/4 Credits,1 Coin/6 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Timer" bits="10" values="0,1" ids="Off,On"/>
+		<dip name="Unused" bits="11" values="1,0" ids="Off,On"/>
+		<dip name="Lives" bits="12,13" values="2,3,1,0" ids="2,3,4,5"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="0,1" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="thundfox.zip">
+		<part>03 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="acb07013" name="c28-13-1.51" map="10"/>
+			<part crc="1e43d55b" name="c28-16-1.40" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="38e038f1" name="c28-08.50" map="10"/>
+			<part crc="24419abb" name="c28-07.39" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 1048576 bytes-->
+		<part>02100000</part>
+		<interleave output="16">
+			<part crc="51bdc7af" name="c28-03.29" map="01"/>
+			<part crc="ba7ed535" name="c28-04.28" map="10"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 524288 bytes-->
+		<part>01080000</part>
+		<part crc="6230a09d" name="c28-02.61"/>
+		<!--Region: tc0100scn_2, Size: 524288 bytes-->
+		<part>07080000</part>
+		<part crc="44552b25" name="c28-01.63"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="45ef3616" name="c28-14.3"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="db6983db" name="c28-06.41"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="d3b238fa" name="c28-05.42"/>
+		<!--Unknown regions:-->
+		<!--Region 'plds': pal16l8b-b89-01.ic19 (size=260, crc=4095b97a), pal16l8b-b89-03.ic37 (size=260, crc=634592e2), pal16v8b-b89-04.ic33 (size=279, crc=fc136ae2), pal16l8b-c28-09.ic25 (size=260, crc=383e7305), pal16l8b-c28-10.ic26 (size=260, crc=47fccc07), pal16l8b-c28-11.ic35 (size=260, crc=33414fe8)-->
+	</rom>
+</misterromdescription>

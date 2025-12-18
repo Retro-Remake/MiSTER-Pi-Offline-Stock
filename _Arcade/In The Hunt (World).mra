@@ -25,6 +25,80 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time"                 >000000 10 000EB8A0 00000000 00000063</cheat>
+        <cheat name="Starting Stage 2"              >000000 11 000E0084 00000000 00000001</cheat>
+        <cheat name="Starting Stage 3"              >000000 11 000E0084 00000000 00000002</cheat>
+        <cheat name="Starting Stage 4"              >000000 11 000E0084 00000000 00000003</cheat>
+        <cheat name="Starting Stage 5"              >000000 11 000E0084 00000000 00000004</cheat>
+        <cheat name="Starting Stage 6"              >000000 11 000E0084 00000000 00000005</cheat>
+        <cheat name="Starting Stage 7 (Last Battle)">000000 11 000E0084 00000000 00000006</cheat>
+        <cheat name="Starting Stage 8 (End Screen)" >000000 11 000E0084 00000000 00000007</cheat>
+        <cheat name="P1 Infinite Lives"             >000000 10 000E0118 00000000 00000009</cheat>
+        <cheat name="P1 Invincibility"              >000000 10 000E0A0A 00000000 00000001</cheat>
+        <cheat name="P1 Normal Torpedo">
+            000000 10 000E0110 00000000 00000000
+            000000 10 000E0112 00000000 00000000
+        </cheat>
+        <cheat name="P1 Power Torpedo">
+            000000 10 000E0110 00000000 00000002
+            000000 10 000E0112 00000000 00000003
+        </cheat>
+        <cheat name="P1 Wave Torpedo">
+            000000 10 000E0110 00000000 00000004
+            000000 10 000E0112 00000000 00000003
+        </cheat>
+        <cheat name="P1 Spread Torpedo">
+            000000 10 000E0110 00000000 00000006
+            000000 10 000E0112 00000000 00000003
+        </cheat>
+        <cheat name="P1 Normal Ammo">
+            000000 10 000E0114 00000000 00000000
+            000000 10 000E0116 00000000 00000000
+        </cheat>
+        <cheat name="P1 A Ammo">
+            000000 10 000E0114 00000000 00000002
+            000000 10 000E0116 00000000 00000005
+        </cheat>
+        <cheat name="P1 M Ammo">
+            000000 10 000E0114 00000000 00000004
+            000000 10 000E0116 00000000 00000005
+        </cheat>
+        <cheat name="P1 Rapid Fire"                 >000002 10 000EB73C 00000000 0000003F</cheat>
+
+        <cheat name="P2 Infinite Lives"             >000000 10 000E0158 00000000 00000009</cheat>
+        <cheat name="P2 Invincibility"              >000000 10 000E098A 00000000 00000001</cheat>
+        <cheat name="P2 Normal Torpedo">
+            000000 10 000E0150 00000000 00000000
+            000000 10 000E0152 00000000 00000000
+        </cheat>
+        <cheat name="P2 Power Torpedo">
+            000000 10 000E0150 00000000 00000002
+            000000 10 000E0152 00000000 00000003
+        </cheat>
+        <cheat name="P2 Wave Torpedo">
+            000000 10 000E0150 00000000 00000004
+            000000 10 000E0152 00000000 00000003
+        </cheat>
+        <cheat name="P2 Spread Torpedo">
+            000000 10 000E0150 00000000 00000006
+            000000 10 000E0152 00000000 00000003
+        </cheat>
+        <cheat name="P2 Normal Ammo">
+            000000 10 000E0154 00000000 00000000
+            000000 10 000E0156 00000000 00000000
+        </cheat>
+        <cheat name="P2 A Ammo">
+            000000 10 000E0154 00000000 00000002
+            000000 10 000E0156 00000000 00000005
+        </cheat>
+        <cheat name="P2 M Ammo">
+            000000 10 000E0154 00000000 00000004
+            000000 10 000E0156 00000000 00000005
+        </cheat>
+        <cheat name="P2 Rapid Fire"                 >000002 10 000EB73D 00000000 0000003F</cheat>
+    </cheats>
+
     <rom index="0" zip="inthunt.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

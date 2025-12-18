@@ -10,7 +10,7 @@ This is the port of the [PC8801 MKII SR](http://fpga8801.seesaa.net/category/212
 ## Features
 * Modes N, N88V1L, N88V1H, N88V2
 * CPU Speeds (4MHz and 8MHz)
-* 2 Floppy Drives using D88 format
+* 2 Floppy Drives using D88 format (Disk types supported 2D and 2HD)
 * Sound chip YM2603 by default and ADPCM
 * Mouse support (Changed between Mouse and Joypad on the OSD)
 
@@ -47,6 +47,11 @@ copy /b mk2sr_n88.rom+mk2sr_n80.rom+mk2sr_n88_0.rom+n88_1.rom+n88_2.rom+n88_3.ro
 ## Sound Board II
 
 On the OSD, there is an option to choose between Expansion (Default) or Onboard because some software only supports Onboard or Expansion board. You could find more informations on this issue ticket https://github.com/MiSTer-devel/PC88_MiSTer/issues/11.
+
+## Write-Protection of D88 files
+
+The D88 format has a status to know if the file is write protected or not. The core checks this status and not write on D88 file if protected.
+You could check and change the write protection of D88 file using this application https://moochos.nobody.jp/en/software/d88edit/index.html.
 
 ## Known Issues
 - Timing issues

@@ -234,6 +234,32 @@ https://lmgtfy.com/?q=darksoft+neo+geo+roll-up+pack
 		<file name="teot-c1.bin" index="64" size="0x800000"/>
 		<file name="teot-c2.bin" index="65" size="0x800000"/>
 	</romset>
+	<romset name="captainbarrel" altname="Captain Barrel!" publisher="NEO.BYTE.FORCE / OzzyOuzo" year="2024">
+		<file name="captain-p1.bin" index="4"/>
+		<file name="captain-p2.bin" index="6"/>
+		<file name="captain-s1.bin" index="8"/>
+		<file name="captain-m1.bin" index="9"/>
+		<file name="captain-v1.bin" index="16"/>
+		<file name="captain-v2.bin" index="32"/>
+		<file name="captain-c1.bin" index="64"/>
+		<file name="captain-c2.bin" index="65"/>
+	</romset>
+	<romset name="knightsch" altname="Knight's Chance" publisher="Neobitz" year="2014">
+		<file name="340.p1" index="4"/>
+		<file name="340.s1" index="8"/>
+		<file name="340.c1" index="64"/>
+		<file name="340.c2" index="65"/>
+		<file name="340.m1" index="9"/>
+		<file name="340.v1" index="16"/>
+	</romset>
+	<romset name="wrldracr" altname="World Racer" publisher="Blastar" year="2025">
+	  <file name="wrldracr.p1" index="4"/>
+	  <file name="wrldracr.s1" index="8"/>
+	  <file name="wrldracr.c1" index="64"/>
+	  <file name="wrldracr.c2" index="65"/>
+	  <file name="wrldracr.m1" index="9"/>
+	  <file name="wrldracr.v1" index="16"/>
+	</romset>
 
 	<!-- ROMs requiring 64MB SDRAM -->
 
@@ -282,6 +308,17 @@ https://lmgtfy.com/?q=darksoft+neo+geo+roll-up+pack
 		<file name="cyborg-v2.bin" index="32"/>
 		<file name="cyborg-c1.bin" index="64" size="0x5c82c0"/>
 		<file name="cyborg-c2.bin" index="65" size="0x5c82c0"/>
+	</romset>
+	<romset name="gladmort" altname="GladMort" publisher="PixelHeart" year="2025">
+		<file name="gladmort-p1.bin" index="4"/>
+		<file name="gladmort-s1.bin" index="8"/>
+		<file name="gladmort-m1.bin" index="9"/>
+		<file name="gladmort-v1.bin" index="16"/>
+		<file name="gladmort-v2.bin" index="24"/>
+		<file name="gladmort-v3.bin" index="32"/>
+		<file name="gladmort-v4.bin" index="40"/>
+		<file name="gladmort-c1.bin" index="64"/>
+		<file name="gladmort-c2.bin" index="65"/>
 	</romset>
 
 	<!-- ROMs requiring 96MB SDRAM (32MB+64MB) -->

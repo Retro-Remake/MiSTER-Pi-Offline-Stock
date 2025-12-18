@@ -30,19 +30,20 @@ Use the 'Cartridge' option in the OSD to select an official cartridge.
 To load unofficial software set the 'Cartridge' option to 'Empty' and use the 'Load custom cartridge' option.
 
 ## Controls
-### Keyboard
-- A - Pass
-- S - NT
-- D - Dbl
-- F - Rdbl
-- Z - Spades
-- X - Hearts/Up
-- C - Diamonds / Down
-- V - Clubs
-- 1 - Start
-- Backspace - Back
-- Left Control - Play / Yes
-- Left Alt - Play / No
+| Action | Keyboard | Joypad default |
+| --- | --- | --- |
+| Pass | A | X |
+| NT | S | Y |
+| Dbl | D | A |
+| Rdbl | F | B |
+| Spades | Z | Left |
+| Hearts / Up | X | Up |
+| Diamonds / Down | C | Down |
+| Clubs | V | Right |
+| Start | 1 | R |
+| Back | Backspace | L |
+| Play / Yes | Left Control | Z |
+| Play / No | Left Alt | C |
 
 ## History
 

@@ -1,0 +1,79 @@
+<misterromdescription>
+	<name>U.S. Championship V'ball</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1988</year>
+	<manufacturer>Technos Japan</manufacturer>
+	<category>Sports</category>
+
+	<setname>vballb</setname>
+	<parent>vball</parent>
+	<mameversion>0229</mameversion>
+	<rbf>vball</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>4</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons names="Start 1P, Start 2P, Set, Spike, Coin A, Coin B, Service" default="Start,Select,A,B,R,L,"></buttons>
+
+	<switches default="ff,ff">
+		<dip bits="0,1" name="Difficulty" ids="VeryHard,Hard,Easy,Medium"/>
+		<dip bits="2,3" name="SP Game Time" ids="1:15,1:30,2:00,1:45"/>
+		<dip bits="4,5" name="Start Buttons (4-player)" ids="Normal,Button B,Button A,Normal"/>
+		<dip bits="6" name="PL 1/4" ids="Rotate90,Normal"/>
+		<dip bits="7" name="Player Mode" ids="4 Players,2 Players"/>
+		<dip bits="8,10" name="CoinA" ids="4C1C,3C1C,2C1C,1C1C,1C2C,1C3C,1C4C,1C5C"/>
+		<dip bits="11,13" name="CoinB" ids="4C1C,3C1C,2C1C,1C1C,1C2C,1C3C,1C4C,1C5C"/>
+		<dip bits="14" name="Flip Screen" ids="Off,On"/>
+		<dip bits="15" name="Demo Sounds" ids="Off,On"/>
+	</switches>
+
+	<rom index="0" zip="vball.zip" md5="none">
+		<!-- bg roms 64k x 8 -->
+		<part name="13" crc="f26df8e1"/>
+		<part name="14" crc="c9798d0e"/>
+		<part name="15" crc="68e69c4b"/>
+		<part name="16" crc="936457ba"/>
+		<part name="9" crc="42874924"/>
+		<part name="10" crc="6cc676ee"/>
+		<part name="11" crc="4754b303"/>
+		<part name="12" crc="21294a84"/>
+		<!-- main cpu rom 64k -->
+		<part name="vball.124" crc="be04c2b5"/>
+		<!-- sprite roms 128k x 2 -->
+		<part name="vball.35" crc="877826d8"/>
+		<part name="vball.5" crc="c6afb4fa"/>
+		<!-- color roms 2k x 3 -->
+		<part name="25j5-0.144" crc="a317240f"/>
+		<part name="25j6-0.143" crc="1ff70b4f"/>
+		<part name="25j7-0.160" crc="2ffb68b3"/>
+		<!-- align -->
+		<part repeat="59392">00</part>
+		<!-- audio cpu rom 32k -->
+		<part name="25j1-0.47" crc="10ca79ad"/>
+	</rom>
+	<rom index="1"></rom>
+	<rom index="2" zip="vballb.zip|vball.zip" address="0x30000000" md5="none">
+		<part name="vball.78a" crc="f3e63b76"/>
+		<part name="vball.78b" crc="7ad9d338"/>
+	</rom>
+	<rom_3></rom_3>
+	<rom_4></rom_4>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>202106130828</mratimestamp>
+</misterromdescription>

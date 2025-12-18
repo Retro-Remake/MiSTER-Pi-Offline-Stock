@@ -1,0 +1,58 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>vfkids</setname>
+	<mameversion>277</mameversion>
+	<description>Virtua Fighter Kids (JUET 960319 V0.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>00 01</part>
+	</rom>
+	<rom index="1" md5="" zip="vfkids.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="vfkids.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="cd35730a" name="fpr18914.13" map="1357" />
+		</interleave>
+		<part repeat="0xa00000">00</part>
+		<interleave output="64">
+			<part crc="4aae3ddb" name="mpr18916.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="edf6edc3" name="mpr18917.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d3a95036" name="mpr18918.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="09cc38e5" name="mpr18915.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4ac700de" name="mpr18919.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0106e36c" name="mpr18920.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="c23d51ad" name="mpr18921.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="99d0ab90" name="mpr18922.11" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="30a41ae9" name="mpr18923.12" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

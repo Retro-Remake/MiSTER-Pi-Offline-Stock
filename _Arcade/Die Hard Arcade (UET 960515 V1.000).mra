@@ -1,0 +1,37 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>diehard</setname>
+	<mameversion>277</mameversion>
+	<description>Die Hard Arcade (UET 960515 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="diehard.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="diehard.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="de5c4f7c" name="fpr19119.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="6fe06a30" name="mpr19115.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="af9e627b" name="mpr19116.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="74520ff1" name="mpr19117.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="2c9702f0" name="mpr19118.5" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,0 +1,54 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>finlarch</setname>
+	<mameversion>277</mameversion>
+	<description>Final Arch (J 950714 V1.001)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="finlarch.zip|smleague.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="finlarch.zip|smleague.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="4505fa9e" name="finlarch.13" map="01030507" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4505fa9e" name="finlarch.13" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4505fa9e" name="finlarch.13" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="137fdf55" name="mpr18257.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f519c505" name="mpr18258.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="5cabc775" name="mpr18259.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f5b92082" name="mpr18260.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="137fdf55" name="mpr18257.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f519c505" name="mpr18258.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="5cabc775" name="mpr18259.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f5b92082" name="mpr18260.5" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

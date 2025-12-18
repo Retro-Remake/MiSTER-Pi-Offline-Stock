@@ -1,0 +1,1309 @@
+DEBUG| Config: {"curl_ssl":"--cacert /etc/ssl/certs/cacert.pem","http_logging":false,"databases":{"distribution_mister":{"db_url":"https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip","section":"distribution_mister"}},"config_path":"/media/fat/downloader.ini","base_path":"/media/fat","base_system_path":"/media/fat","storage_priority":"prefer_sd","allow_delete":1,"allow_reboot":1,"update_linux":true,"downloader_threads_limit":6,"downloader_timeout":300,"downloader_retries":3,"zip_file_count_threshold":60,"zip_accumulated_mb_threshold":100,"filter":"","verbose":false,"bench":false,"debug":false,"default_db_id":"distribution_mister","start_time":28.19575146,"logfile":null,"is_pc_launcher":false,"user_defined_options":[],"commit":"e82c366","fail_on_file_error":false,"file_checking":1,"minimum_system_free_space_mb":512,"minimum_external_free_space_mb":128,"http_proxy":"","http_config":null,"rotate_logs":true,"environment":{"DOWNLOADER_LAUNCHER_PATH":"/media/fat/Scripts/update.sh","DOWNLOADER_INI_PATH":null,"LOGFILE":null,"LOGLEVEL":"","CURL_SSL":"--cacert /etc/ssl/certs/cacert.pem","COMMIT":"e82c366","ALLOW_REBOOT":null,"UPDATE_LINUX":"undefined","DEFAULT_DB_URL":"https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/main/db.json.zip","DEFAULT_DB_ID":"distribution_mister","DEFAULT_BASE_PATH":null,"FORCED_BASE_PATH":null,"PC_LAUNCHER":null,"DEBUG":"false","FAIL_ON_FILE_ERROR":"false","HTTP_PROXY":null,"HTTPS_PROXY":null,"ROTATE_LOGS":"true"}}
+START!
+
+################################################################################
+SECTION: distribution_mister
+
+
+Unpacking Palettes at games/Atari2600/
+*
+Unpacking GBA at Cheats/
+Unpacking N64 at Cheats/
+Unpacking MegaDrive at Cheats/
+Unpacking Palettes at games/GAMEBOY2P/
+Unpacking NES at Cheats/
+Unpacking TGFX16-CD at Cheats/
+**
+Unpacking SMS at Cheats/
+Unpacking SNES at Cheats/
+*****************
+Unpacking Palettes at games/GBC/
+Unpacking font at the root
+**
+Unpacking Palettes at games/ATARI7800/
+Unpacking Palettes at games/MegaDuck/
+Unpacking TGFX16 at Cheats/
+Unpacking Palettes at games/GAMEBOY/
+Unpacking GameBoy at Cheats/
+**
+Unpacking Filters, Filters_Audio, Gamma at the root
+*****
+Unpacking PSX at Cheats/
+No changes: menu.rbf
+Unpacking Palettes at games/NES/
+Unpacking Shadow_Masks at the root
+**
+Unpacking _alternatives at _Arcade/
+***
+Cheats/AtariLynx/A.P.B. (USA, Europe) [F6FB48FB].zip
+Cheats/AtariLynx/Basketbrawl (USA, Europe) [4161BB4A].zip
+Cheats/AtariLynx/Batman Returns (USA, Europe) [277F82C2].zip
+Cheats/AtariLynx/Battle Wheels (USA, Europe) [779FAECE].zip
+Cheats/AtariLynx/Blue Lightning (USA, Europe) [DAF587B1].zip
+Cheats/AtariLynx/California Games (USA, Europe) [A08F0B59].zip
+Cheats/AtariLynx/Centipede (USA) (Proto) [97501709].zip
+Cheats/AtariLynx/Checkered Flag (USA, Europe) [19C5A7A5].zip
+Cheats/AtariLynx/Chip's Challenge (USA, Europe) [6A5F53ED].zip
+Cheats/AtariLynx/Desert Strike - Return to the Gulf (USA, Europe) [B9AC1FE5].zip
+Cheats/AtariLynx/Double Dragon (USA, Europe) [FBFC0F05].zip
+Cheats/AtariLynx/Kung Food (USA, Europe) [CD1BD405].zip
+Cheats/AtariLynx/Marlboro Go! (Europe) (Proto) [C3FA0D4D].zip
+Cheats/AtariLynx/Ms. Pac-Man (USA, Europe) [7DE3783A].zip
+Cheats/AtariLynx/Ninja Gaiden (USA, Europe) [22D47D51].zip
+Cheats/AtariLynx/Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe) [F3E3F811].zip
+Cheats/AtariLynx/Paperboy (USA, Europe) [4CDFBD57].zip
+Cheats/AtariLynx/Pit-Fighter (USA, Europe) [2393135F].zip
+Cheats/AtariLynx/Raiden (USA) (v3.0) (Beta) [BCD10C3A].zip
+Cheats/AtariLynx/Rampage (USA, Europe) [B10B7C8E].zip
+Cheats/AtariLynx/Rygar (USA, Europe) [67E5BDBA].zip
+Cheats/AtariLynx/Toki (USA, Europe) [156A4A4C].zip
+Cheats/AtariLynx/Xenophobe (USA, Europe) [9BED736D].zip
+Cheats/AtariLynx/Zarlor Mercenary (USA, Europe) [CB27199D].zip
+Cheats/Jaguar/Alien vs Predator (World) [DC187F82].zip
+Cheats/Jaguar/Bubsy in Fractured Furry Tales (World) [2E17D5DA].zip
+Cheats/Jaguar/Dragon - The Bruce Lee Story (World) [8FEA5AB0].zip
+Cheats/Jaguar/Rayman (World) [A9F8A00E].zip
+Cheats/Jaguar/Total Carnage (World) [C654681B].zip
+Cheats/Jaguar/Ultra Vortek (World) [0F6A1C2C].zip
+Cheats/Jaguar/Zool 2 (World) [8975F48B].zip
+Cheats/MegaCD/AH3 - ThunderStrike (USA).zip
+Cheats/MegaCD/AX-101 (USA).zip
+Cheats/MegaCD/Afterburner 3 (USA).zip
+Cheats/MegaCD/Batman Returns (USA).zip
+Cheats/MegaCD/Bram Stoker's Dracula (USA).zip
+Cheats/MegaCD/Earthworm Jim - Special Edition (USA).zip
+Cheats/MegaCD/Ecco the Dolphin (USA).zip
+Cheats/MegaCD/Eternal Champions - Challenge from the Dark Side (USA).zip
+Cheats/MegaCD/Fatal Fury Special (USA).zip
+Cheats/MegaCD/Final Fight CD (USA).zip
+Cheats/MegaCD/Jurassic Park (USA).zip
+Cheats/MegaCD/Keio Flying Squadron (USA).zip
+Cheats/MegaCD/Lethal Enforcers (USA).zip
+Cheats/MegaCD/Lethal Enforcers II - Gun Fighters (USA).zip
+Cheats/MegaCD/Lunar - Eternal Blue (USA).zip
+Cheats/MegaCD/Lunar - The Silver Star (USA).zip
+Cheats/MegaCD/Mortal Kombat (USA).zip
+Cheats/MegaCD/Popful Mail (Sample).zip
+Cheats/MegaCD/Popful Mail (USA).zip
+Cheats/MegaCD/Sega Classics Arcade Collection (USA, 5 in 1).zip
+Cheats/MegaCD/Sewer Shark (USA).zip
+Cheats/MegaCD/Shadow of the Beast II (Euro).zip
+Cheats/MegaCD/Shining Force CD (USA).zip
+Cheats/MegaCD/Silpheed (USA).zip
+Cheats/MegaCD/Snatcher (USA).zip
+Cheats/MegaCD/Sonic CD (USA).zip
+Cheats/MegaCD/Sonic The Hedgehog CD (Jpn).zip
+Cheats/MegaCD/The Adventures of Batman and Robin (USA).zip
+Cheats/MegaCD/The Amazing Spider-Man Vs. The Kingpin (Euro).zip
+Cheats/MegaCD/The Amazing Spider-Man vs. The Kingpin (USA).zip
+Cheats/MegaCD/The Ninjawarriors (Jpn).zip
+Cheats/MegaCD/The Terminator (USA).zip
+Cheats/MegaCD/Tomcat Alley (USA).zip
+Cheats/MegaCD/Vay (USA).zip
+Cheats/MegaCD/Vay - Ryuusei no Yoroi (Jpn).zip
+Presets/Core Specific/Adventure Vision.ini
+Presets/Core Specific/Game & Watch.ini
+Presets/Core Specific/Game Boy Advance.ini
+Presets/Core Specific/Game Boy Color.ini
+Presets/Core Specific/Game Boy.ini
+Presets/Core Specific/Game Gear.ini
+Presets/Core Specific/Lynx - Vertical.ini
+Presets/Core Specific/Lynx.ini
+Presets/Core Specific/N64 Reduced Blur.ini
+Presets/Core Specific/N64 Tiny Blur.ini
+Presets/Core Specific/Pokemon Mini.ini
+Presets/Core Specific/SNES Interpolation.ini
+Presets/Core Specific/SNES Scanlines.ini
+Presets/Core Specific/Vectrex.ini
+Presets/Core Specific/WonderSwan Color - Vertical.ini
+Presets/Core Specific/WonderSwan Color.ini
+Presets/Core Specific/WonderSwan.ini
+Presets/Display Specific/Faded Tube.ini
+Presets/Display Specific/High Contrast MG.ini
+Presets/Display Specific/JVC.ini
+Presets/Display Specific/Sony PVM.ini
+Presets/Display Specific/Sony Trinitron.ini
+Presets/Display Specific/VGA Monitor.ini
+Presets/General Hardware/Arcade - Vector.ini
+Presets/General Hardware/Arcade - Vertical.ini
+Presets/General Hardware/Arcade 80s - Vertical.ini
+Presets/General Hardware/Arcade 80s.ini
+Presets/General Hardware/Arcade 90s - Vertical.ini
+Presets/General Hardware/Arcade 90s.ini
+Presets/General Hardware/Arcade.ini
+Presets/General Hardware/Computer.ini
+Presets/General Hardware/Console - 2ndGen.ini
+Presets/General Hardware/Console - 3rdGen.ini
+Presets/General Hardware/Console - 4thGen.ini
+Presets/General Hardware/Console - 5thGen.ini
+Presets/Handheld Color LCD.ini
+Presets/Handheld Dot Matrix.ini
+Presets/Interpolation Only.ini
+Presets/No Filters.ini
+Presets/Scanlines - Medium.ini
+Presets/Scanlines - Soft.ini
+Presets/Scanlines - Vertical.ini
+Scripts/.config/downloader/cacert.pem
+Scripts/.config/downloader/downloader_bin
+Scripts/.config/downloader/downloader_latest.zip
+Scripts/fast_USB_polling_off.sh
+Scripts/fast_USB_polling_on.sh
+Scripts/ini_settings.sh
+Scripts/rtc.sh
+Scripts/samba_on.sh
+Scripts/timezone.sh
+_Arcade/280Z-ZZAP (US).mra
+.................................................................................................................*.
+_Arcade/4D Warriors (315-5162).mra
+_Arcade/ASO.mra
+_Arcade/Ah Eikou no Koshien (Japan).mra
+_Arcade/Air Assault (World).mra
+_Arcade/Air Duel (World, M72 hardware).mra
+_Arcade/Alcon Bootleg.mra
+_Arcade/Ali Baba and 40 Thieves.mra
+_Arcade/Alien Arena (Stargate upgrade).mra
+_Arcade/Alpine Ski.mra
+_Arcade/Amazing Maze.mra
+_Arcade/Amidar (Scramble).mra
+_Arcade/Anteater.mra
+_Arcade/Arkanoid (JP).mra
+_Arcade/Arkanoid (US).mra
+_Arcade/Arkanoid (Unl. Lives, slower) [hb].mra
+_Arcade/Arkanoid (Unl. lives) [hb].mra
+_Arcade/Arkanoid (W).mra
+_Arcade/Armored Car.mra
+_Arcade/Asteroids Deluxe.mra
+_Arcade/Asteroids.mra
+_Arcade/Astra SuperStars (J 980514 V1.002).mra
+_Arcade/Astro Flash (Japan).mra
+_Arcade/Athena.mra
+_Arcade/Attack Force.mra
+_Arcade/Azurian Attack.mra
+_Arcade/Bagman.mra
+_Arcade/Baku Baku Animal (J 950407 V1.000).mra
+_Arcade/Balloon Bomber.mra
+_Arcade/BankPanic.mra
+_Arcade/Batman Forever (JUE 960507 V1.000).mra
+_Arcade/Battle Zone rev 2.mra
+_Arcade/Battle of Atlantis.mra
+_Arcade/Berzerk.mra
+_Arcade/Billiard.mra
+_Arcade/Bio Attack.mra
+_Arcade/Birdiy.mra
+_Arcade/Black Hole.mra
+_Arcade/Black Widow.mra
+_Arcade/Blade Master (World).mra
+_Arcade/Blasto.mra
+_Arcade/Block Gal.mra
+_Arcade/BlockBuster.mra
+_Arcade/Blockade.mra
+_Arcade/Blue Shark.mra
+_Arcade/Bomb Jack.mra
+_Arcade/Bomber Man - Dyna Blaster.mra
+_Arcade/Bomber Man World - New Dyna Blaster - Global Quest.mra
+_Arcade/Boot Hill.mra
+_Arcade/Bosconian - Star Destroyer (new version).mra
+_Arcade/Botanic (English, Spanish, Set 1).mra
+_Arcade/Bradley Trainer.mra
+_Arcade/Breakout (TTL).mra
+_Arcade/Bubbles.mra
+_Arcade/Bull Fight (315-5056).mra
+_Arcade/Burger Time (Set 1).mra
+_Arcade/Burnin' Rubber.mra
+_Arcade/Calipso.mra
+_Arcade/Cameltry (World, YM2610).mra
+_Arcade/Canyon Bomber.mra
+_Arcade/Carnival.mra
+_Arcade/Catacomb.mra
+_Arcade/Centipede (Rev 4).mra
+_Arcade/Chameleon.mra
+_Arcade/Clean Sweep.mra
+_Arcade/Clowns.mra
+_Arcade/CoMotion.mra
+_Arcade/Colony 7 (Set 1).mra
+_Arcade/Columns '97 (JET 961209 V1.000).mra
+_Arcade/Combat Hawk.mra
+_Arcade/Computer Space.mra
+_Arcade/Congo Bongo.mra
+_Arcade/Cosmic Alien.mra
+_Arcade/Cosmic Avenger.mra
+_Arcade/Cosmic Guerilla.mra
+_Arcade/Cosmo Police Galivan (12-26-1985).mra
+_Arcade/Cosmo.mra
+_Arcade/Cotton 2 (JUET 970902 V1.000).mra
+_Arcade/Cotton Boomerang (JUET 980709 V1.000).mra
+_Arcade/Country Club.mra
+_Arcade/Crater Raider.mra
+_Arcade/Crayon Shinchan Orato Asobo (Japan).mra
+_Arcade/Crazy Balloon.mra
+_Arcade/Crazy Blocks.mra
+_Arcade/Crazy Climber.mra
+_Arcade/Crazy Kong (Kyoei).mra
+_Arcade/Crazy Kong Part II (Set 1).mra
+_Arcade/Crush Roller (Set 2).mra
+_Arcade/Crystal Castles.mra
+_Arcade/Danchi de Hanafuda (J 990607 V1.400).mra
+_Arcade/Danchi de Quiz Okusan Yontaku Desuyo! (J 001128 V1.200).mra
+_Arcade/Dark Planet.mra
+_Arcade/Dead Connection (World).mra
+_Arcade/Decathlete (JUET 960709 V1.001).mra
+_Arcade/Defender (Red Label).mra
+_Arcade/Demolition Derby (MCR-3 Mono Board Version).mra
+_Arcade/Devil Fish (Galaxian Hardware).mra
+_Arcade/Devil Zone.mra
+_Arcade/Die Hard Arcade (UET 960515 V1.000).mra
+_Arcade/Dig Dug (Rev 2).mra
+_Arcade/Dig Dug II (New Ver).mra
+_Arcade/Dino Rex (World).mra
+_Arcade/Discs of Tron.mra
+_Arcade/DoDonPachi.mra
+_Arcade/Domino Man.mra
+_Arcade/Dominos.mra
+_Arcade/Don Doko Don (World, rev 1).mra
+_Arcade/DonPachi.mra
+_Arcade/Donkey Kong (US, Set 1).mra
+_Arcade/Donkey Kong 3 (US).mra
+_Arcade/Donkey Kong Junior (US, Set F-2).mra
+_Arcade/Dorodon (Set 1).mra
+_Arcade/Dottori-Kun (new).mra
+_Arcade/Dragon Breed (Japan, M72 hardware).mra
+_Arcade/Dream Shopper.mra
+_Arcade/Dream Soccer '94 (World, M107 hardware).mra
+_Arcade/Drift Out (Europe).mra
+_Arcade/ESP Ra.De..mra
+_Arcade/Eeek! (Pac-Man Conversion).mra
+_Arcade/Eggor.mra
+_Arcade/Ejihon Tantei Jimusyo (J 950613 V1.000).mra
+_Arcade/Elevator Action Bootleg.mra
+_Arcade/Euro Champ '92 (World).mra
+_Arcade/Exerion (Taito).mra
+_Arcade/Express Raider.mra
+_Arcade/Extra Bases.mra
+_Arcade/Eyes (US, Set 1).mra
+_Arcade/Fantasy Zone II - The Tears of Opa-Opa.mra
+_Arcade/Faster, Harder, More Challenging Q`Bert (prototype).mra
+_Arcade/Fever SOS.mra
+_Arcade/Fighting Golf.mra
+_Arcade/Final Blow (World).mra
+_Arcade/Final Fight Revenge - Final Revenge (JUET 990930 V1.100).mra
+_Arcade/Finalizer - Super Transformation (Set 1).mra
+_Arcade/Finalizer - Super Transformation (Set 2) [bl].mra
+_Arcade/Finalizer - Super Transformation (Set 2).mra
+_Arcade/Find Love (J 971212 V1.000).mra
+_Arcade/Flicky (128k Version, 315-5051).mra
+_Arcade/Food Fight (Rev 3).mra
+_Arcade/Football Champ - Euro Football Champ (World).mra
+_Arcade/Freeze.mra
+_Arcade/Frenzy (Rev RA1).mra
+_Arcade/Frogger (Konami Bugfixed).mra
+_Arcade/Funky Head Boxers (JUETBKAL 951218 V1.000).mra
+_Arcade/Future Spy (315-5061).mra
+_Arcade/Gaia Crusaders.mra
+_Arcade/Galactic Warriors.mra
+_Arcade/Galaga (Midway, Set 1).mra
+_Arcade/Galaga 3 - Gaplus (GP2 Rev B).mra
+_Arcade/Galaxian (Namco, Set 1).mra
+_Arcade/Galaxy Wars (Universal, Set 1).mra
+_Arcade/Gallop - Armed Police Unit (Japan, M72 hardware).mra
+_Arcade/Gauntlet (rev 14).mra
+_Arcade/Gauntlet II.mra
+_Arcade/Gemini Wing.mra
+_Arcade/Golden Axe - The Duel (JUETL 950117 V1.000).mra
+_Arcade/Gorf.mra
+_Arcade/Gorodki.mra
+_Arcade/Gradius.mra
+_Arcade/Gravitar (Ver 3).mra
+_Arcade/Grobda (W, New Ver.).mra
+_Arcade/Groove on Fight - Gouketsuji Ichizoku 3 (J 970416 V1.001).mra
+_Arcade/Growl (World, Rev 1).mra
+_Arcade/Guardian Force (JUET 980318 V0.105).mra
+_Arcade/Gun & Frontier (World).mra
+_Arcade/Gun Fight.mra
+_Arcade/Gun Force II (US).mra
+_Arcade/Gunforce - Battle Fire Engulfed Terror Island (World).mra
+_Arcade/Guwange.mra
+_Arcade/Gyruss.mra
+_Arcade/Hammerin' Harry (US, M84 hardware).mra
+_Arcade/Hanagumi Taisen Columns - Sakura Wars (J 971007 V1.010).mra
+_Arcade/Hang On Jr.mra
+_Arcade/Hard Hat.mra
+_Arcade/High Way Race.mra
+_Arcade/Hook (World).mra
+_Arcade/Horizon (Irem).mra
+_Arcade/Hustle.mra
+_Arcade/I'm Sorry (US, 315-5110).mra
+_Arcade/Ikari Warriors.mra
+_Arcade/Image Fight (World).mra
+_Arcade/In The Hunt (World).mra
+_Arcade/Indiana Jones (set 4).mra
+_Arcade/Inferno (Williams).mra
+_Arcade/Iron Horse (Ver. K).mra
+_Arcade/Jack the Giantkiller (set 1).mra
+_Arcade/Jackal (W) [bl].mra
+_Arcade/Jackal (W).mra
+_Arcade/Jackal (W, Rotary).mra
+_Arcade/Jailbreak.mra
+_Arcade/Jin.mra
+_Arcade/Journey.mra
+_Arcade/Joust 2 - Survival of the Fittest (revision 2).mra
+_Arcade/Joust.mra
+_Arcade/Jump Shot.mra
+_Arcade/Jungle King.mra
+_Arcade/Karaoke Quiz Intro Don Don! (J 960213 V1.000).mra
+_Arcade/Kick And Run.mra
+_Arcade/Kick.mra
+_Arcade/Kid Niki - Radical Ninja (W).mra
+_Arcade/King and Balloon (US).mra
+_Arcade/Konek Gorbunok.mra
+_Arcade/Kot-Rybolov.mra
+_Arcade/Kozmik Krooz'r.mra
+_Arcade/Kung-Fu Master (W).mra
+_Arcade/Lady Bug.mra
+_Arcade/Laguna Racer.mra
+_Arcade/Legend of Hero Tonma (Japan).mra
+_Arcade/Lethal Thunder (World).mra
+_Arcade/Lifeforce (Japan).mra
+_Arcade/Liquid Kids (World).mra
+_Arcade/Lizard Wizard.mra
+_Arcade/Lode Runner (Set 1).mra
+_Arcade/Lode Runner II - The Bungeling Strikes Back.mra
+_Arcade/Lode Runner III - The Golden Labyrinth.mra
+_Arcade/Lode Runner IV - Teikoku Karano Dasshutsu (JP).mra
+_Arcade/Lost Tomb.mra
+_Arcade/Lucky Today.mra
+_Arcade/Lunar Battle (Prototype).mra
+_Arcade/Lunar Lander.mra
+_Arcade/Lunar Rescue.mra
+_Arcade/Lupin III (Set 2).mra
+_Arcade/Mad Planets.mra
+_Arcade/Magical Spot.mra
+_Arcade/Major Title 2 (World, set 1).mra
+_Arcade/Mappy (US).mra
+_Arcade/Marble Madness (set 5 - LSI).mra
+_Arcade/Mario Bros. (US, Rev G).mra
+_Arcade/Mars.mra
+_Arcade/Maru-Chan de Goo! (J 971216 V1.000).mra
+_Arcade/Mausuke no Ojama the World (J 960314 V1.000).mra
+_Arcade/Max RPM (v2).mra
+_Arcade/Mayday (Set 1).mra
+_Arcade/Mega Blast (World).mra
+_Arcade/Megumi Rescue (Japan).mra
+_Arcade/Metal Black (World).mra
+_Arcade/Mighty Monkey (Scramble Hardware) [bl].mra
+_Arcade/Minefield.mra
+_Arcade/Missile Command (rev 3).mra
+_Arcade/Mister Viking (315-5041).mra
+_Arcade/Moon Cresta (Galaxian Hardware) [bl].mra
+_Arcade/Moon Patrol.mra
+_Arcade/Moon Quasar.mra
+_Arcade/Moon War.mra
+_Arcade/Motos.mra
+_Arcade/Mouse Trap.mra
+_Arcade/Mr. Do Nightmare.mra
+_Arcade/Mr. Do!.mra
+_Arcade/Mr. Goemon.mra
+_Arcade/Mr. HELI no Daibouken (Japan).mra
+_Arcade/Mr. Jong.mra
+_Arcade/Mr. TNT.mra
+_Arcade/Ms. Pac-Man.mra
+_Arcade/My Hero (US, not Encrypted).mra
+_Arcade/Mystic Marathon.mra
+_Arcade/Mystic Riders (World).mra
+_Arcade/Naughty Boy (Jaleco).mra
+_Arcade/New Rally-X.mra
+_Arcade/Ninja Baseball Bat Man (World).mra
+_Arcade/Ninja Spirit (Japan).mra
+_Arcade/Ninjakun.mra
+_Arcade/No Mans Land.mra
+_Arcade/Nova 2001.mra
+_Arcade/Number Crash.mra
+_Arcade/Omega [bl].mra
+_Arcade/Opa Opa.mra
+_Arcade/Orbitron.mra
+_Arcade/Othello Shiyouyo (J 980423 V1.002).mra
+_Arcade/Pac & Pal.mra
+_Arcade/Pac-Man - Puck Man (JP, Set 1).mra
+_Arcade/Pac-Man Club- Club Lambada (AR).mra
+_Arcade/Pac-Man Plus.mra
+_Arcade/Pac-Manic Miner.mra
+_Arcade/Pebble Beach - The Great Shot (JUE 950913 V0.990).mra
+_Arcade/Pengo (Set 1, Rev C).mra
+_Arcade/Penguin-Kun Wars.mra
+_Arcade/Pepper II.mra
+_Arcade/Performan (Japan).mra
+_Arcade/Peter Pack Rat.mra
+_Arcade/Phoenix (Amstar, Set 1).mra
+_Arcade/Pickin'.mra
+_Arcade/Pirate Pete.mra
+_Arcade/Pisces.mra
+_Arcade/Pitfall II.mra
+_Arcade/Playball (Prototype).mra
+_Arcade/Pleiads (Tehkan).mra
+_Arcade/Polaris.mra
+_Arcade/Poly Play 2.mra
+_Arcade/Poly Play.mra
+_Arcade/Pong (Rev E).mra
+_Arcade/Ponpoko.mra
+_Arcade/Pooyan.mra
+_Arcade/Pop Flamer (Bootleg conversion).mra
+_Arcade/Popeye (Rev D).mra
+_Arcade/Port Man (bootleg on Moon Cresta hardware).mra
+_Arcade/Power Drive.mra
+_Arcade/Princess Clara Daisakusen (J 960910 V1.000).mra
+_Arcade/Pro Mahjong Kiwame S (J 951020 V1.208).mra
+_Arcade/Psychic 5 (World).mra
+_Arcade/PuLiRuLa (World, dual PCB).mra
+_Arcade/Pulsar.mra
+_Arcade/Puyo Puyo Sun (J 961115 V0.001).mra
+_Arcade/Puzzle & Action- Sando-R (J 951114 V1.000).mra
+_Arcade/Puzzle Uo Poko.mra
+_Arcade/Q'bert (US, Set 1).mra
+_Arcade/QBert Qubes.mra
+_Arcade/Quiz Chikyu Bouei Gun (Japan).mra
+_Arcade/Quiz Crayon Shinchan (Japan).mra
+_Arcade/Quiz H.Q. (Japan).mra
+_Arcade/Quiz Jinsei Gekijoh (Japan).mra
+_Arcade/Quiz Quest - Hime to Yuusha no Monogatari (Japan).mra
+_Arcade/Quiz Torimonochou (Japan).mra
+_Arcade/R-Type (World).mra
+_Arcade/R-Type II (World).mra
+_Arcade/R-Type Leo (World).mra
+_Arcade/Radar Scope (rev. D).mra
+_Arcade/Radiant Silvergun (JUET 980523 V1.000).mra
+_Arcade/Rafflesia (315-5162).mra
+_Arcade/Raiders5.mra
+_Arcade/Rally-X (32k Ver).mra
+_Arcade/Rampage (Rev 3, 860827).mra
+_Arcade/Red Baron.mra
+_Arcade/Regulus (315-5033, Rev A).mra
+_Arcade/Rescue.mra
+_Arcade/Riddle of Pythagoras (Japan).mra
+_Arcade/Risky Challenge.mra
+_Arcade/River Patrol (JP, Unprotected).mra
+_Arcade/Road Blasters (upright, rev 4).mra
+_Arcade/Road Runner (rev 2).mra
+_Arcade/Robotron 2084.mra
+_Arcade/Rush'n Attack - Green Beret.mra
+_Arcade/Rygar.mra
+_Arcade/S.O.S..mra
+_Arcade/Salamander (version J).mra
+_Arcade/Sarge.mra
+_Arcade/Satan's Hollow (Set 1).mra
+_Arcade/Scooter Shooter.mra
+_Arcade/Scramble (Stern, Set 1).mra
+_Arcade/Sea Bass Fishing (JUET 971110 V0.001).mra
+_Arcade/Sea Wolf (Set 1).mra
+_Arcade/Sea Wolf II.mra
+_Arcade/Sega Ninja (315-5102).mra
+_Arcade/Shanghai - The Great Wall - Shanghai Triple Threat (JUE 950623 V1.005).mra
+_Arcade/Shienryu (JUET 961226 V1.000).mra
+_Arcade/Shot Rider (B-Board 89624B-1).mra
+_Arcade/Shuffleboard.mra
+_Arcade/Silkworm.mra
+_Arcade/Silver Land.mra
+_Arcade/Sinistar.mra
+_Arcade/Sky Skipper.mra
+_Arcade/Slap Shooter.mra
+_Arcade/SlapFight Bootleg.mra
+_Arcade/Snap Jack.mra
+_Arcade/Snezhnaja Koroleva.mra
+_Arcade/Solar Fox.mra
+_Arcade/Solitary Fighter (World).mra
+_Arcade/Solomon's Key.mra
+_Arcade/SonSon.mra
+_Arcade/Soukyugurentai - Terra Diver (JUET 960821 V1.000).mra
+_Arcade/Space Chaser.mra
+_Arcade/Space Cruiser.mra
+_Arcade/Space Encounters.mra
+_Arcade/Space Invaders Part II (Taito, Bigger ROMs).mra
+_Arcade/Space Invaders.mra
+_Arcade/Space Panic.mra
+_Arcade/Space Race [TTL].mra
+_Arcade/Space Seeker.mra
+_Arcade/Space Zap.mra
+_Arcade/Spatter (315-5xxx).mra
+_Arcade/Spectar.mra
+_Arcade/Speed Coin.mra
+_Arcade/Spelunker II - 23 no Kagi (JP).mra
+_Arcade/Spelunker.mra
+_Arcade/Splat!.mra
+_Arcade/Sprint 1.mra
+_Arcade/Sprint 2.mra
+_Arcade/Spy Hunter.mra
+_Arcade/Squash.mra
+_Arcade/Star Guards.mra
+_Arcade/Star Jacker.mra
+_Arcade/Stargate.mra
+_Arcade/Steep Slope Sliders (JUET 981110 V1.000).mra
+_Arcade/Strategy X.mra
+_Arcade/Subs.mra
+_Arcade/Suikoenbu - Outlaws of the Lost Dynasty (JUETL 950314 V2.001).mra
+_Arcade/Super Bagman.mra
+_Arcade/Super Breakout (Rev 04).mra
+_Arcade/Super Casino.mra
+_Arcade/Super Cobra.mra
+_Arcade/Super Glob (Pac-Man, German) [bl].mra
+_Arcade/Super Locomotive.mra
+_Arcade/Super Major League (U 960108 V1.000).mra
+_Arcade/Super Pac-Man.mra
+_Arcade/Super Space Invaders '91 (World, revised code, Rev 1).mra
+_Arcade/Super Xevious.mra
+_Arcade/Super Zaxxon (315-5013).mra
+_Arcade/Superior Soldiers (US).mra
+_Arcade/Swat (315-5048).mra
+_Arcade/TARG.mra
+_Arcade/TNKIII.mra
+_Arcade/Taisen Tanto-R Sashissu!! (J 980216 V1.000).mra
+_Arcade/TankBattalion.mra
+_Arcade/Tapper (Budweiser, 840127).mra
+_Arcade/Tazz-Mania (Set 1).mra
+_Arcade/Tecmo World Cup '98 (JUET 980410 V1.000).mra
+_Arcade/TeddyBoy Blues (315-5115, New Ver).mra
+_Arcade/Tetris (Japan, System E).mra
+_Arcade/Tetris.mra
+_Arcade/The Adventures of Robby Roto!.mra
+_Arcade/The Battle-Road.mra
+_Arcade/The End.mra
+_Arcade/The Ninja Kids (World).mra
+_Arcade/The Tower of Druaga.mra
+_Arcade/Thunder Fox (World, rev 1).mra
+_Arcade/Thunder Heroes.mra
+_Arcade/Tiger Heli Bootleg.mra
+_Arcade/Timber.mra
+_Arcade/Time Pilot '84 (Set 1).mra
+_Arcade/Time Pilot '84 (Set 2).mra
+_Arcade/Time Pilot '84 (Set 3).mra
+_Arcade/Time Pilot.mra
+_Arcade/Time Tunnel.mra
+_Arcade/Tip Top (3 board stack).mra
+_Arcade/Tokushu Butai Jackal (JP).mra
+_Arcade/Top Gunner (US) [bl].mra
+_Arcade/Top Gunner (US).mra
+_Arcade/Touryuu Densetsu Elan-Doree - Elan Doree - Legend of Dragoon (JUET 980922 V1.006).mra
+_Arcade/Transformer.mra
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................*.
+_Arcade/Traverse USA- Zippy Race (US).mra
+_Arcade/Tri-Pool (Casino Tech).mra
+_Arcade/Tron.mra
+_Arcade/Tropical Angel.mra
+_Arcade/Turbo Tag (Prototype).mra
+_Arcade/Turkey Shoot - The Day They Took Over.mra
+_Arcade/Turtles.mra
+_Arcade/TwinBee (Bubble System).mra
+_Arcade/TwinBee.mra
+_Arcade/Two Tigers (Tron Conversion).mra
+.........*.
+_Arcade/Ufo Robo Dangar (4-07-1987).mra
+_Arcade/Ultra Tank.mra
+_Arcade/Undercover Cops (World).mra
+_Arcade/UniWar S.mra
+_Arcade/Up'n Down.mra
+....***********************.
+_Arcade/V'Ball (US).mra
+_Arcade/Van-Van Car.mra
+.*****.
+_Arcade/Venture Revision 5.mra
+_Arcade/Victory Road.mra
+_Arcade/Victory.mra
+..*.
+_Arcade/Vindicators Part II (rev 3).mra
+_Arcade/Virtua Fighter Kids (JUET 960319 V0.000).mra
+_Arcade/Virtua Fighter Remix (JUETBKAL 950428 V1.000).mra
+_Arcade/Virtual Mahjong 2 - My Fair Lady (J 980608 V1.000).mra
+_Arcade/Vortex.mra
+_Arcade/Wacko.mra
+_Arcade/War of the Bugs.mra
+_Arcade/Water Match (315-5064).mra
+_Arcade/Water Ski.mra
+_Arcade/Western Express (Japan, rev 4).mra
+_Arcade/Wild Western.mra
+_Arcade/Winter Heat (JUET 971012 V1.000).mra
+_Arcade/Wizard of Wor.mra
+_Arcade/Wonder Boy (Set 1, 315-5177).mra
+_Arcade/Woodpecker (Set 1).mra
+_Arcade/X Multiply (Japan, M72 hardware).mra
+_Arcade/Xain'd Sleena (bootleg, bugfixed).mra
+_Arcade/Xevious.mra
+_Arcade/Youjyuden (JP).mra
+_Arcade/Zaxxon (Set 1, Rev D).mra
+_Arcade/Zen Nippon Pro-Wrestling Featuring Virtua (J 971123 V1.000).mra
+_Arcade/Zig Zag (Dig Dug Conversion) [bl].mra
+_Arcade/Zzyzzyxx (set 1).mra
+_Arcade/cores/Arkanoid_20240525.rbf
+_Arcade/cores/AsteroidsDeluxe_20240525.rbf
+........................************.
+_Arcade/cores/Asteroids_20240525.rbf
+_Arcade/cores/Astrocade_20250105.rbf
+.**.
+_Arcade/cores/AtariTetris_20240525.rbf
+_Arcade/cores/Athena_20240525.rbf
+_Arcade/cores/Bagman_20240524.rbf
+_Arcade/cores/BankPanic_20240525.rbf
+_Arcade/cores/BattleZone_20240525.rbf
+_Arcade/cores/Berzerk_20240714.rbf
+_Arcade/cores/BlackWidow_20240525.rbf
+_Arcade/cores/Blockade_20250105.rbf
+_Arcade/cores/BombJack_20240804.rbf
+_Arcade/cores/Bosconian_20240525.rbf
+_Arcade/cores/Breakout_20240525.rbf
+_Arcade/cores/BubSysROM_20250107.rbf
+_Arcade/cores/BubSys_20250107.rbf
+DEBUG| Traceback (most recent call last):
+  File "/tmp/dont_download.zip/downloader/jobs/fetch_file_worker.py", line 54, in fetch_file
+    with self._http_gateway.open(url) as (final_url, in_stream):
+  File "/usr/lib/python3.9/contextlib.py", line 117, in __enter__
+  File "/tmp/dont_download.zip/downloader/http_gateway.py", line 57, in open
+    final_url, conn = self._request(
+  File "/tmp/dont_download.zip/downloader/http_gateway.py", line 96, in _request
+    raise e
+  File "/tmp/dont_download.zip/downloader/http_gateway.py", line 93, in _request
+    conn.do_request(method, str(urlunparse(parsed_url)), body, headers)
+  File "/tmp/dont_download.zip/downloader/http_gateway.py", line 270, in do_request
+    self._response = self._http.getresponse()
+  File "/usr/lib/python3.9/http/client.py", line 1349, in getresponse
+  File "/usr/lib/python3.9/http/client.py", line 316, in begin
+  File "/usr/lib/python3.9/http/client.py", line 277, in _read_status
+  File "/usr/lib/python3.9/socket.py", line 704, in readinto
+  File "/usr/lib/python3.9/ssl.py", line 1241, in recv_into
+  File "/usr/lib/python3.9/ssl.py", line 1099, in read
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+downloader.jobs.errors.FileDownloadError: Socket Connection Timed Out! https://raw.githubusercontent.com/MiSTer-devel/Distribution_MiSTer/f4d7eedec7ad71739e4155db81a11d2113300b86/_Arcade/UniWar%20S.mra: The read operation timed out
+    CAUSE: Traceback (most recent call last):
+      File "/tmp/dont_download.zip/downloader/jobs/fetch_file_worker.py", line 54, in fetch_file
+    with self._http_gateway.open(url) as (final_url, in_stream):
+      File "/usr/lib/python3.9/contextlib.py", line 117, in __enter__
+      File "/tmp/dont_download.zip/downloader/http_gateway.py", line 57, in open
+    final_url, conn = self._request(
+      File "/tmp/dont_download.zip/downloader/http_gateway.py", line 96, in _request
+    raise e
+      File "/tmp/dont_download.zip/downloader/http_gateway.py", line 93, in _request
+    conn.do_request(method, str(urlunparse(parsed_url)), body, headers)
+      File "/tmp/dont_download.zip/downloader/http_gateway.py", line 270, in do_request
+    self._response = self._http.getresponse()
+      File "/usr/lib/python3.9/http/client.py", line 1349, in getresponse
+      File "/usr/lib/python3.9/http/client.py", line 316, in begin
+      File "/usr/lib/python3.9/http/client.py", line 277, in _read_status
+      File "/usr/lib/python3.9/socket.py", line 704, in readinto
+      File "/usr/lib/python3.9/ssl.py", line 1241, in recv_into
+      File "/usr/lib/python3.9/ssl.py", line 1099, in read
+    socket.timeout: The read operation timed out
+
+............~
+_Arcade/cores/BurgerTime_20240525.rbf
+_Arcade/cores/BurningRubber_20240525.rbf
+_Arcade/cores/CanyonBomber_20240525.rbf
+_Arcade/cores/Cave_20240705.rbf
+_Arcade/cores/Centipede_20240525.rbf
+_Arcade/cores/Chameleon_20240525.rbf
+_Arcade/cores/ComputerSpace_20240525.rbf
+_Arcade/cores/CongoBongo_20240525.rbf
+_Arcade/cores/CosmicGuerilla_20251127.rbf
+_Arcade/cores/Cosmic_20241217.rbf
+_Arcade/cores/CrazyBalloon_20251127.rbf
+_Arcade/cores/CrazyClimber_20240526.rbf
+_Arcade/cores/CrazyKong_20240526.rbf
+_Arcade/cores/CrystalCastles_20240526.rbf
+_Arcade/cores/Defender_20240526.rbf
+_Arcade/cores/DigDug_20240526.rbf
+_Arcade/cores/Dominos_20240526.rbf
+_Arcade/cores/DonkeyKong3_20240526.rbf
+_Arcade/cores/DonkeyKongJunior_20240526.rbf
+_Arcade/cores/DonkeyKong_20240526.rbf
+_Arcade/cores/DottoriKun_20250105.rbf
+_Arcade/cores/Druaga_20240525.rbf
+_Arcade/cores/Exerion_20240914.rbf
+_Arcade/cores/Exidy2_20240526.rbf
+_Arcade/cores/ExpressRaider_20240526.rbf
+_Arcade/cores/Finalizer_20240526.rbf
+_Arcade/cores/FoodFight_20240526.rbf
+_Arcade/cores/Frenzy_20240526.rbf
+_Arcade/cores/Galaga_20240526.rbf
+_Arcade/cores/Galaxian_20240526.rbf
+_Arcade/cores/Galivan_20240526.rbf
+_Arcade/cores/Gaplus_20240526.rbf
+_Arcade/cores/Gauntlet_20250425.rbf
+_Arcade/cores/Gyruss_20240526.rbf
+_Arcade/cores/IkariWarriors_20240615.rbf
+_Arcade/cores/Inferno_20240527.rbf
+_Arcade/cores/IremM107_20240519.rbf
+_Arcade/cores/IremM62_20240527.rbf
+_Arcade/cores/IremM72_20240525.rbf
+_Arcade/cores/IremM90_20241107.rbf
+_Arcade/cores/IremM92_20250222.rbf
+_Arcade/cores/IronHorse_20240527.rbf
+_Arcade/cores/Jackal_20240527.rbf
+_Arcade/cores/Jailbreak_20240527.rbf
+_Arcade/cores/Joust2_20250726.rbf
+_Arcade/cores/KickAndRun_20240730.rbf
+_Arcade/cores/LadyBug_20240529.rbf
+_Arcade/cores/LunarLander_20240529.rbf
+_Arcade/cores/MCR1_20240525.rbf
+_Arcade/cores/MCR2_20240525.rbf
+_Arcade/cores/MCR3Mono_20240525.rbf
+_Arcade/cores/MCR3Scroll_20240525.rbf
+_Arcade/cores/MCR3_20240525.rbf
+_Arcade/cores/MarioBros_20240802.rbf
+_Arcade/cores/MissileCommand_20240530.rbf
+_Arcade/cores/MoonPatrol_20240530.rbf
+_Arcade/cores/MrDo_20240530.rbf
+_Arcade/cores/MrJong_20240530.rbf
+_Arcade/cores/MysticMarathon_20240530.rbf
+_Arcade/cores/NaughtyBoy_20250428.rbf
+_Arcade/cores/NinjaKun_20240530.rbf
+_Arcade/cores/Pacman_20240530.rbf
+_Arcade/cores/Pengo_20240530.rbf
+_Arcade/cores/PenguinKunWars_20240531.rbf
+_Arcade/cores/Performan_20240601.rbf
+_Arcade/cores/Phoenix_20240601.rbf
+_Arcade/cores/Pleiads_20240601.rbf
+_Arcade/cores/PolyPlay_20240601.rbf
+_Arcade/cores/Pong_20240601.rbf
+_Arcade/cores/Pooyan_20240601.rbf
+_Arcade/cores/Popeye_20240601.rbf
+_Arcade/cores/Psychic5_20240827.rbf
+_Arcade/cores/QBert_20240602.rbf
+_Arcade/cores/RallyX_20240602.rbf
+_Arcade/cores/RiverPatrol_20240602.rbf
+_Arcade/cores/Robotron_20240602.rbf
+_Arcade/cores/RshnAtk_20240602.rbf
+_Arcade/cores/SEGASYS1_20240602.rbf
+_Arcade/cores/SMS_20240418.rbf
+_Arcade/cores/SNK_TripleZ80_20240602.rbf
+_Arcade/cores/ST-V_20251003.rbf
+_Arcade/cores/Salamander_20241101.rbf
+_Arcade/cores/ScooterShooter_20240602.rbf
+_Arcade/cores/Scramble_20240602.rbf
+_Arcade/cores/SegaVICZ80_20240602.rbf
+_Arcade/cores/SilverLand_20240602.rbf
+_Arcade/cores/SlapFight_20251212.rbf
+_Arcade/cores/SolomonsKey_20240527.rbf
+_Arcade/cores/Sonson_20240527.rbf
+_Arcade/cores/SpaceInvaders_20250215.rbf
+_Arcade/cores/SpaceRace_20240527.rbf
+_Arcade/cores/Sprint1_20240527.rbf
+_Arcade/cores/Sprint2_20240527.rbf
+_Arcade/cores/Subs_20240527.rbf
+_Arcade/cores/SuperBreakout_20240525.rbf
+_Arcade/cores/SuprLoco_20240616.rbf
+_Arcade/cores/TIAMC1_20240525.rbf
+_Arcade/cores/TNKIII_20240615.rbf
+_Arcade/cores/TaitoF2_20251027.rbf
+_Arcade/cores/TaitoSJ_20240525.rbf
+_Arcade/cores/TankBattalion_20240525.rbf
+_Arcade/cores/Tecmo_20250205.rbf
+_Arcade/cores/TimePilot84_20240604.rbf
+_Arcade/cores/TimePilot_20240525.rbf
+_Arcade/cores/TraverseUSA_20240525.rbf
+_Arcade/cores/TropicalAngel_20240410.rbf
+_Arcade/cores/TurkeyShoot_20240525.rbf
+_Arcade/cores/Ultratank_20240525.rbf
+_Arcade/cores/VBall_20240525.rbf
+_Arcade/cores/XSleena_20250123.rbf
+_Arcade/cores/Xevious_20240525.rbf
+_Arcade/cores/Zaxxon_20240525.rbf
+_Arcade/cores/ZigZag_20240525.rbf
+_Arcade/cores/atarisys1_20240410.rbf
+_Arcade/cores/freeze_20240526.rbf
+_Computer/AcornAtom_20251001.rbf
+_Computer/AcornElectron_20250930.rbf
+_Computer/AliceMC10_20210116.rbf
+_Computer/Altair8800_20241230.rbf
+_Computer/Amstrad-PCW_20250621.rbf
+_Computer/Amstrad_20240421.rbf
+_Computer/Apogee_20240502.rbf
+_Computer/Apple-II_20241226.rbf
+_Computer/Apple-I_20251001.rbf
+_Computer/Aquarius_20240502.rbf
+_Computer/Archie_20240502.rbf
+_Computer/Atari800_20250710.rbf
+_Computer/AtariST_20240423.rbf
+_Computer/BBCMicro_20240502.rbf
+_Computer/BK0011M_20240502.rbf
+_Computer/C128_20240904.rbf
+_Computer/C16_20240418.rbf
+_Computer/C64_20250828.rbf
+_Computer/Casio_PV-2000_20250622.rbf
+_Computer/CoCo2_20250312.rbf
+_Computer/CoCo3_20240514.rbf
+_Computer/ColecoAdam_20250905.rbf
+_Computer/EDSAC_20250904.rbf
+_Computer/Enterprise_20251125.rbf
+_Computer/Galaksija_20251007.rbf
+_Computer/Homelab_20250906.rbf
+_Computer/Interact_20251005.rbf
+_Computer/Jupiter_20251001.rbf
+_Computer/Laser310_20250907.rbf
+_Computer/Lynx48_20250907.rbf
+_Computer/MSX1_20250108.rbf
+_Computer/MSX_20240524.rbf
+_Computer/MacPlus_20250325.rbf
+_Computer/Minimig_20250621.rbf
+_Computer/MultiComp_20250106.rbf
+_Computer/ORAO_20240729.rbf
+_Computer/Ondra_SPO186_20251006.rbf
+_Computer/Oric_20240524.rbf
+_Computer/PC88_20250918.rbf
+_Computer/PCXT_20251025.rbf
+_Computer/PDP1_20190101.rbf
+_Computer/PET2001_20240418.rbf
+_Computer/PMD85_20220129.rbf
+_Computer/QL_20240524.rbf
+_Computer/RX78_20250717.rbf
+_Computer/SAMCoupe_20240421.rbf
+_Computer/SharpMZ_20210709.rbf
+_Computer/SordM5_20250903.rbf
+_Computer/Specialist_20240524.rbf
+_Computer/Svi328_20241016.rbf
+_Computer/TK2000_20251124.rbf
+_Computer/TRS-80_20251209.rbf
+_Computer/TSConf_20240421.rbf
+_Computer/TatungEinstein_20250907.rbf
+_Computer/Ti994a_20251203.rbf
+_Computer/TomyTutor_20250622.rbf
+_Computer/UK101_20240528.rbf
+_Computer/VIC20_20240418.rbf
+_Computer/VT52_20241120.rbf
+_Computer/Vector-06C_20240524.rbf
+_Computer/X68000_20240524.rbf
+_Computer/ZX-Spectrum_20240421.rbf
+_Computer/ZX81_20240421.rbf
+_Computer/ZXNext_20241227.rbf
+_Computer/ao486_20241227.rbf
+_Computer/eg2000_20220930.rbf
+_Console/AY-3-8500_20250903.rbf
+_Console/AdventureVision_20250708.rbf
+_Console/Arcadia_20250907.rbf
+_Console/Astrocade_20240502.rbf
+_Console/Atari 2600.mgl
+_Console/Atari5200_20250710.rbf
+_Console/Atari7800_20240423.rbf
+_Console/AtariLynx_20240410.rbf
+_Console/BBCBridgeCompanion_20250101.rbf
+_Console/CDi_20250626.rbf
+_Console/Casio_PV-1000_20250622.rbf
+_Console/ChannelF_20250907.rbf
+_Console/ColecoVision_20240502.rbf
+_Console/CreatiVision_20250708.rbf
+_Console/GBA2P_20250916.rbf
+_Console/GBA_20250705.rbf
+_Console/Gamate_20250708.rbf
+_Console/Game Gear.mgl
+_Console/Gameboy2P_20250621.rbf
+_Console/GameboyColor.mgl
+_Console/Gameboy_20250618.rbf
+_Console/GnW_20250717.rbf
+_Console/Intellivision_20250903.rbf
+_Console/Mega Duck.mgl
+_Console/MegaCD_20251015.rbf
+_Console/MegaDrive_20250707.rbf
+_Console/MyVision_20250622.rbf
+_Console/N64_20250812.rbf
+_Console/NES_20251013.rbf
+_Console/NeoGeo_20250909.rbf
+_Console/Odyssey2_20250717.rbf
+_Console/PSX_20251204.rbf
+_Console/Pocket Challenge V2.mgl
+_Console/PokemonMini_20250903.rbf
+_Console/S32X_20240418.rbf
+_Console/SCV_20250906.rbf
+_Console/SGB_20241127.rbf
+_Console/SMS_20240418.rbf
+_Console/SNES_20250605.rbf
+_Console/Saturn_20251003.rbf
+_Console/SuperVision_20250708.rbf
+_Console/Super_Vision_8000_20250622.rbf
+_Console/TurboGrafx16_20250830.rbf
+_Console/VC4000_20250907.rbf
+_Console/Vectrex_20240524.rbf
+_Console/WonderSwan Color.mgl
+_Console/WonderSwan_20240410.rbf
+_Other/Arduboy_20250824.rbf
+_Other/Chess_20240410.rbf
+_Other/Chip8_20250905.rbf
+_Other/Donut_20250217.rbf
+_Other/EpochGalaxyII_20250717.rbf
+_Other/FlappyBird_20250708.rbf
+_Other/GBMidi_20240811.rbf
+_Other/GameOfLife_20200430.rbf
+_Other/GenMidi_20240817.rbf
+_Other/SlugCross_20240727.rbf
+_Other/TomyScramble_20250823.rbf
+_Utility/ADCTest_20250619.rbf
+_Utility/InputTest_20240727.rbf
+_Utility/MiSTerLaggy_20241113.rbf
+_Utility/memtest_20210130.rbf
+linux/glow
+linux/lesskey
+linux/pdfviewer
+yc.txt
+docs/ADCTest/Readme.md
+docs/AO486/README.md
+docs/APOGEE/ReadMe.md
+docs/APPLE-I/Readme.md
+docs/AQUARIUS/README.md
+docs/ARCHIE/ReadMe.md
+docs/ATARI5200/README.md
+docs/ATARI7800/README.md
+docs/ATARI800/README.md
+docs/AVision/Readme.md
+docs/AY-3-8500/README.md
+docs/AY-3-8500/README.txt
+docs/AcornAtom/Acorn Atom Overview.pdf
+docs/AcornAtom/README.md
+docs/AcornElectron/Acorn Electron Overview.pdf
+docs/AcornElectron/Readme.MD
+docs/Adam/README.md
+docs/AliceMC10/Readme.md
+docs/Altair8800/README.md
+docs/Amiga/README.md
+docs/Amstrad PCW/README.md
+docs/Amstrad/Amstrad CPC6128 Overview.pdf
+docs/Amstrad/README.md
+docs/Apple-II/README.md
+docs/Arcadia/Readme.md
+docs/Arduboy/README.md
+docs/Astrocade/README.md
+docs/Atari2600/README.md
+docs/AtariLynx/README.md
+docs/AtariST/README.md
+docs/BBCBridgeCompanion/README.MD
+docs/BBCMicro/README.md
+docs/BK0011M/README.md
+docs/C128/README.md
+docs/C16/README.md
+docs/C64/README.md
+docs/CD-i/README.md
+docs/COCO3/README.md
+docs/COCO3/Tandy CoCo3 Overview.pdf
+docs/Casio_PV-1000/Readme.md
+docs/Casio_PV-2000/Readme.md
+docs/ChannelF/README.md
+docs/Chess/README.md
+docs/Chip8/README.md
+docs/CoCo2/readme.md
+docs/Coleco/README.md
+docs/Coleco/README.txt
+docs/CreatiVision/Readme.md
+docs/Donut/Readme.md
+docs/EDSAC/README.md
+docs/Enterprise/README.md
+docs/EpochGalaxyII/Readme.md
+docs/FLAPPY/README.md
+docs/GAMEBOY/ReadMe.md
+docs/GAMEBOY2P/ReadMe.md
+docs/GBA/README.md
+docs/GBA/gpio_readme.md
+docs/GBA2P/README.md
+docs/GBA2P/gpio_readme.md
+docs/GBC/ReadMe.md
+docs/GBMidi/README.MD
+docs/Galaksija/README.md
+docs/Gamate/Readme.md
+docs/GameGear/README.md
+docs/GameNWatch/Readme.md
+docs/GameOfLife/README.md
+docs/GenMidi/README.MD
+docs/Homelab/Readme.md
+docs/InputTest/README.MD
+docs/Intellivision/README.md
+docs/Interact/README.md
+docs/Jupiter/README.md
+docs/Laser/README.md
+docs/Lynx48/Readme.md
+docs/MACPLUS/readme.md
+docs/MEMTEST/README.md
+docs/MSX/README.md
+docs/MSX1/Readme.md
+docs/MegaCD/README.MD
+docs/MegaDrive/README.md
+docs/MegaDuck/ReadMe.md
+docs/MiSTerLaggy/Readme.md
+docs/MultiComp/README.md
+docs/MyVision/Readme.md
+docs/N64/README.md
+docs/NEOGEO/README.md
+docs/NES/README.md
+docs/ODYSSEY2/README.md
+docs/ORAO/README.md
+docs/Ondra_SPO186/README.md
+docs/Oric/ReadMe.md
+docs/PC8801/readme.md
+docs/PCXT/README.md
+docs/PDP1/README.md
+docs/PET2001/ReadMe.md
+docs/PMD85/Readme.md
+docs/PSX/README.md
+docs/PocketChallengeV2/README.md
+docs/PokemonMini/README.md
+docs/QL/readme.md
+docs/RX78/readme.md
+docs/S32X/README.md
+docs/SAMCOUPE/README.md
+docs/SCV/Readme.md
+docs/SGB/README.md
+docs/SMS/README.md
+docs/SNES/README.md
+docs/SPMX/ReadMe.md
+docs/SVI328/README.md
+docs/Saturn/README.md
+docs/SharpMZ/README.md
+docs/SlugCross/Readme.md
+docs/Sord M5/Readme.md
+docs/Spectrum/README.md
+docs/SuperVision/Readme.md
+docs/SuperVision8000/Readme.md
+docs/TGFX16/ReadMe.md
+docs/TI-99_4A/README.md
+docs/TI-99_4A/README.txt
+docs/TK2000/README.md
+docs/TRS-80/README.md
+docs/TSConf/README.md
+docs/TatungEinstein/Readme.md
+docs/TomyScramble/Readme.md
+docs/TomyTutor/Readme.md
+docs/UK101/README.md
+docs/VC4000/Readme.md
+docs/VECTOR06/ReadMe.md
+docs/VECTREX/README.md
+docs/VIC20/README.md
+docs/VT52/Readme.md
+docs/WonderSwan/README.md
+docs/WonderSwanColor/README.md
+docs/X68000/readme.md
+docs/ZX81/README.md
+docs/ZXNext/README.md
+docs/eg2000/README.md
+games/AO486/boot0.rom
+games/AO486/boot1.rom
+games/AO486/boot1_opensource.rom
+games/AO486/drv/MISTERFB.DRV
+games/AO486/drv/MISTERFB.INF
+games/AO486/drv/imgset.exe
+games/AO486/drv/misterfs.exe
+games/AO486/drv/modem9x.inf
+games/AO486/drv/mpuctl.exe
+games/AO486/drv/sbctl.exe
+games/AO486/drv/sysctl.exe
+games/ARCHIE/riscos.rom
+games/AcornAtom/blank.zip
+games/Altair8800/SIOEcho.rom
+games/Altair8800/StatusLights.rom
+games/Altair8800/basic4k32.rom
+games/Altair8800/empty.rom
+games/Altair8800/killbits.rom
+games/Altair8800/serialporttest.rom
+games/Altair8800/serialporttest00.rom
+games/Altair8800/zeroToSeven.rom
+games/Amiga/WheelDriverAkiko.adf
+games/Amstrad PCW/Palettes/BlackGreenBlyeCyan.GBP
+games/Amstrad PCW/Palettes/BlackRedBlueCyan.GBP
+games/Amstrad PCW/Palettes/CGA_0_high.GBP
+games/Amstrad PCW/Palettes/CGA_0_low.GBP
+games/Amstrad PCW/Palettes/CGA_1_high.GBP
+games/Amstrad PCW/Palettes/CGA_1_low.GBP
+games/Amstrad PCW/Palettes/DBlueBlueOrangeWhite.GBP
+games/Amstrad PCW/Palettes/DBlueBlueWhiteOrange.GBP
+games/Amstrad PCW/Palettes/MagentaBlackBlueYellow.GBP
+games/Amstrad PCW/Palettes/MagentaBlueBlackYellow.GBP
+games/Amstrad/boot.rom
+games/Amstrad/cpc464nd.eZ0
+games/C128/CP-ClockF83_1.3.D64
+games/C128/Empty.d64
+games/C128/Empty.d71
+games/C128/Empty.d81
+games/C128/Empty.g64
+games/C128/Empty.g71
+games/C128/SID curve designer.html
+games/C128/boot0.rom
+games/C128/boot1.rom
+games/C128/custom.flt
+games/C64/CP-ClockF83_1.3.D64
+games/C64/DolphinDOS_2.0.rom
+games/C64/Empty.d64
+games/C64/Empty.d81
+games/C64/Empty.g64
+games/C64/SID curve designer.html
+games/C64/SpeedDOS_plus_2.7.rom
+games/C64/custom.flt
+games/CoCo2/boot0.rom
+games/CoCo2/boot1.rom
+games/CoCo2/boot2.rom
+games/CoCo2/boot3.rom
+games/EpochGalaxyII/boot.rom
+games/MACPLUS/Disk605.dsk
+games/MACPLUS/bin2dsk.sh
+games/MACPLUS/boot0.rom
+games/MACPLUS/boot1.rom
+games/MACPLUS/empty_hdd.zip
+games/MEMTEST/old/memtest_060MHz.rbf
+games/MEMTEST/old/memtest_100MHz.rbf
+games/MEMTEST/old/memtest_110MHz.rbf
+games/MEMTEST/old/memtest_120MHz.rbf
+games/MEMTEST/old/memtest_130MHz.rbf
+games/MEMTEST/old/memtest_140MHz.rbf
+games/MEMTEST/old/memtest_150MHz.rbf
+games/MEMTEST/old/memtest_160MHz.rbf
+games/MEMTEST/old/memtest_167MHz.rbf
+games/N64/N64-database.txt
+games/NEOGEO/gog-broken-romsets.xml
+games/NEOGEO/gog-romsets.xml
+games/NEOGEO/romsets.xml
+games/PET2001/Empty.d64
+games/PET2001/Empty.d80
+games/PET2001/Empty.d82
+games/QL/GamesCart.mdv
+games/QL/boot.rom
+games/QL/crazy.mdv
+games/QL/minerva+qlsd_ql.rom
+games/SNES/boot1.rom
+games/Spectrum/boot.rom
+games/Spectrum/boot.rom_rc196
+games/Spectrum/dsdd720k.dsk.gz
+games/TI-99_4A/NVRAM.dat
+games/TRS-80/BOOT.ROM
+games/TRS-80/env.cas
+games/TRS-80/galaxy.cas
+games/TRS-80/spores.cas
+games/TSConf/SDCard.zip
+games/TSConf/alt_roms.zip
+games/TomyScramble/boot.rom
+games/TomyTutor/BlankTape-12K.cas
+games/TomyTutor/BlankTape-20K.cas
+games/TomyTutor/BlankTape-4K.cas
+games/VECTREX/Overlays/2D_Narrow_Escape.ovr
+games/VECTREX/Overlays/3D Crazy Coaster.ovr
+games/VECTREX/Overlays/3D Mine Storm.ovr
+games/VECTREX/Overlays/3D Narrow Escape.ovr
+games/VECTREX/Overlays/3D Pole Position.ovr
+games/VECTREX/Overlays/All Good Things.ovr
+games/VECTREX/Overlays/AnimAction - Advanced Animation.ovr
+games/VECTREX/Overlays/ArmorAttack.ovr
+games/VECTREX/Overlays/Art_Master.ovr
+games/VECTREX/Overlays/Asteroid_Cowboy.ovr
+games/VECTREX/Overlays/Bedlam.ovr
+games/VECTREX/Overlays/Berzerk.ovr
+games/VECTREX/Overlays/Blitz__Action_Football.ovr
+games/VECTREX/Overlays/Block_Bomb.ovr
+games/VECTREX/Overlays/Brick_Crushers.ovr
+games/VECTREX/Overlays/Clean_Sweep.ovr
+games/VECTREX/Overlays/Cosmic_Chasm.ovr
+games/VECTREX/Overlays/Curling.ovr
+games/VECTREX/Overlays/Dark_Tower_Proto.ovr
+games/VECTREX/Overlays/Doodle_Jump.ovr
+games/VECTREX/Overlays/Eating_Fish.ovr
+games/VECTREX/Overlays/Flipper_Pinball.ovr
+games/VECTREX/Overlays/Floor_Is_Lava.ovr
+games/VECTREX/Overlays/Fortress_of_Narzod.ovr
+games/VECTREX/Overlays/Frogger.ovr
+games/VECTREX/Overlays/Heads-Up_Action_Soccer.ovr
+games/VECTREX/Overlays/Hex_Trex.ovr
+games/VECTREX/Overlays/Hover_Race.ovr
+games/VECTREX/Overlays/Hungry_Python.ovr
+games/VECTREX/Overlays/Hurdles.ovr
+games/VECTREX/Overlays/HyperChase_Auto_Race.ovr
+games/VECTREX/Overlays/Keyboard_Hero.ovr
+games/VECTREX/Overlays/Kingdom_Of_Heaven.ovr
+games/VECTREX/Overlays/Knight_Rider.ovr
+games/VECTREX/Overlays/Laser_Wars.ovr
+games/VECTREX/Overlays/Last_Battle.ovr
+games/VECTREX/Overlays/Lost_Souls.ovr
+games/VECTREX/Overlays/Mail_Plane.ovr
+games/VECTREX/Overlays/Melody_Master.ovr
+games/VECTREX/Overlays/Mine_Storm.ovr
+games/VECTREX/Overlays/Moon Lander Demo.ovr
+games/VECTREX/Overlays/Mr_Boston_Clean_Sweep.ovr
+games/VECTREX/Overlays/Narzod.ovr
+games/VECTREX/Overlays/Omega Chase.ovr
+games/VECTREX/Overlays/Pac_Men.ovr
+games/VECTREX/Overlays/Patriots.ovr
+games/VECTREX/Overlays/Pipe_Race.ovr
+games/VECTREX/Overlays/Pitchers_Duel_Proto.ovr
+games/VECTREX/Overlays/Polar_Rescue.ovr
+games/VECTREX/Overlays/Pole_Position.ovr
+games/VECTREX/Overlays/PongOvl.ovr
+games/VECTREX/Overlays/Portal_Fight.ovr
+games/VECTREX/Overlays/Pyoro_Chan.ovr
+games/VECTREX/Overlays/Rip_Off.ovr
+games/VECTREX/Overlays/RobHop.ovr
+games/VECTREX/Overlays/Scramble.ovr
+games/VECTREX/Overlays/Shark_Attack.ovr
+games/VECTREX/Overlays/Solar_Quest.ovr
+games/VECTREX/Overlays/Space_Assault.ovr
+games/VECTREX/Overlays/Space_Ball.ovr
+games/VECTREX/Overlays/Space_Patrol.ovr
+games/VECTREX/Overlays/Space_Wars.ovr
+games/VECTREX/Overlays/Spaceship_Centauri.ovr
+games/VECTREX/Overlays/Spike Hoppin'.ovr
+games/VECTREX/Overlays/Spike's Wedding.ovr
+games/VECTREX/Overlays/Spike.ovr
+games/VECTREX/Overlays/Spike_Goes_Skiing.ovr
+games/VECTREX/Overlays/Spinball.ovr
+games/VECTREX/Overlays/Split_Personality.ovr
+games/VECTREX/Overlays/Star_Castle.ovr
+games/VECTREX/Overlays/Star_Fuel.ovr
+games/VECTREX/Overlays/Star_Hawk.ovr
+games/VECTREX/Overlays/Star_Ship.ovr
+games/VECTREX/Overlays/Star_Trek-The_Motion_Picture.ovr
+games/VECTREX/Overlays/Star_War.ovr
+games/VECTREX/Overlays/Stunt_Cycle.ovr
+games/VECTREX/Overlays/Stunt_Man_Stories.ovr
+games/VECTREX/Overlays/Thirsty_Astronaut.ovr
+games/VECTREX/Overlays/Tour_De_France_Proto.ovr
+games/VECTREX/Overlays/Treasure_Diver.ovr
+games/VECTREX/Overlays/VEC-VectorPatrol.ovr
+games/VECTREX/Overlays/VEC-VectorPilot.ovr
+games/VECTREX/Overlays/VEC-Vectrexians.ovr
+games/VECTREX/Overlays/Vaders.ovr
+games/VECTREX/Overlays/Vectrex Pong (1998).ovr
+games/VECTREX/Overlays/Vectrex Pong (1999).ovr
+games/VECTREX/Overlays/Web_Wars.ovr
+games/VECTREX/Overlays/Wormhole.ovr
+games/VECTREX/Overlays/Yarg.ovr
+games/VECTREX/Overlays/Yasi.ovr
+games/X68000/BLANK_disk_X68000.D88
+games/X68000/boot.rom
+games/X68000/boot3.vhd
+games/ZXNext/boot.zip
+MiSTer
+Scripts/update.sh
+Scripts/wifi.sh
+DEBUG| Moving "/media/fat/Scripts/update.sh._downloader_in_progress" to "/media/fat/Scripts/update.sh"
+linux/gamecontrollerdb/gamecontrollerdb.txt
+DEBUG| Moving "/media/fat/Scripts/wifi.sh._downloader_in_progress" to "/media/fat/Scripts/wifi.sh"
+MiSTer_example.ini
+DEBUG| Moving "/media/fat/MiSTer_example.ini._downloader_in_progress" to "/media/fat/MiSTer_example.ini"
+_Arcade/UniWar S.mra
+DEBUG| Moving "/media/fat/linux/gamecontrollerdb/gamecontrollerdb.txt._downloader_in_progress" to "/media/fat/linux/gamecontrollerdb/gamecontrollerdb.txt"
+DEBUG| Moving "/media/fat/MiSTer" to "/media/fat/.MiSTer.old"
+DEBUG| Moving "/media/fat/MiSTer.new" to "/media/fat/MiSTer"
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................**.****************.
+DEBUG| Saving json "/media/fat/Scripts/.config/downloader/downloader.json"
+DEBUG| Saving json "/media/fat/Scripts/.config/downloader/downloader_sigs.json"
+DEBUG| Touching "/media/fat/Scripts/.config/downloader/downloader.last_successful_run"
+DEBUG| Saving json "/media/fat/Scripts/.config/downloader/previous_free_space.json"
+
+===========================
+Downloader 2.3 (e82) by theypsilon. Run time: 07:22.74s at 2025-12-18 10:08:46
+DEBUG| Commit: e82c366
+Log: /media/fat/Scripts/.config/downloader/downloader.log
+
+Installed:
+AsteroidsDeluxe_20240525.rbf, Asteroids_20240525.rbf, Astrocade_20250105.rbf, Arkanoid_20240525.rbf, AtariTetris_20240525.rbf, Athena_20240525.rbf, BankPanic_20240525.rbf, BattleZone_20240525.rbf, Berzerk_20240714.rbf, Bagman_20240524.rbf, BlackWidow_20240525.rbf, Blockade_20250105.rbf, Breakout_20240525.rbf, Bosconian_20240525.rbf, BubSysROM_20250107.rbf, BombJack_20240804.rbf, BubSys_20250107.rbf, BurningRubber_20240525.rbf, Cave_20240705.rbf, BurgerTime_20240525.rbf, CanyonBomber_20240525.rbf, Centipede_20240525.rbf, ComputerSpace_20240525.rbf, Chameleon_20240525.rbf, CosmicGuerilla_20251127.rbf, Cosmic_20241217.rbf, CrazyBalloon_20251127.rbf, CongoBongo_20240525.rbf, CrazyKong_20240526.rbf, CrazyClimber_20240526.rbf, Defender_20240526.rbf, CrystalCastles_20240526.rbf, Dominos_20240526.rbf, DottoriKun_20250105.rbf, DonkeyKong3_20240526.rbf, DonkeyKong_20240526.rbf, DonkeyKongJunior_20240526.rbf, DigDug_20240526.rbf, Druaga_20240525.rbf, Exidy2_20240526.rbf, Exerion_20240914.rbf, ExpressRaider_20240526.rbf, FoodFight_20240526.rbf, Frenzy_20240526.rbf, Galaxian_20240526.rbf, Galaga_20240526.rbf, Galivan_20240526.rbf, Finalizer_20240526.rbf, Gaplus_20240526.rbf, Gauntlet_20250425.rbf, IkariWarriors_20240615.rbf, Gyruss_20240526.rbf, IremM62_20240527.rbf, IremM107_20240519.rbf, IremM72_20240525.rbf, Inferno_20240527.rbf, IremM90_20241107.rbf, IronHorse_20240527.rbf, IremM92_20250222.rbf, Jackal_20240527.rbf, Jailbreak_20240527.rbf, Joust2_20250726.rbf, KickAndRun_20240730.rbf, LadyBug_20240529.rbf, LunarLander_20240529.rbf, MCR3_20240525.rbf, MCR3Scroll_20240525.rbf, MCR3Mono_20240525.rbf, MarioBros_20240802.rbf, MCR1_20240525.rbf, MissileCommand_20240530.rbf, MoonPatrol_20240530.rbf, MrJong_20240530.rbf, MrDo_20240530.rbf, NaughtyBoy_20250428.rbf, MysticMarathon_20240530.rbf, Pacman_20240530.rbf, Pengo_20240530.rbf, NinjaKun_20240530.rbf, PenguinKunWars_20240531.rbf, Phoenix_20240601.rbf, Performan_20240601.rbf, PolyPlay_20240601.rbf, Pong_20240601.rbf, Pleiads_20240601.rbf, Pooyan_20240601.rbf, Popeye_20240601.rbf, Psychic5_20240827.rbf, RallyX_20240602.rbf, RiverPatrol_20240602.rbf, QBert_20240602.rbf, RshnAtk_20240602.rbf, Robotron_20240602.rbf, SMS_20240418.rbf, SEGASYS1_20240602.rbf, SNK_TripleZ80_20240602.rbf, ScooterShooter_20240602.rbf, MCR2_20240525.rbf, Salamander_20241101.rbf, ST-V_20251003.rbf, SegaVICZ80_20240602.rbf, Scramble_20240602.rbf, SilverLand_20240602.rbf, SpaceRace_20240527.rbf, Sonson_20240527.rbf, Sprint1_20240527.rbf, SpaceInvaders_20250215.rbf, SolomonsKey_20240527.rbf, SuperBreakout_20240525.rbf, Subs_20240527.rbf, Sprint2_20240527.rbf, SuprLoco_20240616.rbf, TNKIII_20240615.rbf, TIAMC1_20240525.rbf, TankBattalion_20240525.rbf, TaitoF2_20251027.rbf, TaitoSJ_20240525.rbf, Tecmo_20250205.rbf, SlapFight_20251212.rbf, TimePilot84_20240604.rbf, TimePilot_20240525.rbf, TropicalAngel_20240410.rbf, TraverseUSA_20240525.rbf, TurkeyShoot_20240525.rbf, Xevious_20240525.rbf, VBall_20240525.rbf, XSleena_20250123.rbf, ZigZag_20240525.rbf, Zaxxon_20240525.rbf, Ultratank_20240525.rbf, freeze_20240526.rbf, atarisys1_20240410.rbf, AcornElectron_20250930.rbf, AliceMC10_20210116.rbf, AcornAtom_20251001.rbf, Apogee_20240502.rbf, Amstrad_20240421.rbf, Amstrad-PCW_20250621.rbf, Apple-I_20251001.rbf, Apple-II_20241226.rbf, Aquarius_20240502.rbf, Archie_20240502.rbf, Altair8800_20241230.rbf, BBCMicro_20240502.rbf, Atari800_20250710.rbf, BK0011M_20240502.rbf, AtariST_20240423.rbf, C128_20240904.rbf, C64_20250828.rbf, CoCo2_20250312.rbf, Casio_PV-2000_20250622.rbf, C16_20240418.rbf, CoCo3_20240514.rbf, ColecoAdam_20250905.rbf, EDSAC_20250904.rbf, Enterprise_20251125.rbf, Interact_20251005.rbf, Laser310_20250907.rbf, Jupiter_20251001.rbf, Galaksija_20251007.rbf, Lynx48_20250907.rbf, MSX_20240524.rbf, Homelab_20250906.rbf, MacPlus_20250325.rbf, MSX1_20250108.rbf, MultiComp_20250106.rbf, Minimig_20250621.rbf, ORAO_20240729.rbf, Oric_20240524.rbf, Ondra_SPO186_20251006.rbf, PC88_20250918.rbf, PCXT_20251025.rbf, PET2001_20240418.rbf, PDP1_20190101.rbf, PMD85_20220129.rbf, SAMCoupe_20240421.rbf, RX78_20250717.rbf, SordM5_20250903.rbf, SharpMZ_20210709.rbf, QL_20240524.rbf, Specialist_20240524.rbf, Svi328_20241016.rbf, TRS-80_20251209.rbf, TSConf_20240421.rbf, TK2000_20251124.rbf, TomyTutor_20250622.rbf, Ti994a_20251203.rbf, TatungEinstein_20250907.rbf, UK101_20240528.rbf, VT52_20241120.rbf, VIC20_20240418.rbf, Vector-06C_20240524.rbf, X68000_20240524.rbf, ZX81_20240421.rbf, ZX-Spectrum_20240421.rbf, ZXNext_20241227.rbf, ao486_20241227.rbf, eg2000_20220930.rbf, AY-3-8500_20250903.rbf, AdventureVision_20250708.rbf, Astrocade_20240502.rbf, Atari5200_20250710.rbf, AtariLynx_20240410.rbf, Atari7800_20240423.rbf, Arcadia_20250907.rbf, BBCBridgeCompanion_20250101.rbf, Casio_PV-1000_20250622.rbf, CDi_20250626.rbf, ChannelF_20250907.rbf, ColecoVision_20240502.rbf, CreatiVision_20250708.rbf, Gamate_20250708.rbf, GBA_20250705.rbf, GBA2P_20250916.rbf, Gameboy2P_20250621.rbf, Intellivision_20250903.rbf, GnW_20250717.rbf, Gameboy_20250618.rbf, MyVision_20250622.rbf, MegaCD_20251015.rbf, MegaDrive_20250707.rbf, N64_20250812.rbf, NES_20251013.rbf, NeoGeo_20250909.rbf, Odyssey2_20250717.rbf, PokemonMini_20250903.rbf, PSX_20251204.rbf, SCV_20250906.rbf, S32X_20240418.rbf, SGB_20241127.rbf, SMS_20240418.rbf, SuperVision_20250708.rbf, SNES_20250605.rbf, VC4000_20250907.rbf, Super_Vision_8000_20250622.rbf, Saturn_20251003.rbf, TurboGrafx16_20250830.rbf, Vectrex_20240524.rbf, Arduboy_20250824.rbf, WonderSwan_20240410.rbf, Donut_20250217.rbf, Chess_20240410.rbf, EpochGalaxyII_20250717.rbf, Chip8_20250905.rbf, FlappyBird_20250708.rbf, SlugCross_20240727.rbf, GBMidi_20240811.rbf, GenMidi_20240817.rbf, GameOfLife_20200430.rbf, TomyScramble_20250823.rbf, ADCTest_20250619.rbf, InputTest_20240727.rbf, MiSTerLaggy_20241113.rbf, memtest_20210130.rbf, memtest_060MHz.rbf, memtest_130MHz.rbf, memtest_160MHz.rbf, memtest_167MHz.rbf, memtest_140MHz.rbf, memtest_150MHz.rbf, memtest_100MHz.rbf, memtest_120MHz.rbf, memtest_110MHz.rbf, MiSTer, menu.rbf, MRAs, MRA Alternatives + other files.
+
+Errors:
+none.
+
+DEBUG| linux: {
+    "hash": "8dc3acae7d758a80a363fbd7ad31d95d",
+    "size": 93727644,
+    "url": "https://raw.githubusercontent.com/MiSTer-devel/SD-Installer-Win64_MiSTer/b8531c7848526d9a8227841923cc4a493cb6e631/release_20250402.7z",
+    "version": "250402"
+}
+DEBUG| Reading file contents "/MiSTer.version"
+DEBUG| current_linux_version "250402" matches db linux: 250402
+DEBUG| Run signal NOT removed.
+
+Rebooting in 5 seconds...

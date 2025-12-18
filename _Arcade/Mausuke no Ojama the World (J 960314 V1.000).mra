@@ -1,0 +1,57 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>mausuke</setname>
+	<mameversion>277</mameversion>
+	<description>Mausuke no Ojama the World (J 960314 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Data East Corporation</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="mausuke.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="mausuke.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="b456f4cd" name="ic13.bin" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b456f4cd" name="ic13.bin" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b456f4cd" name="ic13.bin" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4eeacd6f" name="mcj-00.2" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="365a494b" name="mcj-01.3" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="8b8e4931" name="mcj-02.4" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="9015a0e7" name="mcj-03.5" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="9d1beaee" name="mcj-04.6" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="a7626a82" name="mcj-05.1" map="12345678" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="1ab8e90e" name="mcj-06.8" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,3 +1,6 @@
+https://github.com/MiSTer-devel/Odyssey2_MiSTer - Didn't fork directly due to changes on local based repository
+
+
 # [Magnavox Odyssey2/Videopac](https://en.wikipedia.org/wiki/Magnavox_Odyssey_2) for [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki) 
 
 ### This is an FPGA implementation of the Magnavox Odyssey2/Videopac G7000 based on FPGA videopac by Arnim Laeuger and ported to MiSTer (With additional work from wsoltys) by [Kitrinx](https://github.com/Kitrinx).

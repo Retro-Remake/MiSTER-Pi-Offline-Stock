@@ -26,6 +26,36 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time">
+                000000 10 000E92F0 00000000 0000003C
+                000000 10 000E92F4 00000000 000000FE
+        </cheat>
+        <cheat name="P1 Infinite Lives"     >000000 10 000E831E 00000000 00000064</cheat>
+        <cheat name="P1 Infinite Energy"    >000000 10 000E8339 00000000 00000032</cheat>
+        <cheat name="P1 Invincibility"      >000000 10 000E856D 00000000 00000000</cheat>
+        <cheat name="P1 All Hits Combo"     >000000 10 000E8559 00000000 00000000</cheat>
+        <cheat name="P1 Easy Special Attack">000000 10 000E8559 00000000 00000001</cheat>
+        
+        <cheat name="P2 Infinite Lives"     >000000 10 000E839E 00000000 00000064</cheat>
+        <cheat name="P2 Infinite Energy"    >000000 10 000E83B9 00000000 00000032</cheat>
+        <cheat name="P2 Invincibility"      >000000 10 000E866D 00000000 00000000</cheat>
+        <cheat name="P2 All Hits Combo"     >000000 10 000E8659 00000000 00000000</cheat>
+        <cheat name="P2 Easy Special Attack">000000 10 000E8659 00000000 00000001</cheat>
+
+        <cheat name="P3 Infinite Lives"     >000000 10 000E841E 00000000 00000064</cheat>
+        <cheat name="P3 Infinite Energy"    >000000 10 000E8439 00000000 00000032</cheat>
+        <cheat name="P3 Invincibility"      >000000 10 000E876D 00000000 00000000</cheat>
+        <cheat name="P3 All Hits Combo"     >000000 10 000E8759 00000000 00000000</cheat>
+        <cheat name="P3 Easy Special Attack">000000 10 000E8759 00000000 00000001</cheat>
+        
+        <cheat name="P4 Infinite Lives"     >000000 10 000E849E 00000000 00000064</cheat>
+        <cheat name="P4 Infinite Energy"    >000000 10 000E84B9 00000000 00000032</cheat>
+        <cheat name="P4 Invincibility"      >000000 10 000E886D 00000000 00000000</cheat>
+        <cheat name="P4 All Hits Combo"     >000000 10 000E8859 00000000 00000000</cheat>
+        <cheat name="P4 Easy Special Attack">000000 10 000E8859 00000000 00000001</cheat>
+    </cheats>
+
     <rom index="0" zip="hook.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

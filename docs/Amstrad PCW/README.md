@@ -62,11 +62,13 @@ Many PCW adventure games contain graphics at the top, with a text interface befo
 * **F10** - Move colour line enable line down
 * **F11** - Toggle full screen colour mode on/off
 
-The mode also comes with three different CGA palettes to select from.
+The mode allows loading 4-bit colour palettes, in the same format as the Gameboy core (GBP) or select PCWPlus support modes 1,2 and 3  in games that allow this colour modes.
+PCWPlus mode need to be activate before a compatible game load.
 
 ## Current issue
 * SymbOS does not work correctly
 * PSI-5 Trading Company - Requires SCAN_EQUAL disk command which is not implemented
+* APPLE JACK not working
 
 # Changes from previous release
 * Support for PCW9512+ Mode and 3.5" drives
@@ -93,7 +95,7 @@ The following features are coming shortly
 ## Thanks
 Special thanks to the following people:
 * John Elliott for the fantastic [PCW Hardware guide](https://www.seasip.info/Unix/Joyce/hardware.pdf), the [Joyce emulator](https://www.seasip.info/Unix/Joyce/) and for answering my emails
-* Javier Chocano from Habisoft for the [CP/M Box emulator](http://www.habisoft.com/pcw/) and early guidance
+* Javier Chocano from Habisoft for the [CP/M Box emulator](http://www.habisoft.com/pcw/) and early guidance , and PCWPlus modes
 * [@zigazou](https://twitter.com/zigazou) for his detailed [wiki article](https://github.com/Zigazou/amstrad-pcw-technical-info/tree/master/video-memory) on the PCW screen memory structure
 * [@asicguy](https://github.com/asicguy), [@alanswx](https://github.com/alanswx) and [@dshadoff](https://github.com/dshadoff) for the help, eoncouragment and support developing the core
 * [@sorgelig](https://github.com/sorgelig) for the fantastic MiSTer project and work

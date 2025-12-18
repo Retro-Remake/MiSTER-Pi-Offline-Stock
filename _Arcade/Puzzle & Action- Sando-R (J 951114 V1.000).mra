@@ -1,0 +1,50 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>sandor</setname>
+	<mameversion>277</mameversion>
+	<description>Puzzle &amp; Action: Sando-R (J 951114 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="sandor.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="sandor.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="fe63a239" name="sando-r.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="441e1368" name="mpr18635.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="fff1dd80" name="mpr18636.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="83aced0f" name="mpr18637.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="caab531b" name="mpr18638.11" map="12345678" />
+		</interleave>
+		<part repeat="0x800000">00</part>
+		<interleave output="64">
+			<part crc="441e1368" name="mpr18635.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="fff1dd80" name="mpr18636.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="83aced0f" name="mpr18637.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="caab531b" name="mpr18638.11" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

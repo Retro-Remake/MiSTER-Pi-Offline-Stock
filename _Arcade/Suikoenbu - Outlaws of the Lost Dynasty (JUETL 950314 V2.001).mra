@@ -1,0 +1,55 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>suikoenb</setname>
+	<mameversion>277</mameversion>
+	<description>Suikoenbu / Outlaws of the Lost Dynasty (JUETL 950314 V2.001)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Data East Corporation</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,Button 5,Button 6,Start,Coin,Service,Test" default="A,B,X,Y,L,R,Start,Select" />
+	<rom index="0">
+		<part>00 01</part>
+	</rom>
+	<rom index="1" md5="" zip="suikoenb.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="suikoenb.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="746ef686" name="fpr17834.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="55e9642d" name="mpr17836.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="13d1e667" name="mpr17837.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f9e70032" name="mpr17838.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="1b2762c5" name="mpr17839.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0fd4c857" name="mpr17840.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="77f5cb43" name="mpr17835.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f48beffc" name="mpr17841.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="ac8deed7" name="mpr17842.9" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

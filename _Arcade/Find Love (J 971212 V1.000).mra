@@ -1,0 +1,62 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>findlove</setname>
+	<mameversion>277</mameversion>
+	<description>Find Love (J 971212 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1997</year>
+	<manufacturer>Daiki / FCF</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="findlove.zip" address="0x32000000">
+		<interleave output="64">
+			<part crc="df2fa9f6" name="findlove.nv" map="12345678" />
+		</interleave>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="findlove.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="4e61fa46" name="epr20424.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="ea656ced" name="mpr20431.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="897d1747" name="mpr20426.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="a488a694" name="mpr20427.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4353b3b6" name="mpr20428.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4f566486" name="mpr20429.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d1e11979" name="mpr20430.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="67f104c4" name="mpr20425.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="79fcdecd" name="mpr20432.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="82289f29" name="mpr20433.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="85c94afc" name="mpr20434.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="263a2e48" name="mpr20435.11" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="e3823f49" name="mpr20436.12" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

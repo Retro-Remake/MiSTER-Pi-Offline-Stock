@@ -1,0 +1,59 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>hanagumi</setname>
+	<mameversion>277</mameversion>
+	<description>Hanagumi Taisen Columns - Sakura Wars (J 971007 V1.010)</description>
+	<rotation>horizontal</rotation>
+	<year>1997</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="hanagumi.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="hanagumi.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="7bfc38d0" name="mpr20143.7" map="12345678" />
+		</interleave>
+		<part repeat="0x100000">00</part>
+		<interleave output="64">
+			<part crc="fdcf1046" name="mpr20138.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="7f0140e5" name="mpr20139.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="2fa03852" name="mpr20140.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="45d6d21b" name="mpr20141.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="e38561ec" name="mpr20142.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="181d2688" name="mpr20137.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="235b43f6" name="mpr20144.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="aeaac7a1" name="mpr20145.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="39bab9a2" name="mpr20146.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="294ab997" name="mpr20147.11" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="5337ccb0" name="mpr20148.12" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

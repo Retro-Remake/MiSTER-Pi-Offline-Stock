@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Quiz H.Q. (Japan)</name>
+	<setname>quizhq</setname>
+	<year>1990</year>
+	<manufacturer>Taito Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,X,Y,-,Start,Select,L,R" names="1,2,3,4,5,-,Start,Coin,Pause,SS"/>
+	<switches default="7fff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Time" bits="10,11" values="3,2,1,0" ids="5 seconds,10 seconds,15 seconds,20 seconds"/>
+		<dip name="Stock" bits="12,13" values="2,3,1,0" ids="2,3,4,5"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="1,0" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="quizhq.zip">
+		<part>07 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>000c0000</part>
+		<interleave output="16">
+			<part crc="c798fc20" name="c53-05.bin" map="10"/>
+			<part crc="bf44c93e" name="c53-01.bin" map="01"/>
+		</interleave>
+        <part repeat="0x40000">00</part>
+		<interleave output="16">
+			<part crc="12e14aca" name="c53-52.bin" map="10"/>
+			<part crc="b3ef66f3" name="c53-51.bin" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 524288 bytes-->
+		<part>02080000</part>
+		<interleave output="16">
+			<part crc="47596e70" name="c53-03.bin" map="01"/>
+			<part crc="4f9fa82f" name="c53-07.bin" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="d704c6f4" name="c53-02.bin" map="01"/>
+			<part crc="f77f63fc" name="c53-06.bin" map="10"/>
+		</interleave>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="25187e81" name="c53-08.bin"/>
+		<!--Region: ymsnd:adpcma, Size: 131072 bytes-->
+		<part>04020000</part>
+		<part crc="99890ad4" name="c53-04.bin"/>
+	</rom>
+</misterromdescription>

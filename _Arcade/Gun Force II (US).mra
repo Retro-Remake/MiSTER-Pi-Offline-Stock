@@ -23,6 +23,19 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time"        >000000 10 000E00A4 00000000 00000099</cheat>
+        <cheat name="Starting Stage 2"     >000000 11 000E00B3 00000001 00000002</cheat>
+        <cheat name="Starting Stage 3"     >000000 11 000E00B3 00000001 00000003</cheat>
+        <cheat name="Starting Stage 4"     >000000 11 000E00B3 00000001 00000004</cheat>
+        <cheat name="P1 Infinite Lives"    >000000 10 000E9DAC 00000000 0000000A</cheat>
+        <cheat name="P1 Invincibility"     >000000 10 000E0238 00000000 00000002</cheat>
+        <cheat name="P1 Infinite Item Ammo">000000 20 000E0230 00000000 000003E7</cheat>
+        <cheat name="P2 Infinite Lives"    >000000 10 000E9E2C 00000000 0000000A</cheat>
+        <cheat name="P2 Invincibility"     >000000 10 000E03EB 00000000 00000002</cheat>
+        <cheat name="P2 Infinite Item Ammo">000000 20 000E03E0 00000000 000003E7</cheat>
+    </cheats>
+
     <rom index="0" zip="gunforc2.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>06</part>

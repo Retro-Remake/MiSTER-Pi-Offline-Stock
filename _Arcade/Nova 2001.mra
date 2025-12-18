@@ -41,22 +41,22 @@
 	<rom index="1"><part>2</part></rom>
 	<rom index="0" zip="nova2001.zip" md5="61b44e6191a4faaf89085b494b8d2e8c">
 		<!-- gfx1 -->
-		<part name="5.12s"/>
-		<part name="6.12p"/>
-		<part name="7.12n"/>
-		<part name="8.12l"/>
+		<part name="5.12s" crc="54198941"/>
+		<part name="6.12p" crc="cbd90dca"/>
+		<part name="7.12n" crc="9ebd8806"/>
+		<part name="8.12l" crc="d1b18389"/>
 		<!-- gfx2 -->
-		<part name="5.12s"/>
-		<part name="6.12p"/>
-		<part name="7.12n"/>
-		<part name="8.12l"/>
+		<part name="5.12s" crc="54198941"/>
+		<part name="6.12p" crc="cbd90dca"/>
+		<part name="7.12n" crc="9ebd8806"/>
+		<part name="8.12l" crc="d1b18389"/>
 		<!-- main cpu -->
-		<part name="1.6c"/>
-		<part name="2.6d"/>
-		<part name="3.6f"/>
-		<part name="4.6g"/>
-		<part name="4.6g"/>
+		<part name="1.6c" crc="368cffc0"/>
+		<part name="2.6d" crc="bc4e442b"/>
+		<part name="3.6f" crc="b2849038"/>
+		<part name="4.6g" crc="6b5bb12d"/>
+		<part name="4.6g" crc="6b5bb12d"/>
 		<!-- sub cpu -->
-		<part name="nova2001.clr"/>
+		<part name="nova2001.clr" crc="a2fac5cd"/>
 	</rom>
 </misterromdescription>

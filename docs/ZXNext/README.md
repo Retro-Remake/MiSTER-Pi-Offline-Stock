@@ -20,6 +20,7 @@ Port of original [ZX Spectrum Next core](https://gitlab.com/SpectrumNext/ZX_Spec
 Original core is written with direct access to SD card. MiSTer(Linux) doesn't allow to access main SD card directly as it will be corrupted.
 You may use secondary SD card (on I/O board) directly in this core. Make sure you've deleted/renamed ZXNext.vhd in the root and Games/ZXNext/boot.vhd.
 If core cannot find these files, then secondary SD card will be used instead.
+On some IO boards ,the secondary SD is not detected because they do not have SD card detect pin , in this cases you need to flip switch in the position SW2  to on , in your DE10-Nano to force detect SD. 
 
 
 ## Hotkeys

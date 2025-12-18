@@ -27,6 +27,13 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="P1 Always score Hole in Ones">000000 10 000ED45E 00000000 00000001</cheat>
+        <cheat name="P2 Always score Hole in Ones">000000 10 000ED460 00000000 00000001</cheat>
+        <cheat name="P3 Always score Hole in Ones">000000 10 000ED462 00000000 00000001</cheat>
+        <cheat name="P4 Always score Hole in Ones">000000 10 000ED464 00000000 00000001</cheat>
+    </cheats>
+
     <rom index="0" zip="majtitl2.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>06</part>

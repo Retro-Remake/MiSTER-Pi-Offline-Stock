@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Nova 2001</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1984</year>
+	<manufacturer>UPL</manufacturer>
+	<manufacturer>Taito</manufacturer>
+	<category>Platform - Climb</category>
+
+	<setname>nova2001h</setname>
+	<parent>ninjakun</parent>
+	<mameversion>0220</mameversion>
+	<rbf>ninjakun</rbf>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches default="FE,F7" base="8" page_id="1" page_name="Switches">
+		<dip bits="0" name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="1" name="Lives" ids="4,3"/>
+		<dip bits="2" name="First Bonus" ids="30000,20000"/>
+		<dip bits="3,4" name="Second Bonus" ids="No Bonus,Every 90000,Every 70000,Every 60000"/>
+		<dip bits="7" name="Free Play" ids="Yes,No"/>
+		<dip bits="8,9" name="Difficulty" ids="Easy,Hardest,Hard,Medium"/>
+		<dip bits="10" name="Demo Sounds" ids="Yes,No"/>
+		<dip bits="11" name="High Score Names" ids="3 Letters,8 Letters"/>
+	</switches>
+
+	<rom index="1"><part>2</part></rom>
+	<rom index="0" zip="nova2001h.zip|nova2001u.zip|nova2001.zip">
+		<!-- gfx1 -->
+		<part name="5.12s" crc="54198941"/>
+		<part name="6.12p" crc="cbd90dca"/>
+		<part name="7.12n" crc="9ebd8806"/>
+		<part name="8.12l" crc="d1b18389"/>
+		<!-- gfx2 -->
+		<part name="5.12s" crc="54198941"/>
+		<part name="6.12p" crc="cbd90dca"/>
+		<part name="7.12n" crc="9ebd8806"/>
+		<part name="8.12l" crc="d1b18389"/>
+		<!-- main cpu -->
+		<part name="1(green).6c" crc="1a8731b3"/>
+		<part name="2(green).6d" crc="bc4e442b"/>
+		<part name="3.6f" crc="b2849038"/>
+		<part name="4.6g" crc="6b5bb12d"/>
+		<part name="4.6g" crc="6b5bb12d"/>
+		<!-- sub cpu -->
+		<part name="nova2001.clr" crc="a2fac5cd"/>
+	</rom>
+</misterromdescription>

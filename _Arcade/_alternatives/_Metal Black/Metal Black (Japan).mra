@@ -1,0 +1,55 @@
+<misterromdescription>
+	<name>Metal Black (Japan)</name>
+	<setname>metalbj</setname>
+	<year>1991</year>
+	<manufacturer>Taito Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>metalb</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Attack,Special,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Bonus Life" bits="10,11" values="1,3,0,2" ids="80k+160k,70k+150k,100k+200k,50k+120k"/>
+		<dip name="Lives" bits="12,13" values="0,1,3,2" ids="1,2,3,4"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="0,1" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="metalbj.zip|metalb.zip">
+		<part>13 00</part>
+		<!--Region: maincpu, Size: 786432 bytes-->
+		<part>000c0000</part>
+		<interleave output="16">
+			<part crc="556f82b2" name="d12-12.8" map="10"/>
+			<part crc="af9ee28d" name="d12-11.7" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="e07f5136" name="d12-07.9" map="10"/>
+			<part crc="131df731" name="d12-06.6" map="01"/>
+		</interleave>
+		<!--Region: tc0480scp, Size: 1048576 bytes-->
+		<part>07100000</part>
+		<interleave output="32">
+			<part crc="46b498c0" name="d12-03.14" map="1200"/>
+			<part crc="ab66d141" name="d12-04.13" map="0012"/>
+		</interleave>
+		<!--Region: sprites, Size: 1048576 bytes-->
+		<part>02100000</part>
+		<part crc="b81523b9" name="d12-01.20"/>
+		<!--Region: audiocpu, Size: 131072 bytes-->
+		<part>03020000</part>
+		<part crc="bcca2649" name="d12-13.5"/>
+		<!--Region: ymsnd:adpcma, Size: 1048576 bytes-->
+		<part>04100000</part>
+		<part crc="79263e74" name="d12-02.10"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="7fd036c5" name="d12-05.16"/>
+	</rom>
+</misterromdescription>

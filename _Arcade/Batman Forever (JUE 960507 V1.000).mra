@@ -1,0 +1,72 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>batmanfr</setname>
+	<mameversion>277</mameversion>
+	<description>Batman Forever (JUE 960507 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Acclaim</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,-,-,-,Start,Coin,Service,Test" default="A,B,X,Start,Select,R,L" />
+	<rom index="0">
+		<part>03 01</part>
+	</rom>
+	<rom index="1" md5="" zip="batmanfr.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="batmanfr.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="2a5a8c3a" name="350-mpa1.u19" map="1357" />
+			<part crc="735e23ab" name="350-mpa1.u16" map="13570" />
+		</interleave>
+		<interleave output="64">
+			<part crc="2a5a8c3a" name="350-mpa1.u19" map="1357" />
+			<part crc="735e23ab" name="350-mpa1.u16" map="13570" />
+		</interleave>
+		<interleave output="64">
+			<part crc="a82d0b7e" name="gfx0.u1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="a41e55d9" name="gfx1.u3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4c1ebeb7" name="gfx2.u5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f679a3e7" name="gfx3.u8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="52d95242" name="gfx4.u12" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="e201f830" name="gfx5.u15" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="c6b381a3" name="gfx6.u18" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="9027e7a0" name="350snda1.u52" map="12345678" />
+		</interleave>
+		<part repeat="0x380000">00</part>
+		<interleave output="64">
+			<part crc="02b1927c" name="snd0.u48" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="58b18eda" name="snd1.u49" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="51d626d6" name="snd2.u50" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="31af26ae" name="snd3.u51" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

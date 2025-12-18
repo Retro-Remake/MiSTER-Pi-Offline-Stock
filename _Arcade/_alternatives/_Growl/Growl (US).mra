@@ -1,0 +1,54 @@
+<misterromdescription>
+	<name>Growl (US)</name>
+	<setname>growlu</setname>
+	<year>1990</year>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>growl</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Attack,Jump,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coinage" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Continue Price" bits="6,7" values="0,1,2,3" ids="3C/1C,2C/1C,1C/1C,Same"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Unused" bits="10" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="11" values="1,0" ids="Off,On"/>
+		<dip name="Cabinet Type" bits="12,13" values="3,2,1,0" ids="2 Players,4P/4 Coins,4P/2 cabs,4P/2 Coins"/>
+		<dip name="Final Boss Continue" bits="14" values="0,1" ids="No,Yes"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="growlu.zip|growl.zip">
+		<part>0a 00</part>
+		<!--Region: maincpu, Size: 1048576 bytes-->
+		<part>00100000</part>
+		<interleave output="16">
+			<part crc="ca81a20b" name="c74-10.ic59" map="10"/>
+			<part crc="aa35dd9e" name="c74-08.ic61" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="ee3bd6d5" name="c74-11.ic58" map="10"/>
+			<part crc="c1c57e51" name="c74-13.ic60" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 1048576 bytes-->
+		<part>01100000</part>
+		<part crc="3434ce80" name="c74-01.ic34"/>
+		<!--Region: sprites, Size: 2097152 bytes-->
+		<part>02200000</part>
+		<part crc="1a0d8951" name="c74-03.ic12"/>
+		<part crc="15a21506" name="c74-02.ic11"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="bb6ed668" name="c74-12.ic62"/>
+		<!--Region: ymsnd:adpcma, Size: 1048576 bytes-->
+		<part>04100000</part>
+		<part crc="2d97edf2" name="c74-04.ic28"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="e29c0828" name="c74-05.ic29"/>
+	</rom>
+</misterromdescription>

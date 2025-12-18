@@ -25,7 +25,7 @@
 	<joystick>8-way</joystick>
 	<special_controls></special_controls>
 	<num_buttons>2</num_buttons>
-	<buttons default="A,B,R,L,Start" names="Fire,Jump,-,Start,Coin,Pause"></buttons>
+	<buttons default="A,B,R,Select,L,Start" names="Fire,Jump,-,1P Start,2P Start,Coin,Pause"></buttons>
 
 	<switches default="40,80">
 		<dip bits="0,1" ids="2c/1cr,1c/1cr,1c/2cr,1c/3cr" name="Coinage" values="1,0,2,3"></dip>

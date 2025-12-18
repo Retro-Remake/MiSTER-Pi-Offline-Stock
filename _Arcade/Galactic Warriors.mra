@@ -1,0 +1,55 @@
+<misterromdescription>
+    <name>Galactic Warriors</name>
+    <mameversion>0266</mameversion>
+    <setname>gwarrior</setname>
+    <mratimestamp>20241106</mratimestamp>
+    <year>1985</year>
+    <manufacturer>Konami</manufacturer>
+    <category>Fighting</category>
+    <rbf>BubSysROM</rbf>
+    <about author="Raki" twitter="@RCAVictorCo"></about>
+    <resolution>15kHz</resolution>
+    <rotation>horizontal</rotation>
+    <players>1</players>
+    <joystick>8-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>2</num_buttons>
+    
+    <switches default="FF,FF,FF,03">
+        <!-- DSW1 -->
+        <dip bits="0,3"         name="Coinage A"    ids="Disabled,4C3P,4C1P,3C4P,3C2P,3C1P,2C5P,2C3P,2C1P,1C7P,1C6P,1C5P,1C4P,1C3P,1C2P,1C1P"/>
+        <dip bits="4,7"         name="Coinage B"    ids="Disabled,4C3P,4C1P,3C4P,3C2P,3C1P,2C5P,2C3P,2C1P,1C7P,1C6P,1C5P,1C4P,1C3P,1C2P,1C1P"/>
+        <!-- DSW2 -->
+        <dip bits="8,9"         name="Lives"        ids="7,3,2,1"/>
+        <dip bits="11,12"       name="Bonus life"   ids="100/200/400/800k,50/150/300/600k,40/120/240/480k,30/100/200/400k"/>
+        <dip bits="13,14"       name="Difficulty"   ids="hardest,hard,normal,easy"/>
+        <dip bits="15"          name="Demo sound"   ids="on,off"/>
+        <!-- DSW3 -->
+        <dip bits="16"          name="Flip screen"  ids="flip,normal"/>
+        <dip bits="17"          name="Player"       ids="2,1"/>
+        <dip bits="18"          name="Service mode" ids="on,off"/>
+    </switches>
+
+
+    <rom index='0' md5="None" type='nonmerged' zip='gwarrior.zip'>
+        <!-- game program hi    0x000000-0x01ffff -->
+        <part crc="0aedacb5" name="578-a07.17l"/>
+        <!-- game program lo    0x020000-0x03ffff -->
+        <part crc="76240e2e" name="578-a05.12l"/>
+
+        <!-- bootloader hi      0x040000-0x047FFF -->
+        <part crc="b99d8cff" name="400-a06.15l"/>
+        <!-- bootloader lo      0x048000-0x04ffff -->
+        <part crc="d02c9552" name="400-a04.10l"/>
+
+        <!-- sound program      0x050000-0x051fff -->
+        <part crc="a5a8e57d" name="400-e03.5l"/>
+
+        <!-- wavetable 1        0x052000-0x0520ff -->
+        <part crc="5827b1e8" name="400-a01.fse"/>
+        <!-- wavetable 2        0x052100-0x0521ff -->
+        <part crc="2f44f970" name="400-a02.fse"/>
+    </rom>
+
+    <buttons default="Select,R,Start,A,B" names="Service,Coin,Start,Attack,Weapon"></buttons>
+</misterromdescription>

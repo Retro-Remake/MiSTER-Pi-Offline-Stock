@@ -1,0 +1,34 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>shanhigw</setname>
+	<mameversion>277</mameversion>
+	<description>Shanghai - The Great Wall / Shanghai Triple Threat (JUE 950623 V1.005)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Sunsoft / Activision</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>00 01</part>
+	</rom>
+	<rom index="1" md5="" zip="shanhigw.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="shanhigw.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="cc5e8646" name="mpr18341.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8db23212" name="mpr18340.2" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

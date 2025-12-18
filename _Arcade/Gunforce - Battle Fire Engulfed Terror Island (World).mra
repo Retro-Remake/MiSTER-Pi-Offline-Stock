@@ -25,6 +25,20 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Skip Startup"     >000000 40 000731b0 00000000 0031B5EA</cheat>
+        <cheat name="Infinite Time"    >000000 10 000E6370 00000000 00000063</cheat>
+        <cheat name="Starting Stage 2" >000000 11 000E0002 00000000 00000001</cheat>
+        <cheat name="Starting Stage 3" >000000 11 000E0002 00000000 00000002</cheat>
+        <cheat name="Starting Stage 4" >000000 11 000E0002 00000000 00000003</cheat>
+        <cheat name="Starting Stage 5" >000000 11 000E0002 00000000 00000004</cheat>
+        <cheat name="Starting Stage 6" >000000 11 000E0002 00000000 00000005</cheat>
+        <cheat name="P1 Infinite Lives">000000 10 000E61C2 00000000 00000009</cheat>
+        <cheat name="P1 Invincibility" >000000 10 000E011E 00000000 00000064</cheat>
+        <cheat name="P2 Infinite Lives">000000 10 000E61C4 00000000 00000009</cheat>
+        <cheat name="P2 Invincibility" >000000 10 000E015E 00000000 00000064</cheat>
+    </cheats>
+
     <rom index="0" zip="gunforce.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

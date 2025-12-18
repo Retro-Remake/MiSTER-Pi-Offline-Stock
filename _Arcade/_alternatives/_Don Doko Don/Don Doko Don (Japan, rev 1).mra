@@ -1,0 +1,52 @@
+<misterromdescription>
+	<name>Don Doko Don (Japan, rev 1)</name>
+	<setname>dondokodj</setname>
+	<year>1989</year>
+	<manufacturer>Taito Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>dondokod</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Attack,Jump,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Bonus Life" bits="10,11" values="3,2,1,0" ids="10k and 100k,10k and 150k,10k and 250k,10k and 350k"/>
+		<dip name="Lives" bits="12,13" values="2,3,0,1" ids="2,3,4,5"/>
+		<dip name="Unused" bits="14" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="dondokodj.zip|dondokod.zip">
+		<part>01 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="d0fce87a" name="b95-12.bin" map="10"/>
+			<part crc="dad40cd3" name="b95-11-1.bin" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="a46e1f0b" name="b95-10.bin" map="10"/>
+			<part crc="d8c86d39" name="b95-09.bin" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 524288 bytes-->
+		<part>01080000</part>
+		<part crc="67b4e979" name="b95-02.bin"/>
+		<!--Region: sprites, Size: 524288 bytes-->
+		<part>02080000</part>
+		<part crc="51c176ce" name="b95-01.bin"/>
+		<!--Region: tc0280grd, Size: 524288 bytes-->
+		<part>06080000</part>
+		<part crc="543aa0d1" name="b95-03.bin"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="b5aa49e1" name="b95-08.bin"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="ac4c1716" name="b95-04.bin"/>
+	</rom>
+</misterromdescription>

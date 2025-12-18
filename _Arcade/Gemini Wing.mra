@@ -14,7 +14,7 @@
 	<setname>gemini</setname>
 	<parent>gemini</parent>
 	<mameversion>0220</mameversion>
-	<rbf>tecmo</rbf>
+	<rbf>Tecmo</rbf>
 	<about></about>
 
 	<resolution>15kHz</resolution>
@@ -25,7 +25,7 @@
 	<joystick>8-way</joystick>
 	<special_controls></special_controls>
 	<num_buttons>2</num_buttons>
-	<buttons default="A,B,R,L,Start" names="Fire 1,Fire 2,-,Start,Coin,Pause"></buttons>
+	<buttons default="A,B,R,Select,L,Start" names="Fire 1,Fire 2,-,1P Start,2P Start,Coin,Pause"></buttons>
 
 	<switches default="00,00">
 		<dip bits="0,1,2" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr" name="Coinage"></dip>

@@ -1,0 +1,66 @@
+<misterromdescription>
+  <name>Argus no senshi (Japan)</name>
+  <mameversion>0220</mameversion>
+  <setname>rygarj</setname>
+  <mratimestamp>20200531</mratimestamp>
+  <year>1986</year>
+  <manufacturer>Tecmo</manufacturer>
+  <category>Platform</category>
+  <rbf>tecmo</rbf>
+
+  <buttons names="Fire,Jump,-,Start,Coin,Pause" default="A,B,R,L,Start" />
+
+  <switches default="40,80">
+    <dip bits="0,1" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,1c/3cr" values="1,0,2,3" />
+    <dip bits="4,5" name="Lives" ids="2,3,4,5" values="3,0,1,2" />
+    <dip bits="8,9" name="Bonus Life" ids="50K 200K 500K,100K 300K 600K,200K 500K,100K" />
+    <dip bits="12,13" name="Difficulty" ids="Easy,Normal,Hard,Hardest" />
+    <dip bits="14" name="2P Start Anytime" ids="No,Yes" />
+    <dip bits="15" name="Allow Continue" ids="No,Yes" />
+  </switches>
+
+  <!-- select game -->
+  <rom index="1">
+    <part>0</part>
+  </rom>
+
+  <!-- ROM data -->
+  <rom index="0" zip="rygar.zip" md5="a6f8c80ce1df99cb40c61fe0b8b63cb0">
+    <!-- main cpu -->
+    <part crc="b39698ba" name="rygarj/cpuj_5p.bin" />
+    <part crc="3f180979" name="rygarj/cpuj_5m.bin" />
+    <part crc="69e44e8f" name="rygarj/cpuj_5j.bin" />
+    <part repeat="0x8000">00</part>
+
+    <!-- sound cpu -->
+    <part crc="e4a2fa87" name="cpu_4h.bin" />
+    <part repeat="0x6000">00</part>
+
+    <!-- char -->
+    <part crc="45047707" name="rygarj/cpuj_8k.bin" />
+
+    <!-- sprite -->
+    <part crc="aba6db9e" name="vid_6k.bin" />
+    <part crc="ae1f2ed6" name="vid_6j.bin" />
+    <part crc="46d9e7df" name="vid_6h.bin" />
+    <part crc="45839c9a" name="vid_6g.bin" />
+    <part repeat="0x20000">00</part>
+
+    <!-- fg -->
+    <part crc="9eae5f8e" name="vid_6p.bin" />
+    <part crc="5a10a396" name="vid_6o.bin" />
+    <part crc="7b12cf3f" name="vid_6n.bin" />
+    <part crc="3cea7eaa" name="vid_6l.bin" />
+    <part repeat="0x20000">00</part>
+
+    <!-- bg -->
+    <part crc="9840edd8" name="vid_6f.bin" />
+    <part crc="ff65e074" name="vid_6e.bin" />
+    <part crc="89868c85" name="vid_6c.bin" />
+    <part crc="35389a7b" name="vid_6b.bin" />
+    <part repeat="0x20000">00</part>
+
+    <!-- pcm -->
+    <part crc="3cc98c5a" name="cpu_1f.bin" />
+  </rom>
+</misterromdescription>

@@ -1,0 +1,83 @@
+<misterromdescription>
+    <name>Bomber Man World (Japan)</name>
+    <mameversion>0245</mameversion>
+    <setname>bbmanwj</setname>
+    <year>1992</year>
+    <manufacturer>Irem</manufacturer>
+    <category></category>
+    <rbf>IremM90</rbf>
+    <rotation>horizontal</rotation>
+
+    <players>4</players>
+    <joystick>4-way</joystick>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,Start,Select" names="Drop Bomb,Detonate Time Bomb,-,-,-,-,Start,Coin,P2 Start,Pause"></buttons>
+    <switches default="00 00 00">
+        <dip bits="0,1" ids="3,2,4,5" name="Lives"></dip>
+        <dip bits="2,3" ids="Medium,Easy,Hard,Easiest" name="Difficulty"></dip>
+        <dip bits="5" ids="Yes,No" name="Allow Continue"></dip>
+        <dip bits="6" ids="Off,On" name="Demo Sounds"></dip>
+        <dip bits="7" ids="Off,On" name="Service Mode"></dip>
+        <dip bits="8" ids="Off,On" name="Flip Screen"></dip>
+        <dip bits="9,10" ids="2 Player,4 Player / 1 Coin,4 Player / 4 Coin,4 Player / 2 Coin" name="Cabinet"></dip>
+        <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
+    </switches>
+
+    <rom index="0" zip="bbmanw.zip|bbmanwja.zip" md5="None" address="0x30000000">
+        <!-- board type -->
+        <part>a0</part> <!-- secure, m99 -->
+
+        <!-- maincpu -->
+        <part>00 08 00 00</part>
+        <interleave output="16">
+	        <part name="bbm2-h0.ic77" crc="e1407b91" map="10"/>
+	        <part name="bbm2-l0.ic79" crc="20873b49" map="01"/>
+        </interleave>
+
+        <!-- gfx -->
+        <part>01 10 00 00</part>
+        <interleave output="32">
+        	<part name="bbm2-c0.ic81" crc="e7ce058a" map="0001" />
+        	<part name="bbm2-c1.ic82" crc="636a78a9" map="0010" />
+        	<part name="bbm2-c2.ic83" crc="9ac2142f" map="0100" />
+        	<part name="bbm2-c3.ic84" crc="47af1750" map="1000" />
+        </interleave>
+
+        <!-- sound cpu -->
+        <part>02 01 00 00</part>
+        <part name="bbm2-sp-a.ic33" crc="a4b0a66e" />
+
+        <!-- sound samples -->
+        <part>03 02 00 00</part>
+        <part name="bbm2-v0-b.ic30" crc="0ae655ff" />
+
+        <!-- cpu key -->
+        <part>04 00 01 00</part>
+        <part>
+        	1f 51 84 90 3d 09 0d 90 90 57 90 90 90 32 11 90
+            90 9c 90 90 4b 90 90 03 90 90 90 89 b0 90 90 90
+            90 bb 18 be 53 21 55 7c 90 90 47 58 f6 90 90 b2
+            06 90 2b 90 2f 0b fc 91 90 90 fa 81 83 40 38 90
+            90 90 49 85 d1 f5 07 e2 5e 1e 90 04 90 90 90 b1
+            c7 90 96 f2 b6 d2 c3 90 87 ba cb 88 90 b9 d0 b5
+            9a 80 a2 72 90 b4 90 aa 26 7d 52 33 2e bc 08 79
+            48 90 76 36 02 90 5b 12 8b e7 90 90 90 ab 90 4f
+            90 90 a8 e5 39 0e a9 90 90 14 90 ff 7f 90 90 27
+            90 01 90 90 e6 8a d3 90 90 8e 56 a5 92 90 90 f9
+            22 90 5f 90 90 a1 90 74 b8 90 46 05 eb cf bf 5d
+            24 90 9d 90 90 90 90 90 59 8d 3c f8 c5 90 f3 4e
+            90 90 50 c6 e9 fe 0a 90 99 86 90 90 af 8c 42 f7
+            90 41 90 a3 90 3a 2a 43 90 b3 e8 90 c4 35 78 25
+            75 90 b7 90 23 90 90 8f 90 90 2c 90 77 7e 90 0f
+            0c a0 bd 90 90 2d 29 ea 90 3b 73 90 fb 20 90 5a
+        </part>
+    </rom>
+    <!--hiscore support. see hiscore.sv for modified header values-->
+    <rom index="3" md5="none">
+        <part>
+            00 00 00 F0 05 FF 00 01 00 0F 00 01 00 01 02 00
+            00 0a 0b 36 00 6a 02 2e
+        </part>
+    </rom>
+    <nvram index="4" size="106"></nvram>
+</misterromdescription>

@@ -1,0 +1,61 @@
+<misterromdescription>
+	<name>Port Man (bootleg on Moon Cresta hardware)</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1980</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Dunno</category>
+
+	<setname>porter</setname>
+	<parent>dockman</parent>
+	<mameversion>0220</mameversion>
+	<rbf>galaxian</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<buttons default="A,Start,Select,R,B,L" names="Fire,Start 1P,Start 2P,Coin,Test,Pause"></buttons>
+
+	<switches default="FF,3F,07">
+		<dip bits="15" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="14" ids="10000,30000" name="Bonus Life After"></dip>
+		<dip bits="16" ids="2c/1cr,1c/1cr" name="Coinage"></dip>
+		<dip bits="18,19" ids="2,3,4,5" name="Lives"></dip>
+	</switches>
+
+	<rom index="1">
+		<part>05</part>
+	</rom>
+
+	<rom index="0" md5="none" zip="porter.zip|dockman.zip">
+		<part crc="babaf7fe" name="port1.bin"></part>
+		<part crc="8f7eb0e3" name="port2.bin"></part>
+		<part crc="683939b5" name="port3.bin"></part>
+		<part crc="6a65d58d" name="port4.bin"></part>
+		<part crc="2978a9aa" name="port5.bin"></part>
+		<part crc="7ecdffb5" name="port6.bin"></part>
+		<part crc="603294f9" name="port7.bin"></part>
+		<part crc="b66a763d" name="port8.bin"></part>
+		<part crc="6a0c7d87" name="mmi6331.6l"></part>
+	</rom>
+	<rom index="3" md5="none">
+	</rom>
+	<nvram index="4" size="3"/>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

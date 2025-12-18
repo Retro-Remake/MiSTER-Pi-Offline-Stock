@@ -21,6 +21,28 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="P1 Infinite Energy"        >000000 10 000E30A8 00000000 00000080</cheat>
+        <cheat name="P1 Character: Starsaber"   >000000 10 000E1B02 00000000 00000000</cheat>
+        <cheat name="P1 Character: Meltdown"    >000000 10 000E1B02 00000000 00000001</cheat>
+        <cheat name="P1 Character: Arabian Moon">000000 10 000E1B02 00000000 00000002</cheat>
+        <cheat name="P1 Character: Reptilian"   >000000 10 000E1B02 00000000 00000003</cheat>
+        <cheat name="P1 Character: Busido"      >000000 10 000E1B02 00000000 00000004</cheat>
+        <cheat name="P1 Character: Satinsect"   >000000 10 000E1B02 00000000 00000005</cheat>
+        <cheat name="P1 Character: Cattydox"    >000000 10 000E1B02 00000000 00000006</cheat>
+        <cheat name="P1 Character: Skull Reaper">000000 10 000E1B02 00000000 00000007</cheat>
+        <cheat name="P2 Infinite Energy"        >000000 10 000E3128 00000000 00000080</cheat>
+        <cheat name="P2 Character: Starsaber"   >000000 10 000E1B03 00000000 00000000</cheat>
+        <cheat name="P2 Character: Meltdown"    >000000 10 000E1B03 00000000 00000001</cheat>
+        <cheat name="P2 Character: Arabian Moon">000000 10 000E1B03 00000000 00000002</cheat>
+        <cheat name="P2 Character: Reptilian"   >000000 10 000E1B03 00000000 00000003</cheat>
+        <cheat name="P2 Character: Busido"      >000000 10 000E1B03 00000000 00000004</cheat>
+        <cheat name="P2 Character: Satinsect"   >000000 10 000E1B03 00000000 00000005</cheat>
+        <cheat name="P2 Character: Cattydox"    >000000 10 000E1B03 00000000 00000006</cheat>
+        <cheat name="P2 Character: Skull Reaper">000000 10 000E1B03 00000000 00000007</cheat>
+    </cheats>
+
+
     <rom index="0" zip="ssoldier.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>40</part>

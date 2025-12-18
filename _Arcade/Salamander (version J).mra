@@ -1,0 +1,55 @@
+<misterromdescription>
+    <name>Salamander (version J)</name>
+    <mameversion>0266</mameversion>
+    <setname>salamandj</setname>
+    <mratimestamp>20241030</mratimestamp>
+    <year>1986</year>
+    <manufacturer>Konami</manufacturer>
+    <category>Shmup</category>
+    <rbf>Salamander</rbf>
+    <about author="Raki" twitter="@RCAVictorCo"></about>
+    <resolution>15kHz</resolution>
+    <rotation>horizontal</rotation>
+    <players>1</players>
+    <joystick>8-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>2</num_buttons>
+    
+    <switches default="FF,42,FF">
+        <!-- DSW1 -->
+        <dip bits="0,3"         name="Coinage"      ids="Disabled,4C3P,4C1P,3C4P,3C2P,3C1P,2C5P,2C3P,2C1P,1C7P,1C6P,1C5P,1C4P,1C3P,1C2P,1C1P"/>
+        <!-- DSW2 -->
+        <dip bits="8,9"         name="Lives"        ids="7,5,3,2"/>
+        <dip bits="10"          name="Coin slots"   ids="2,1"/>
+        <dip bits="11,12"       name="Max credits"  ids="9,5,3,1"/>
+        <dip bits="13,14"       name="Difficulty"   ids="hardest,hard,normal,easy"/>
+        <dip bits="15"          name="Demo sound"   ids="on,off"/>
+        <!-- DSW3 -->
+        <dip bits="16"          name="Flip screen"  ids="flip,normal"/>
+        <dip bits="18"          name="Service mode" ids="on,off"/>
+        <dip bits="19"          name="Cabinet type" ids="upright,cocktail"/>
+    </switches>
+
+    <rom index='0' md5="None" type='nonmerged' zip='salamand.zip|salamandj.zip'>
+        <!-- graphic data hi    0x000000-0x01ffff -->
+        <part crc="e5caf6e6" name="587-c03.17b"/>
+        <!-- graphic data lo    0x020000-0x03ffff -->
+        <part crc="c2f567ea" name="587-c06.17c"/>
+
+        <!-- pcm samples        0x040000-0x05ffff -->
+        <part crc="09fe0632" name="587-c01.10a"/>
+
+        <!-- game program hi    0x060000-0x06ffff -->
+        <part crc="f68ee99a" name="587-j02.18b"/>
+        <!-- game program lo    0x070000-0x07ffff -->
+        <part crc="72c16128" name="587-j05.18c"/>
+
+        <!-- sound program      0x080000-0x087fff -->
+        <part crc="5020972c" name="587-d09.11j"/>
+
+        <!-- vlm commands       0x088000-0x08bfff -->
+        <part crc="f9ac6b82" name="587-d08.8g"/>
+    </rom>
+
+    <buttons default="Select,R,Start,A,B" names="Service,Coin,Start,Shoot,Missile"></buttons>
+</misterromdescription>

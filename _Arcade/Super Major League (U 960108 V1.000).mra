@@ -1,0 +1,43 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>smleague</setname>
+	<mameversion>277</mameversion>
+	<description>Super Major League (U 960108 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1995</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="smleague.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="smleague.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="8d180866" name="epr18777.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8d180866" name="epr18777.13" map="1357" />
+		</interleave>
+		<part repeat="0x1a00000">00</part>
+		<interleave output="64">
+			<part crc="25e1300e" name="mpr18778.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="51e2fabd" name="mpr18779.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8cd4dd74" name="mpr18780.10" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="13ee41ae" name="mpr18781.11" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="9be2270a" name="mpr18782.12" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,0 +1,20 @@
+config_schema = 1
+debug_logging = false
+
+[service]
+device_id = '530cf204-bd91-4a02-abd0-734f6922980b'
+api_port = 7497
+
+[groovy]
+gmc_proxy_beacon_interval = '2s'
+gmc_proxy_port = 32106
+gmc_proxy_enabled = false
+
+[readers]
+auto_detect = true
+
+[readers.scan]
+mode = 'tap'
+
+[audio]
+scan_feedback = true

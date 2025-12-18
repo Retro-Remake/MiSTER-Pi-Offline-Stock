@@ -14,5 +14,11 @@ Copy the *.rbf file at the root of the SD card. Copy roms (*.prg,*.tap) to **PET
 * 0000-0FFF - unused, all zeros
 * 1000-7FFF - mapped to 9000-FFFF
 
+### Disk support
+
+Core supports D64, D80 and D82 disk images through two 4040 and 8250 IEEE dual-disk drives. 
+When using a D80 disk image, the first disk access will result in an error.
+This is normal behaviour of the 8250 drive.
+
 ## Download precompiled binaries
 Go to [releases](https://github.com/MiSTer-devel/PET2001_MiSTer/tree/master/releases) folder.

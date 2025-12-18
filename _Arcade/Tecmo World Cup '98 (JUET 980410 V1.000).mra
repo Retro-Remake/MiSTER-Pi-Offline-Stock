@@ -1,0 +1,43 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>twcup98</setname>
+	<mameversion>277</mameversion>
+	<description>Tecmo World Cup '98 (JUET 980410 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1998</year>
+	<manufacturer>Tecmo</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>61 01</part>
+	</rom>
+	<rom index="1" md5="" zip="twcup98.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="twcup98.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="d930dfc8" name="epr20819.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="2d930d23" name="mpr20821.12" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8b33a5e2" name="mpr20822.13" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="6e6d4e95" name="mpr20823.14" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4cf18a25" name="mpr20824.15" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,0 +1,51 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>sss</setname>
+	<mameversion>277</mameversion>
+	<description>Steep Slope Sliders (JUET 981110 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1998</year>
+	<manufacturer>Capcom / Cave / Victor Interactive Software</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="0">
+		<part>51 01</part>
+	</rom>
+	<rom index="1" md5="" zip="sss.zip" address="0x32000000">
+		<interleave output="64">
+			<part crc="3473b2f3" name="sss.nv" map="12345678" />
+		</interleave>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="sss.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="71c9def1" name="epr21488.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="71c9def1" name="epr21488.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="4c85152b" name="mpr21489.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="03da67f8" name="mpr21490.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cf7ee784" name="mpr21491.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="57753894" name="mpr21492.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="efb2d271" name="mpr21493.6" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

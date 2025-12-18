@@ -1,0 +1,129 @@
+<misterromdescription>
+	<name>Xaind Sleena (Bootleg B)</name>
+	<mameversion>0193</mameversion>
+	<setname>xsleenab</setname>
+	<mratimestamp>20250123</mratimestamp>
+	<year>1986</year>
+	<manufacturer>Technos</manufacturer>
+	<category>Platform / Shooter Scrolling</category>
+	<rbf>XSleena</rbf>
+	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
+	<resolution>15.62kHz</resolution>
+	<rotation>horizontal</rotation>
+	<players>2</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	
+
+    <!-- DSW1=3F, DSW2=FF byte mas significativo a la derecha de la cadena -->
+	<switches default="3F,FF" base="16">
+		<!-- DSW1 -->
+		<dip bits="0,1"  name="Coin B"         ids="2Co/1Cr,1Co/1Cr,1Co/2Cr,1Co/3Cr" values="0,3,2,1"/>
+		<dip bits="3,2"  name="Coin A"         ids="2Co/1Cr,1Co/1Cr,1Co/2Cr,1Co/3Cr" values="0,3,2,1"/>
+		<dip bits="4"    name="Demo Sounds"    ids="Off,On" values="0,1"/>
+		<dip bits="5"    name="Allow Continue" ids="No,Yes" values="0,1"/>
+		<dip bits="6"    name="Cabinet"        ids="Upright,Cocktail" values="0,1"/>
+		<dip bits="7"    name="Flip Screen"    ids="Off,On" values="0,1"/>
+
+		<!-- DSW2 -->
+		<dip bits="8,9"   name="Difficulty"    ids="Easy,Normal,Hard,Hardest" values="3,2,1,0"/>
+		<dip bits="10,11" name="Game Time"     ids="Slow,Normal,Fast,Very Fast" values="3,2,1,0"/>
+		<dip bits="12,13" name="Bonus Life"    ids="20k 70k and every 70k,30k 80k and every 80k,20k and 80k,30k and 80k" values="3,2,1,0"/> 
+		<dip bits="14,15" name="Lives"         ids="3,4,6,Infinite (Cheat)" values="3,2,1,0"/>
+	</switches>
+
+	<rom index='0' md5="None" type='merged|nonmerged' zip='xsleena.zip|xsleenab.zip'>
+		<!-- board ID -->
+		<!-- Xain'd Sleena (bootleg) -->
+		<part>04</part>
+	
+		<!-- *** main cpu    0x00000-0x0ffff *** -->
+		<part>00 01 00 00</part>
+		<!-- main cpu at address range: 0x8000-ffff -->
+		<part crc="79f515a7" name="1.rom"/>
+		<!-- main cpu two 16Kb Banks at address range: 0x4000-7fff -->
+		<part crc="d22bf859" name="pa-0.ic65"/>
+
+		<!-- sub cpu     0x10000-0x1ffff -->
+		<part>01 01 00 00</part>
+		<!-- sub cpu at address range: 0x8000-ffff -->
+		<part crc="a1a860e2" name="p1-0.ic29"/>
+		<!-- sub cpu two 16Kb Banks at address range: 0x4000-7fff -->
+		<part crc="948b9757" name="p0-0.ic15"/>
+		
+		<!-- audio cpu   0x20000-0x27fff -->
+		<part>02 00 80 00</part>
+		<part crc="a5318cb8" name="p2-0.ic49"/>
+
+		<!-- MAP tiles    0x30000-0x37fff -->
+		<part>03 00 80 00</part>
+		<part crc="83c00dd8" name="pb-0.ic24"/>
+
+		<!-- Priority PROM    0x100000-0x1000ff -->
+		<part>04 00 01 00</part>
+		<part crc="fed32888" name="pt-0.ic59"/>
+
+		<!-- MCU Code    0x110000-0x1107ff -->
+		<!-- The MCU code is the same for all Xain'd Sleena/Solar Warriors non bootleg PCBs -->
+		<!-- <part>05 00 08 00</part>
+		<part crc="a432a907" name="pz-0.113"/> -->
+		 
+		<!-- BG1 tiles    0x40000-0x7ffff -->
+		<part>06 04 00 00</part>
+		<interleave output="16">
+			<part crc="8f0aa1a7" name="pc-0.ic114" map="01"/>
+			<part crc="11eb4247" name="pk-0.ic136" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="45681910" name="pd-0.ic113" map="01"/>
+			<part crc="422b536e" name="pl-0.ic135" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="a8eeabc8" name="pe-0.ic112" map="01"/>
+			<part crc="828c1b0c" name="pm-0.ic134" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="e59a2f27" name="pf-0.ic111" map="01"/>
+			<part crc="d37939e0" name="pn-0.ic133" map="10"/>
+		</interleave>				
+		
+		<!-- BG2 tiles    0x80000-0xbffff -->
+		<part>07 03 00 00</part>
+		<interleave output="16">
+			<part crc="8d637639" name="p6-0.ic43" map="01"/>
+			<part crc="5c6c453c" name="p5-0.ic44" map="10"/>
+		</interleave>	
+
+		<interleave output="16">
+			<part crc="71eec4e6" name="p7-0.ic42" map="01"/>
+			<part crc="59d87a9a" name="p4-0.ic45" map="10"/>
+		</interleave>	
+
+		<interleave output="16">
+			<part crc="7fc9704f" name="p8-0.ic41" map="01"/>
+			<part crc="84884a2e" name="p3-0.ic46" map="10"/>
+		</interleave>	
+
+		<!-- OBJ tiles    0xC0000-0xfffff -->
+		<part>08 04 00 00</part>
+		<interleave output="16">
+			<part crc="4d977f33" name="pg-0.ic109" map="01"/>
+			<part crc="252976ae" name="po-0.ic131" map="10"/>
+		</interleave>
+		<interleave output="16">	
+			<part crc="3f3b62a0" name="ph-0.ic108" map="01"/>
+			<part crc="e6f1e8d5" name="pp-0.ic130" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="76641ee3" name="pi-0.ic107" map="01"/>
+			<part crc="785381ed" name="pq-0.ic129" map="10"/>	
+		</interleave>
+		<interleave output="16">
+			<part crc="37671f36" name="pj-0.ic106" map="01"/>
+			<part crc="59754e3d" name="pr-0.ic128" map="10"/>
+		</interleave>
+	</rom>
+	
+<buttons default="A,B,Start,R,Select,L" names="Shot,Jump,Start P1,Coin,Start P2,Pause"></buttons>
+</misterromdescription>

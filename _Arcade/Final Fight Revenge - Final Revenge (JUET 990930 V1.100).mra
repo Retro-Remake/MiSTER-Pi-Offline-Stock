@@ -1,0 +1,51 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>ffreveng</setname>
+	<mameversion>277</mameversion>
+	<description>Final Fight Revenge / Final Revenge (JUET 990930 V1.100)</description>
+	<rotation>horizontal</rotation>
+	<year>1999</year>
+	<manufacturer>Capcom</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,Button 5,Button 6,Start,Coin,Service,Test" default="A,B,X,Y,L,R,Start,Select" />
+	<rom index="0">
+		<part>31 01</part>
+	</rom>
+	<rom index="1" md5="" zip="ffreveng.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="ffreveng.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="3ffea541" name="ffr110.ic35" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="32d36fee" name="opr21872.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="dac5bd98" name="mpr21873.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0a7be2f1" name="mpr21874.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="ccb75029" name="mpr21875.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="bb92a7fc" name="mpr21876.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="c22a4a75" name="mpr21877.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="2ea4a64d" name="opr21878.1" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,0 +1,55 @@
+<misterromdescription>
+    <name>TwinBee (Bubble System)</name>
+    <mameversion>0266</mameversion>
+    <setname>twinbeeb</setname>
+    <mratimestamp>20241122</mratimestamp>
+    <year>1985</year>
+    <manufacturer>Konami</manufacturer>
+    <category>Shmup</category>
+    <rbf>BubSys</rbf>
+    <about author="Raki" twitter="@RCAVictorCo"></about>
+    <resolution>15kHz</resolution>
+    <rotation>vertical</rotation>
+    <players>1</players>
+    <joystick>8-way</joystick>
+    <special_controls></special_controls>
+    <num_buttons>2</num_buttons>
+    
+    <switches default="FF,FF,FF,00">
+        <!-- DSW1 -->
+        <dip bits="0,3"         name="Coinage A"    ids="Disabled,4C3P,4C1P,3C4P,3C2P,3C1P,2C5P,2C3P,2C1P,1C7P,1C6P,1C5P,1C4P,1C3P,1C2P,1C1P"/>
+        <dip bits="4,7"         name="Coinage B"    ids="Disabled,4C3P,4C1P,3C4P,3C2P,3C1P,2C5P,2C3P,2C1P,1C7P,1C6P,1C5P,1C4P,1C3P,1C2P,1C1P"/>
+        <!-- DSW2 -->
+        <dip bits="8,9"         name="Lives"        ids="7,4,3,2"/>
+        <dip bits="11,12"       name="Bonus life"   ids="50k->160k,40k->140k,30k->120k,20k->100k"/>
+        <dip bits="13,14"       name="Difficulty"   ids="hardest,hard,normal,easy"/>
+        <dip bits="15"          name="Demo sound"   ids="on,off"/>
+        <!-- DSW3 -->
+        <dip bits="16"          name="Flip screen"  ids="flip,normal"/>
+        <dip bits="17"          name="Player"       ids="2,1"/>
+        <dip bits="18"          name="Service mode" ids="on,off"/>
+    </switches>
+
+
+    <rom index='0' md5="None" type='nonmerged' zip='twinbeeb.zip|bubsys.zip'>
+        <!-- FBM54DB user pages 0x000000-0x0402FF -->
+        <part crc="4d396a0a" name="twinbee.bin"/>
+        <!-- padding            0x040300-0x040FFF -->
+        <part repeat="3328">00</part>
+
+        <!-- sound program      0x041000-0x042FFF -->
+        <part crc="85c2afc5" name="400b03.8g"/>
+
+        <!-- FBM54DB bootloop   0x043000-0x0431DF -->
+        <part crc="f0774fc2" name="boot.bin"/>
+        <!-- padding            0x0431E0-0x0431FF -->
+        <part repeat="32">00</part>
+
+        <!-- wavetable 1        0x043200-0x0432ff -->
+        <part crc="5827b1e8" name="400a01.2b"/>
+        <!-- wavetable 2        0x043300-0x0433ff -->
+        <part crc="2f44f970" name="400a02.1b"/>
+    </rom>
+
+    <buttons default="Select,R,Start,A,B" names="Service,Coin,Start,Shoot,Bomb"></buttons>
+</misterromdescription>

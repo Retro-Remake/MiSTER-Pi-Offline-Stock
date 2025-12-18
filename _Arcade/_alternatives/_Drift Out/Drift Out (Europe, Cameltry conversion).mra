@@ -1,0 +1,49 @@
+<misterromdescription>
+	<name>Drift Out (Europe, Cameltry conversion)</name>
+	<setname>driftoutct</setname>
+	<year>1991</year>
+	<manufacturer>Visco</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>driftout</parent>
+	<rotation>vertical (ccw)</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Accelerator,Brake,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="ffff">
+		<dip name="Unused" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Control" bits="10,11" values="3,2,1,0" ids="Joystick,Paddle,Joystick,Steering wheel"/>
+		<dip name="Unused" bits="12" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="13" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="14" values="1,0" ids="Off,On"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="driftoutct.zip|driftout.zip">
+		<part>04 00</part>
+		<!--Region: maincpu, Size: 1048576 bytes-->
+		<part>00100000</part>
+		<interleave output="16">
+			<part crc="d1f779d3" name="l.ic10" map="10"/>
+			<part crc="6ff1c660" name="h.ic11" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 524288 bytes-->
+		<part>02080000</part>
+		<part crc="5491f1c4" name="do_obj.ic1"/>
+		<!--Region: tc0280grd, Size: 1048576 bytes-->
+		<part>06100000</part>
+		<part crc="c4f012f7" name="do_piv.ic27"/>
+		<part crc="c4f012f7" name="do_piv.ic29"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="ffe10124" name="do_50.ic25"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="f2deb82b" name="do_snd.ic2"/>
+		<!--Unknown regions:-->
+		<!--Region 'plds': pal16l8b.ic8 (size=279, crc=b2c1d05f), pal16l8b.ic9 (size=279, crc=0dd34b78), pal16l8b.c38-07.ic24 (size=279, crc=47fc77a9)-->
+	</rom>
+</misterromdescription>

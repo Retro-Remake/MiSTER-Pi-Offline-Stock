@@ -1,0 +1,52 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>puyosun</setname>
+	<mameversion>277</mameversion>
+	<description>Puyo Puyo Sun (J 961115 V0.001)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Compile</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="puyosun.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="puyosun.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="ac81024f" name="epr19531.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="ac81024f" name="epr19531.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="17ec54ba" name="mpr19533.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="820e4781" name="mpr19534.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="94fadfa4" name="mpr19535.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="5765bc9c" name="mpr19536.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8b736686" name="mpr19537.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="985f0c9d" name="mpr19532.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="915a723e" name="mpr19538.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="72a297e5" name="mpr19539.9" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

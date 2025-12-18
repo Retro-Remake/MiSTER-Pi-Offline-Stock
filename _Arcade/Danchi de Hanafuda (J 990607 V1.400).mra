@@ -1,0 +1,37 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>danchih</setname>
+	<mameversion>277</mameversion>
+	<description>Danchi de Hanafuda (J 990607 V1.400)</description>
+	<rotation>horizontal</rotation>
+	<year>1999</year>
+	<manufacturer>Altron (Tecmo license)</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="danchih.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="danchih.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="e7472793" name="mpr21974.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="34dd7f4d" name="mpr21970.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8995158c" name="mpr21971.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="68a39090" name="mpr21972.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b0f23f14" name="mpr21973.5" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

@@ -1,0 +1,49 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>introdon</setname>
+	<mameversion>277</mameversion>
+	<description>Karaoke Quiz Intro Don Don! (J 960213 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1996</year>
+	<manufacturer>Sunsoft / Success</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="introdon.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="introdon.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="1f40d766" name="epr18937.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="1f40d766" name="epr18937.13" map="1357" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f7f75ce5" name="mpr18944.7" map="12345678" />
+		</interleave>
+		<part repeat="0x100000">00</part>
+		<interleave output="64">
+			<part crc="ef95a6e6" name="mpr18939.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cabab4cd" name="mpr18940.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f4a33a20" name="mpr18941.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="8dd0a446" name="mpr18942.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="d8702a9e" name="mpr18943.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="580ecb83" name="mpr18938.1" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

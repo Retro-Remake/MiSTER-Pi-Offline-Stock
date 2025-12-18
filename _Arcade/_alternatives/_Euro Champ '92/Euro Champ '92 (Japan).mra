@@ -1,0 +1,53 @@
+<misterromdescription>
+	<name>Euro Champ '92 (Japan)</name>
+	<setname>euroch92j</setname>
+	<year>1992</year>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>euroch92</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Shoot/Slide,Pass/Rough,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="7ffe">
+		<dip name="Game Over" bits="0" values="1,0" ids="Both Teams Over,Losing Team"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Coin B" bits="6,7" values="3,2,1,0" ids="1 Coin/2 Credits,1 Coin/3 Credits,1 Coin/4 Credits,1 Coin/6 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Game Time" bits="10,11" values="0,3,1,2" ids="1.5 Minutes, 2  Minutes,2.5 Minutes, 3  Minutes"/>
+		<dip name="Cabinet" bits="12,13" values="3,2,1,0" ids="2 Players,4P/4 Coins,4P/2 cabs,4P/2 Coins"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Game Version" bits="15" values="0,1" ids="Normal,European"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="euroch92j.zip|euroch92.zip">
+		<part>0c 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="98482202" name="c80-25.ic6" map="10"/>
+			<part crc="ae5e75e9" name="c80-23.ic4" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="b986ccb2" name="c80-26.ic7" map="10"/>
+			<part crc="5d13f580" name="c80-28.ic5" map="01"/>
+		</interleave>
+		<!--Region: tc0480scp, Size: 1048576 bytes-->
+		<part>07100000</part>
+		<interleave output="32">
+			<part crc="5759ed37" name="c80-21.ic1" map="1200"/>
+			<part crc="d9a0d38e" name="c80-22.ic2" map="0012"/>
+		</interleave>
+		<!--Region: sprites, Size: 2097152 bytes-->
+		<part>02200000</part>
+		<part crc="219141a5" name="c80-19.ic9"/>
+		<part crc="060a8b61" name="c80-20.ic10"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="2db48e65" name="c80-27.ic70"/>
+		<!--Region: ymsnd:adpcma, Size: 1048576 bytes-->
+		<part>04100000</part>
+		<part crc="609938d5" name="c80-03.ic57"/>
+	</rom>
+</misterromdescription>

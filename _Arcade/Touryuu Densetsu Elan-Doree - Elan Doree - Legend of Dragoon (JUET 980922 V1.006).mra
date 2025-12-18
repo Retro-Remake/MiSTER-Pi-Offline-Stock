@@ -1,0 +1,52 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>elandore</setname>
+	<mameversion>277</mameversion>
+	<description>Touryuu Densetsu Elan-Doree / Elan Doree - Legend of Dragoon (JUET 980922 V1.006)</description>
+	<rotation>horizontal</rotation>
+	<year>1998</year>
+	<manufacturer>Sai-Mate</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,Button 5,Button 6,Start,Coin,Service,Test" default="A,B,X,Y,L,R,Start,Select" />
+	<rom index="0">
+		<part>21 01</part>
+	</rom>
+	<rom index="1" md5="" zip="elandore.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="d1be2adf" name="epr-17952a.ic8" map="21436587" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="elandore.zip" address="0x34000000">
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="966ad472" name="mpr21307.7" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="1a23b0a0" name="mpr21301.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="1c91ca33" name="mpr21302.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="07b2350e" name="mpr21303.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cfea52ae" name="mpr21304.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="46cfc2a2" name="mpr21305.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="87a5929c" name="mpr21306.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="336ec1a4" name="mpr21308.8" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

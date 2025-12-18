@@ -1,0 +1,50 @@
+<misterromdescription>
+	<name>Liquid Kids (US)</name>
+	<setname>liquidku</setname>
+	<year>1990</year>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>liquidk</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Attack,Jump,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="7ffe">
+		<dip name="Cabinet" bits="0" values="0,1" ids="Upright,Cocktail"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coinage" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Continue Price" bits="6,7" values="0,1,2,3" ids="3C/1C,2C/1C,1C/1C,Same"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Bonus Life" bits="10,11" values="3,2,1,0" ids="30k and 100k,30k and 150k,50k and 250k,50k and 350k"/>
+		<dip name="Lives" bits="12,13" values="2,3,0,1" ids="2,3,4,5"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="1,0" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="liquidku.zip|liquidk.zip">
+		<part>06 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="6ae09eb9" name="c49-09.ic47" map="10"/>
+			<part crc="42d2be6e" name="c49-11.ic48" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="50bef2e0" name="c49-10.ic45" map="10"/>
+			<part crc="bc118a43" name="c49-14.ic46" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 524288 bytes-->
+		<part>01080000</part>
+		<part crc="c3364f9b" name="c49-03.ic76"/>
+		<!--Region: sprites, Size: 1048576 bytes-->
+		<part>02100000</part>
+		<part crc="67cc3163" name="c49-01.ic54"/>
+		<part crc="d2400710" name="c49-02.ic53"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="413c310c" name="c49-08.ic32"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="474d45a4" name="c49-04.ic33"/>
+	</rom>
+</misterromdescription>

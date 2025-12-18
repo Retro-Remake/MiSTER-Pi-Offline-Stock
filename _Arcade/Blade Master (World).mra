@@ -24,6 +24,44 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="Infinite Time"         >000000 10 000E7070 00000000 0000009A</cheat>
+        <cheat name="Starting Stage 2"      >000000 11 000E704A 00000000 00000001</cheat>
+        <cheat name="Starting Stage 3A"     >000000 11 000E704A 00000000 00000002</cheat>
+        <cheat name="Starting Stage 3B"     >000000 11 000E704A 00000000 00000003</cheat>
+        <cheat name="Starting Stage 4"      >000000 11 000E704A 00000000 00000004</cheat>
+        <cheat name="Starting Stage 5"      >000000 11 000E704A 00000000 00000005</cheat>
+        <cheat name="Starting Stage 6"      >000000 11 000E704A 00000000 00000006</cheat>
+        <cheat name="Starting Stage 7A"     >000000 11 000E704A 00000000 00000007</cheat>
+        <cheat name="Starting Stage 7B"     >000000 11 000E704A 00000000 00000008</cheat>
+        <cheat name="Starting Stage 7C"     >000000 11 000E704A 00000000 00000009</cheat>
+        <cheat name="Starting Stage 7D"     >000000 11 000E704A 00000000 0000000A</cheat>
+        <cheat name="Starting Stage 7E"     >000000 11 000E704A 00000000 0000000B</cheat>
+        <cheat name="Infinite Energy ROY"   >000000 10 000E6C31 00000000 00000008</cheat>
+        <cheat name="Invincibility ROY"     >000000 10 000E6C98 00000000 00000001</cheat>
+        <cheat name="Infinite Energy ARNOLD">000000 10 000E6CF1 00000000 00000008</cheat>
+        <cheat name="Invincibility ARNOLD"  >000000 10 000E6E58 00000000 00000001</cheat>
+        <cheat name="P1 Infinite Lives"     >000000 10 000E74F2 00000000 0000000A</cheat>
+        <cheat name="P2 Infinite Lives"     >000000 10 000E74F3 00000000 0000000A</cheat>
+        <cheat name="One Hit Kills">
+            000000 10 000042AB 00000000 000000 B8
+            000000 20 000042AC 00000000 0000 007F
+            000000 10 000042AE 00000000 000000 28
+            000000 10 0000431D 00000000 000000 B8
+            000000 20 0000431E 00000000 0000 0200
+            000000 10 00004320 00000000 000000 29
+            000000 10 00009131 00000000 000000 B8
+            000000 20 00009132 00000000 0000 007F
+            000000 20 00009134 00000000 0000 9090
+            000000 10 00009195 00000000 000000 B8
+            000000 20 00009196 00000000 0000 007F
+            000000 20 00009198 00000000 0000 9090
+            000000 40 0008C014 00000000 2800 7FBB
+            000000 40 0008E7C8 00000000 9002 00B8
+            000000 20 0008E7CC 00000000 0000 2990
+        </cheat>
+    </cheats>
+
     <rom index="0" zip="bmaster.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>00</part>

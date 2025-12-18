@@ -23,6 +23,14 @@
 
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
+    
+    <cheats>
+        <cheat name="Starting Stage: 2">000000 11 000E0150 00000000 00000001</cheat>
+        <cheat name="Starting Stage: 3">000000 11 000E0150 00000000 00000002</cheat>
+        <cheat name="Starting Stage: 4">000000 11 000E0150 00000000 00000003</cheat>
+        <cheat name="Starting Stage: 5">000000 11 000E0150 00000000 00000004</cheat>
+        <cheat name="Starting Stage: 6">000000 11 000E0150 00000000 00000005</cheat>
+    </cheats>
 
     <rom index="0" zip="mysticri.zip" md5="None" address="0x30000000">
         <!-- board type -->

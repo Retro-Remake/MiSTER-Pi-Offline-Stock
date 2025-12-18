@@ -1,0 +1,44 @@
+<misterromdescription>
+	<name>Super Space Invaders '91 (World, revised code)</name>
+	<setname>ssia</setname>
+	<year>1990</year>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>ssi</parent>
+	<rotation>vertical (ccw)</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,Start,Select,L,R" names="Shoot,Use Item,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="fffe">
+		<dip name="Cabinet" bits="0" values="0,1" ids="Upright,Cocktail"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,2,3" ids="4 Coins/1 Credit,3C/1C,2C/1C,1C/1C"/>
+		<dip name="Coin B" bits="6,7" values="3,2,1,0" ids="1 Coin/2 Credits,1 Coin/3 Credits,1 Coin/4 Credits,1 Coin/6 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Shields" bits="10,11" values="0,3,1,2" ids="None,1,2,3"/>
+		<dip name="Lives" bits="12" values="0,1" ids="2,3"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="2P Mode" bits="13,15" values="5,4,0,1" ids="Simultaneous,Alt Single,Alt Dual,Not Allowed"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="ssia.zip|ssi.zip">
+		<part>08 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="3a6d591b" name="c64_15.ic9" map="10"/>
+			<part crc="8a567a4f" name="c64_16.ic8" map="01"/>
+		</interleave>
+		<!--Region: sprites, Size: 1048576 bytes-->
+		<part>02100000</part>
+		<part crc="a1b4f486" name="c64-01.1"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="88d7f65c" name="c64-09.13"/>
+		<!--Region: ymsnd:adpcma, Size: 131072 bytes-->
+		<part>04020000</part>
+		<part crc="3cb0b907" name="c64-02.2"/>
+		<!--Unknown regions:-->
+		<!--Region 'plds': c64-10.ic42 (size=279, crc=08e8c3d6), c64-11.ic43 (size=279, crc=f116413e)-->
+	</rom>
+</misterromdescription>

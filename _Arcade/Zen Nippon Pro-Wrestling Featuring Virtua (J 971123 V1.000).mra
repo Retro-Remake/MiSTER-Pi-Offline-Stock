@@ -1,0 +1,52 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>znpwfv</setname>
+	<mameversion>277</mameversion>
+	<description>Zen Nippon Pro-Wrestling Featuring Virtua (J 971123 V1.000)</description>
+	<rotation>horizontal</rotation>
+	<year>1997</year>
+	<manufacturer>Sega</manufacturer>
+	<buttons names="Button 1,Button 2,Button 3,Button 4,-,-,Start,Coin,Service,Test" default="A,B,X,Y,Start,Select,R,L" />
+	<rom index="1" md5="" zip="znpwfv.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="znpwfv.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="3fb56a0b" name="epr20398.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="1edfbe05" name="mpr20400.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="99e98937" name="mpr20401.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="4572aa60" name="mpr20402.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="26a8e13e" name="mpr20403.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="0b70275d" name="mpr20404.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="c178a96e" name="mpr20399.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="f53337b7" name="mpr20405.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="b677c175" name="mpr20406.9" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="58356050" name="mpr20407.10" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>

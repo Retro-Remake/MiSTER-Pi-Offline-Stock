@@ -43,16 +43,16 @@
 	<rom index="1"><part>1</part></rom>
 	<rom index="0" zip="raiders5.zip" md5="83c877496c528fc21fe8a3ec67fea006">
 		<!-- gfx1 -->
-		<part name="raiders3.11f"/>
-		<part name="raiders4.11g"/>
+		<part name="raiders3.11f" crc="30041d58"/>
+		<part name="raiders4.11g" crc="e441931c"/>
 		<!-- gfx2 -->
-		<part name="raiders5.11n"/>
-		<part name="raiders5.11n"/>
+		<part name="raiders5.11n" crc="c0895090"/>
+		<part name="raiders5.11n" crc="c0895090"/>
 		<!-- main cpu -->
-		<part name="raiders5.1"/>
-		<part name="raiders5.2"/>
+		<part name="raiders5.1" crc="47cea11f"/>
+		<part name="raiders5.2" crc="eb2ff410"/>
 		<!-- sub cpu -->
-		<part name="raiders5.2"/>
-		<part name="raiders5.2"/>
+		<part name="raiders5.2" crc="eb2ff410"/>
+		<part name="raiders5.2" crc="eb2ff410"/>
 	</rom>
 </misterromdescription>

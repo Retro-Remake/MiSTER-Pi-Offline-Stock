@@ -1,0 +1,57 @@
+<misterromdescription>
+	<name>Mega Blast (Japan)</name>
+	<setname>megablstj</setname>
+	<year>1989</year>
+	<manufacturer>Taito Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<parent>megablst</parent>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,Start,Select,L,R" names="Attack,-,-,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="fffe">
+		<dip name="Cabinet" bits="0" values="0,1" ids="Upright,Cocktail"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="1,3,0,2" ids="2C/1C,1C/1C,2 Coins/3 Credits,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Bonus Life" bits="10,11" values="3,1,2,0" ids="100k only,150k only,200k only,None"/>
+		<dip name="Lives" bits="12,13" values="1,0,3,2" ids="1,2,3,4"/>
+		<dip name="Upright Controls" bits="14" values="0,1" ids="Single,Dual"/>
+		<dip name="Unused" bits="15" values="1,0" ids="Off,On"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="megablstj.zip|megablst.zip">
+		<part>02 00</part>
+		<!--Region: maincpu, Size: 524288 bytes-->
+		<part>00080000</part>
+		<interleave output="16">
+			<part crc="11d228b6" name="c11-07.55" map="10"/>
+			<part crc="a79d4dca" name="c11-08.39" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="7c249894" name="c11-06.54" map="10"/>
+			<part crc="c830aad5" name="c11-09.38" map="01"/>
+		</interleave>
+		<!--Region: tc0100scn_1, Size: 524288 bytes-->
+		<part>01080000</part>
+		<part crc="733e6d8e" name="c11-05.58"/>
+		<!--Region: sprites, Size: 1048576 bytes-->
+		<part>02100000</part>
+		<interleave output="16">
+			<part crc="46718c7a" name="c11-03.32" map="01"/>
+			<part crc="663f33cc" name="c11-04.31" map="10"/>
+		</interleave>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="b11094f1" name="c11-12.3"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="fd1ea532" name="c11-01.29"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="451cc187" name="c11-02.30"/>
+		<!--Unknown regions:-->
+		<!--Region 'cchip:cchip_eprom': c11-15.ic59 (size=8192, crc=af49ee7f)-->
+	</rom>
+</misterromdescription>

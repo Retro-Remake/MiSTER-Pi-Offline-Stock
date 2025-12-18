@@ -24,6 +24,32 @@
         <dip bits="12,15" ids="1C/1C,2C/1C,3C/1C,4C/1C,5C/1C,6C/1C,1C/2C,1C/3C,1C/4C,1C/5C,1C/6C,2C/3C,3C/2C,4C/3C,2S/1C,Free Play" name="Coin Mode"></dip>
     </switches>
 
+    <cheats>
+        <cheat name="P1 Infinite Lives">000000 10 000E0144 00000000 00000006</cheat>
+        <cheat name="P1 Invincibility">000000 10 000E3A38 00000000 00000001</cheat>
+        <cheat name="P1 Max Shot Power">000000 10 000E3A41 00000000 000000F0</cheat>
+        <cheat name="P1 Force Laser Shot">000000 10 000E3A3E 00000000 00000001</cheat>
+        <cheat name="P1 Force Flame Shot">000000 10 000E3A3E 00000000 00000002</cheat>
+        <cheat name="P1 Force Ball Shot">000000 10 000E3A3E 00000000 00000003</cheat>
+        <cheat name="P1 Infinite Shot">000000 10 000E3A48 00000000 00000000</cheat>
+        <cheat name="P1 Infinite Laser">000000 20 000E3A4C 00000000 00000000</cheat>
+        <cheat name="P1 Infinite Ball">000000 10 000E3A50 00000000 00000000</cheat>
+        <cheat name="P1 Infinite Flame">000000 10 000E3A5B 00000000 00000000</cheat>
+        <cheat name="P1 Rapid Fire">000002 10 000E008 00000000 0000007F</cheat>
+
+        <cheat name="P2 Infinite Lives">000000 10 000E0174 00000000 00000006</cheat>
+        <cheat name="P2 Invincibility">000000 10 000E3AD8 00000000 00000001</cheat>
+        <cheat name="P2 Max Shot Power">000000 10 000E3AE1 00000000 000000F0</cheat>
+        <cheat name="P2 Force Laser Shot">000000 10 000E3ADE 00000000 00000001</cheat>
+        <cheat name="P2 Force Flame Shot">000000 10 000E3ADE 00000000 00000002</cheat>
+        <cheat name="P2 Force Ball Shot">000000 10 000E3ADE 00000000 00000003</cheat>
+        <cheat name="P2 Infinite Shot">000000 10 000E3AE8 00000000 00000000</cheat>
+        <cheat name="P2 Infinite Laser">000000 20 000E3AEC 00000000 00000000</cheat>
+        <cheat name="P2 Infinite Ball">000000 10 000E3AF0 00000000 00000000</cheat>
+        <cheat name="P2 Infinite Flame">000000 10 000E3AFB 00000000 00000000</cheat>
+        <cheat name="P2 Rapid Fire">000002 10 000E009 00000000 0000007F</cheat>
+    </cheats>
+
     <rom index="0" zip="lethalth.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>10</part>

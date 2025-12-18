@@ -1,0 +1,56 @@
+<misterromdescription>
+	<name>Ah Eikou no Koshien (Japan)</name>
+	<setname>koshien</setname>
+	<year>1990</year>
+	<manufacturer>Taito Corporation</manufacturer>
+	<rbf>TaitoF2</rbf>
+	<rotation>horizontal</rotation>
+	<mameversion>277</mameversion>
+	<buttons default="B,A,X,Start,Select,L,R" names="Charge,Throw,Run,-,-,-,Start,Coin,Pause,SS"/>
+	<switches default="7fff">
+		<dip name="Unknown" bits="0" values="1,0" ids="Off,On"/>
+		<dip name="Flip Screen" bits="1" values="1,0" ids="Off,On"/>
+		<dip name="Service Mode" bits="2" values="1,0" ids="Off,On"/>
+		<dip name="Demo Sounds" bits="3" values="0,1" ids="Off,On"/>
+		<dip name="Coin A" bits="4,5" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Coin B" bits="6,7" values="0,1,3,2" ids="3C/1C,2C/1C,1C/1C,1 Coin/2 Credits"/>
+		<dip name="Difficulty" bits="8,9" values="2,3,1,0" ids="Easy,Medium,Hard,Hardest"/>
+		<dip name="Timer" bits="10" values="0,1" ids="Off,On"/>
+		<dip name="Unknown" bits="11" values="1,0" ids="Off,On"/>
+		<dip name="Lives" bits="12,13" values="2,3,1,0" ids="2,3,4,5"/>
+		<dip name="Allow Continue" bits="14" values="0,1" ids="Off,On"/>
+		<dip name="Upright Controls" bits="15" values="1,0" ids="Single,Dual"/>
+	</switches>
+	<rom index="0" address="0x30000000" zip="koshien.zip">
+		<part>0d 00</part>
+		<!--Region: maincpu, Size: 786432 bytes-->
+		<part>00100000</part>
+		<interleave output="16">
+			<part crc="b44ea8c9" name="c81-11.bin" map="10"/>
+			<part crc="8f98c40a" name="c81-10.bin" map="01"/>
+		</interleave>
+		<interleave output="16">
+			<part crc="b44ea8c9" name="c81-11.bin" map="10"/>
+			<part crc="8f98c40a" name="c81-10.bin" map="01"/>
+		</interleave>
+		<part crc="1592b460" name="c81-04.bin"/>
+		<!--Region: tc0100scn_1, Size: 1048576 bytes-->
+		<part>01100000</part>
+		<part crc="29bbf492" name="c81-03.bin"/>
+		<!--Region: sprites, Size: 2097152 bytes-->
+		<part>02200000</part>
+		<part crc="64b15d2a" name="c81-01.bin"/>
+		<part crc="962461e8" name="c81-02.bin"/>
+		<!--Region: audiocpu, Size: 65536 bytes-->
+		<part>03010000</part>
+		<part crc="6e8625b6" name="c81-12.bin"/>
+		<!--Region: ymsnd:adpcma, Size: 524288 bytes-->
+		<part>04080000</part>
+		<part crc="9c3d71be" name="c81-05.bin"/>
+		<!--Region: ymsnd:adpcmb, Size: 524288 bytes-->
+		<part>05080000</part>
+		<part crc="927833b4" name="c81-06.bin"/>
+		<!--Unknown regions:-->
+		<!--Region 'plds': pal16l8b-c81-07.bin (size=260, crc=46341732), pal16l8b-c81-08.bin (size=260, crc=e7d2d300), pal16l8b-c81-09.bin (size=260, crc=e4c012a1)-->
+	</rom>
+</misterromdescription>
